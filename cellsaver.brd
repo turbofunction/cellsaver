@@ -133,11 +133,11 @@
 <wire x1="0" y1="1.5" x2="1.5" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="1.5" y1="0" x2="54.7" y2="0" width="0" layer="20"/>
 <wire x1="54.7" y1="0" x2="56.2" y2="1.5" width="0" layer="20" curve="90"/>
-<wire x1="56.2" y1="1.5" x2="56.2" y2="18.7" width="0" layer="20"/>
-<wire x1="56.2" y1="18.7" x2="54.7" y2="20.2" width="0" layer="20" curve="90"/>
-<wire x1="54.7" y1="20.2" x2="1.5" y2="20.2" width="0" layer="20"/>
-<wire x1="1.5" y1="20.2" x2="0" y2="18.7" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="18.7" x2="0" y2="1.5" width="0" layer="20"/>
+<wire x1="56.2" y1="1.5" x2="56.2" y2="19.5" width="0" layer="20"/>
+<wire x1="56.2" y1="19.5" x2="54.7" y2="21" width="0" layer="20" curve="90"/>
+<wire x1="54.7" y1="21" x2="1.5" y2="21" width="0" layer="20"/>
+<wire x1="1.5" y1="21" x2="0" y2="19.5" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="19.5" x2="0" y2="1.5" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="dubec">
@@ -349,7 +349,7 @@
 <package name="6-POWERWDFN">
 <text x="-0.75" y="0" size="0.25" layer="27">&gt;VALUE</text>
 <text x="-0.75" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
-<smd name="G" x="0.7" y="-0.85" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="G" x="0.7" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="D" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="S" x="0.7" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="31">
@@ -386,8 +386,8 @@
 <polygon width="0.15" layer="1">
 <vertex x="0.575" y="-0.275"/>
 <vertex x="0.575" y="0.975"/>
-<vertex x="0.825" y="0.975"/>
-<vertex x="0.825" y="0.275"/>
+<vertex x="0.975" y="0.975"/>
+<vertex x="0.975" y="0.275"/>
 <vertex x="1.375" y="0.275"/>
 <vertex x="1.375" y="-0.275"/>
 </polygon>
@@ -456,6 +456,50 @@
 <rectangle x1="0.8" y1="-1.5" x2="1.2" y2="-0.9" layer="31"/>
 <rectangle x1="-0.2" y1="-1.5" x2="0.2" y2="-0.9" layer="31"/>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.8" y2="-0.9" layer="31"/>
+</package>
+<package name="8-HMD">
+<smd name="2" x="-0.2" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-0.6" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="-0.8" y="0.825" size="0.3" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-0.825" size="0.3" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
+<smd name="3" x="0.2" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="0.6" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="0.6" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="0.2" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-0.2" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="-0.6" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.75" y1="0.125" x2="0.75" y2="0.425" layer="29"/>
+<rectangle x1="-0.75" y1="-0.425" x2="0.75" y2="-0.125" layer="29"/>
+<rectangle x1="-0.7" y1="0.225" x2="-0.5" y2="0.425" layer="31"/>
+<rectangle x1="-0.3" y1="0.225" x2="-0.1" y2="0.425" layer="31"/>
+<rectangle x1="0.1" y1="0.225" x2="0.3" y2="0.425" layer="31"/>
+<rectangle x1="0.5" y1="0.225" x2="0.7" y2="0.425" layer="31"/>
+<rectangle x1="-0.7" y1="-0.425" x2="-0.5" y2="-0.225" layer="31"/>
+<rectangle x1="-0.3" y1="-0.425" x2="-0.1" y2="-0.225" layer="31"/>
+<rectangle x1="0.1" y1="-0.425" x2="0.3" y2="-0.225" layer="31"/>
+<rectangle x1="0.5" y1="-0.425" x2="0.7" y2="-0.225" layer="31"/>
+<wire x1="0.75" y1="0.625" x2="-0.75" y2="0.625" width="0.13" layer="21"/>
+<wire x1="0.75" y1="-0.625" x2="-0.75" y2="-0.625" width="0.13" layer="21"/>
+</package>
+<package name="1210+">
+<smd name="A" x="-1.2" y="0" dx="1.2" dy="2.7" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="1.2" y="0" dx="1.2" dy="2.7" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-2.1" y="1.05" size="0.6" layer="25" align="top-left">&gt;NAME</text>
+<text x="-2.1" y="-1.05" size="0.6" layer="27">&gt;VALUE</text>
+<wire x1="-1.6" y1="1.35" x2="1.6" y2="1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.35" x2="1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.35" x2="-1.6" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="1.35" width="0.127" layer="51"/>
+<text x="1.7" y="-1.6" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
+<rectangle x1="-1.8" y1="-1.35" x2="-0.6" y2="1.35" layer="29"/>
+<rectangle x1="0.6" y1="-1.35" x2="1.8" y2="1.35" layer="29"/>
+<rectangle x1="-1.8" y1="-1.35" x2="-0.6" y2="1.35" layer="31"/>
+<rectangle x1="0.6" y1="-1.35" x2="1.8" y2="1.35" layer="31"/>
+<wire x1="0.4" y1="0.5" x2="0.4" y2="-0.5" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -653,11 +697,11 @@ design rules under a new name.</description>
 <attribute name="MFG_PART_#" value="ATTINY13A-MMF" x="45.6" y="7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="ATTINY13A-MMF-ND" x="45.6" y="7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="dubec" package="XH07-RA" value="M07XHRA" x="8.2" y="10.1" rot="R90">
-<attribute name="MFG_PART_#" value="S7B-XH-A(LF)(SN)" x="8.2" y="10.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="455-2240-ND" x="8.2" y="10.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="8.2" y="10.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EURO" value="3.82/10" x="8.2" y="10.1" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="JP1" library="dubec" package="XH07-RA" value="M07XHRA" x="8" y="10.5" rot="R90">
+<attribute name="MFG_PART_#" value="S7B-XH-A(LF)(SN)" x="8" y="10.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="455-2240-ND" x="8" y="10.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="8" y="10.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EURO" value="3.82/10" x="8" y="10.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="dubec" package="16-TSSOP" value="DG408DVZ" x="39.6" y="5.8">
 <attribute name="MANUFACTURER" value="Intersil" x="39.6" y="5.8" size="1.778" layer="27" display="off"/>
@@ -666,15 +710,7 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="-40°C ~ 85°C (TA)" x="39.6" y="5.8" size="1.778" layer="27" display="off"/>
 <attribute name="EUR" value="2.52" x="39.6" y="5.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="dubec" package="SOT-363" value="2X2D_SCHOTTKY100V_0.125A" x="38.2" y="17.8" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="BAT54CDW-FDICT-ND" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="BAT54CDW-7-F" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMP" value="-65°C ~ 125°C" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="17.64/100" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="V_FWD" value="350mV @ 10mA" x="38.2" y="17.8" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R1" library="dubec" package="0402" value="RES100K_16" x="42.2" y="14.4" rot="R270">
+<element name="RG61" library="dubec" package="0402" value="RES100K_16" x="42.2" y="14.4" rot="R270">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="42.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="42.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="42.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -682,7 +718,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="42.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="42.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="dubec" package="0402" value="RES100K_16" x="41.2" y="14.4" rot="R270">
+<element name="RG51" library="dubec" package="0402" value="RES100K_16" x="41.2" y="14.4" rot="R270">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="41.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="41.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="41.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -690,7 +726,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="41.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="41.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="dubec" package="0402" value="RES100K_16" x="40.2" y="14.4" rot="R270">
+<element name="RG41" library="dubec" package="0402" value="RES100K_16" x="40.2" y="14.4" rot="R270">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="40.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="40.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="40.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -698,7 +734,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="40.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="40.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R4" library="dubec" package="0402" value="RES100K_16" x="39.2" y="14.4" rot="R270">
+<element name="RG31" library="dubec" package="0402" value="RES100K_16" x="39.2" y="14.4" rot="R270">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="39.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="39.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="39.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -706,21 +742,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="39.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="39.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R5" library="dubec" package="0402" value="RES100K_16" x="38.2" y="14.4" rot="R270">
+<element name="RG21" library="dubec" package="0402" value="RES100K_16" x="38.2" y="14.4" rot="R270">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EURO" value="1.17/100" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="38.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="R6" library="dubec" package="0402" value="RES100K_16" x="37.2" y="14.4" rot="R270">
-<attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TEMP" value="±100ppm/°C" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EURO" value="1.17/100" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="37.2" y="14.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D61" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="50.2" y="13.6">
 <attribute name="MANUFACTURER" value="Lite-On Inc." x="50.2" y="13.6" size="1.778" layer="27" display="off"/>
@@ -783,61 +811,53 @@ design rules under a new name.</description>
 <attribute name="EURO" value="2.84/10" x="44.2" y="3.6" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PART_#" value="BAT54TW-7-F" x="44.2" y="3.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q11" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13" y="5.1">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="13" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13" y="5.1" size="1.778" layer="27" display="off"/>
+<element name="Q12" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="14.25" y="5.5" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="14.25" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q12" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="15.7" y="5.1" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="15.7" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q23" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="18.15" y="5.5" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="18.15" y="5.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q24" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="21.15" y="5.1" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="21.15" y="5.1" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q21" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="11" y="8">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="11" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="11" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="11" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.9W" x="11" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="11" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="49.94/100" x="11" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q21" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="11" y="7.6">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="11" y="7.6" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="11" y="7.6" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="11" y="7.6" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="11" y="7.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="11" y="7.6" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="11" y="7.6" size="1.778" layer="27" display="off"/>
+<element name="Q22" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="8" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="13.75" y="8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q22" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="7.6" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13.75" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q11" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="11" y="5.5">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="11" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="11" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="11" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.9W" x="11" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="11" y="5.5" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="49.94/100" x="11" y="5.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q23" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="18.6" y="5.1">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="18.6" y="5.1" size="1.778" layer="27" display="off"/>
-</element>
-<element name="Q31" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13" y="10.1">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13" y="10.1" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13" y="10.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13" y="10.1" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="13" y="10.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13" y="10.1" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13" y="10.1" size="1.778" layer="27" display="off"/>
+<element name="Q31" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13" y="10.5">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13" y="10.5" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13" y="10.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13" y="10.5" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.9W" x="13" y="10.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13" y="10.5" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="49.94/100" x="13" y="10.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q34" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="21.15" y="7.6" rot="R180">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="21.15" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -847,13 +867,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="21.15" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EURO" value="49.94/100" x="21.15" y="7.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q32" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="15.75" y="10.1" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="15.75" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q32" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="15.75" y="10.5" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="15.75" y="10.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q33" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="18.6" y="7.6">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="18.6" y="7.6" size="1.778" layer="27" display="off"/>
@@ -863,13 +883,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="18.6" y="7.6" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="49.94/100" x="18.6" y="7.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q41" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="11" y="12.6">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="11" y="12.6" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="11" y="12.6" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="11" y="12.6" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="11" y="12.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="11" y="12.6" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="11" y="12.6" size="1.778" layer="27" display="off"/>
+<element name="Q41" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="11" y="13">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="11" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="11" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="11" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.9W" x="11" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="11" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="49.94/100" x="11" y="13" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q44" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="21.15" y="10.1" rot="R180">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="21.15" y="10.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -887,13 +907,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="21.15" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EURO" value="49.94/100" x="21.15" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q51" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13" y="15.1">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13" y="15.1" size="1.778" layer="27" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13" y="15.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13" y="15.1" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="0.9W" x="13" y="15.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13" y="15.1" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13" y="15.1" size="1.778" layer="27" display="off"/>
+<element name="Q51" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13" y="15.5">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13" y="15.5" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13" y="15.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13" y="15.5" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.9W" x="13" y="15.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13" y="15.5" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="49.94/100" x="13" y="15.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q64" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="21.15" y="15.1" rot="R180">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="21.15" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -911,21 +931,21 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="18.6" y="10.1" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="49.94/100" x="18.6" y="10.1" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q42" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="12.6" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13.75" y="12.6" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q42" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="13" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="13.75" y="13" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q52" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="15.75" y="15.1" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="15.75" y="15.1" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q52" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="15.75" y="15.5" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="15.75" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q53" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="18.6" y="12.6">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="18.6" y="12.6" size="1.778" layer="27" display="off"/>
@@ -935,15 +955,15 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="18.6" y="12.6" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="49.94/100" x="18.6" y="12.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q62" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="17.6" rot="R180">
-<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POWER" value="0.9W" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="49.94/100" x="13.75" y="17.6" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="Q62" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="13.75" y="18" rot="R180">
+<attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RDS" value="13.5 mOhm @ 11A, 10V" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="FDMA6676PZ" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.9W" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="49.94/100" x="13.75" y="18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q13" library="dubec" package="6-POWERWDFN" value="NMOS40V_10A" x="21.15" y="2.6" rot="R180">
+<element name="Q01" library="dubec" package="6-POWERWDFN" value="NMOS40V_10A" x="21.15" y="2.6" rot="R180">
 <attribute name="POWER" value="2.4W" x="21.15" y="2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EURO" value="53.34/100" x="21.15" y="2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="21.15" y="2.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -951,21 +971,13 @@ design rules under a new name.</description>
 <attribute name="MFG_PART_#" value="FDMA8051L" x="21.15" y="2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RDS" value="14 mOhm @ 10A, 10V" x="21.15" y="2.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q14" library="dubec" package="6-TSOP" value="2PMOS30V_2A" x="42.8" y="17.4">
+<element name="Q13" library="dubec" package="6-TSOP" value="2PMOS30V_2A" x="42.8" y="17.4">
 <attribute name="POWER" value="0.7W" x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="8.07/25" x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Alpha &amp; Omega Semiconductor Inc." x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="785-1466-1-ND" x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PART_#" value="AO6801E" x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
 <attribute name="RDS" value="110 mOhm @ 2A, 10V" x="42.8" y="17.4" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R11" library="dubec" package="0402" value="RES100K_16" x="40.2" y="17.6">
-<attribute name="EURO" value="1.17/100" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="±100ppm/°C" x="40.2" y="17.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q15" library="dubec" package="6-POWERWDFN" value="PMOS30V_11A" x="25.2" y="5.1">
 <attribute name="MFG_PART_#" value="FDMA6676PZ" x="18" y="5.1" size="1.778" layer="27" display="off"/>
@@ -1127,7 +1139,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" x="37.35" y="50.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EURO" value="49.94/100" x="37.35" y="50.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q17" library="dubec" package="6-POWERWDFN" value="NMOS40V_10A" x="33.75" y="2.6" rot="R180">
+<element name="Q03" library="dubec" package="6-POWERWDFN" value="NMOS40V_10A" x="33.75" y="2.6" rot="R180">
 <attribute name="MFG_PART_#" value="FDMA8051L" x="37.75" y="51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="2.4W" x="37.75" y="51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="FDMA8051LCT-ND" x="37.75" y="51" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1143,142 +1155,187 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="36.6" y="-18.6" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="1.17/100" x="36.6" y="-18.6" size="1.778" layer="27" display="off"/>
 </element>
+<element name="DG1" library="dubec" package="8-HMD" value="4DSCH30V_0A1" x="47.4" y="17.8">
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="47.4" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="RB521ZS8A30TE61CT-ND" x="47.4" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="RB521ZS8A30TE61" x="47.4" y="17.8" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="4.70/10" x="47.4" y="17.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="dubec" package="0402" value="RES100K_16" x="53.4" y="18">
+<attribute name="MANUFACTURER" value="Vishay Dale" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="±100ppm/°C" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="1.17/100" x="53.4" y="18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="dubec" package="0402" value="RES100K_16" x="53.4" y="17">
+<attribute name="MANUFACTURER" value="Vishay Dale" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="±100ppm/°C" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="1.17/100" x="53.4" y="17" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="dubec" package="8-HMD" value="4DSCH30V_0A1" x="4.8" y="18.6" rot="R180">
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="4.8" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="RB521ZS8A30TE61CT-ND" x="4.8" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG_PART_#" value="RB521ZS8A30TE61" x="4.8" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EURO" value="4.70/10" x="4.8" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$1" library="dubec" package="1210+" value="TCAP330UF_6.3V" x="36.2" y="18.4">
+<attribute name="MANUFACTURER" value="AVX Corporation" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="478-8407-1-ND" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="-55°C ~ 125°C" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="F950J337KBAAQ2" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="16.56/10" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+<attribute name="ESR" value="600mOhm" x="36.2" y="18.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="dubec" package="8-HMD" value="4DSCH30V_0A1" x="32.6" y="19">
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="32.6" y="19" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="RB521ZS8A30TE61CT-ND" x="32.6" y="19" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="RB521ZS8A30TE61" x="32.6" y="19" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="4.70/10" x="32.6" y="19" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="dubec" package="0402" value="RES4.22K_16" x="0" y="-11.4">
+<attribute name="MANUFACTURER" value="Vishay Dale" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-4.22KLCT-ND" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="±100ppm/°C" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04024K22FKED" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="0.78/10" x="0" y="-11.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="dubec" package="0402" value="RES4.22K_16" x="0" y="-13.6">
+<attribute name="MANUFACTURER" value="Vishay Dale" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-4.22KLCT-ND" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="±100ppm/°C" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04024K22FKED" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="0.78/10" x="0" y="-13.6" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
-<signal name="GND">
-<polygon width="0.2" layer="1" thermals="no">
-<vertex x="0" y="0"/>
-<vertex x="0" y="20.4"/>
-<vertex x="56.2" y="20.4"/>
-<vertex x="56.2" y="0"/>
-</polygon>
-<contactref element="U1" pad="5"/>
-<contactref element="U1" pad="11"/>
-<polygon width="0.2" layer="16" orphans="yes" thermals="no">
-<vertex x="0" y="0"/>
-<vertex x="0" y="20.6"/>
-<vertex x="50.4" y="20.6"/>
-<vertex x="50.4" y="0"/>
-</polygon>
-</signal>
 <signal name="S+21">
 <contactref element="Q21" pad="S"/>
 <contactref element="Q22" pad="S"/>
-<via x="12.375" y="7.6" extent="1-16" drill="0.25"/>
-<wire x1="12.375" y1="7.6" x2="13.05" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="11.7" y1="7.6" x2="12.375" y2="7.6" width="0" layer="19" extent="1-1"/>
+<via x="12.375" y="8" extent="1-16" drill="0.25"/>
+<wire x1="12.375" y1="8" x2="13.05" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7" y1="8" x2="12.375" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S-21">
-<contactref element="Q24" pad="S"/>
 <contactref element="Q23" pad="S"/>
-<wire x1="19.3" y1="5.1" x2="20.45" y2="5.1" width="0" layer="19" extent="1-1"/>
+<contactref element="Q11" pad="S"/>
+<contactref element="Q12" pad="S"/>
+<via x="12.275" y="5.5" extent="1-16" drill="0.4" shape="square"/>
+<via x="12.275" y="6.2" extent="1-16" drill="0.4" shape="square"/>
+<via x="12.975" y="5.5" extent="1-16" drill="0.4" shape="square"/>
+<via x="12.975" y="4.8" extent="1-16" drill="0.4" shape="square"/>
+<wire x1="12.275" y1="6.2" x2="12.275" y2="5.5" width="0.3" layer="1"/>
+<wire x1="12.275" y1="5.5" x2="12.975" y2="5.5" width="0.3" layer="1"/>
+<wire x1="12.975" y1="5.5" x2="12.975" y2="4.8" width="0.3" layer="1"/>
+<wire x1="12.275" y1="5.5" x2="11.7" y2="5.5" width="0.3" layer="1"/>
+<wire x1="12.975" y1="5.5" x2="13.55" y2="5.5" width="0.3" layer="1"/>
+<wire x1="13.55" y1="5.5" x2="17.45" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C1">
-<contactref element="U2" pad="2"/>
 <contactref element="U3" pad="A"/>
 <contactref element="Q11" pad="D"/>
-<contactref element="Q23" pad="D"/>
-<contactref element="Q14" pad="5"/>
+<contactref element="Q13" pad="5"/>
 <contactref element="Q15" pad="D"/>
 <contactref element="Q27" pad="D"/>
-<contactref element="Q14" pad="2"/>
+<contactref element="Q13" pad="2"/>
 <contactref element="JP1" pad="6"/>
 <wire x1="42.8" y1="16.2" x2="42.8" y2="18.6" width="0" layer="19" extent="1-1"/>
 <wire x1="49.35" y1="3.8" x2="42.8" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="37.975" y1="2.9" x2="49.35" y2="3.8" width="0" layer="19" extent="1-1"/>
-<wire x1="30.9" y1="5.1" x2="37.975" y2="2.9" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="5.1" x2="42.8" y2="16.2" width="0" layer="19" extent="1-1"/>
 <wire x1="24.9" y1="5.1" x2="30.9" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="18.3" y1="5.1" x2="24.9" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="5.1" x2="18.3" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="5.1" x2="12.7" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="5.5" x2="24.9" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="5.5" x2="10.7" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C2">
-<contactref element="D1" pad="5"/>
 <contactref element="Q21" pad="D"/>
 <contactref element="Q33" pad="D"/>
 <contactref element="Q25" pad="D"/>
 <contactref element="Q37" pad="D"/>
 <contactref element="JP1" pad="5"/>
-<wire x1="30.9" y1="7.6" x2="38.2" y2="16.9" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="1"/>
+<contactref element="R11" pad="1"/>
+<wire x1="30.9" y1="7.6" x2="52.9" y2="17" width="0" layer="19" extent="1-1"/>
 <wire x1="24.9" y1="7.6" x2="30.9" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="18.3" y1="7.6" x2="24.9" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="10.7" y1="7.6" x2="18.3" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="7.6" x2="10.7" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="8" x2="18.3" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="8" x2="10.7" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="5.4" y1="18.875" x2="8" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C3">
-<contactref element="D1" pad="4"/>
 <contactref element="Q31" pad="D"/>
 <contactref element="Q43" pad="D"/>
 <contactref element="Q35" pad="D"/>
 <contactref element="Q47" pad="D"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="30.9" y1="10.1" x2="37.55" y2="16.9" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="2"/>
 <wire x1="24.9" y1="10.1" x2="30.9" y2="10.1" width="0" layer="19" extent="1-1"/>
 <wire x1="18.3" y1="10.1" x2="24.9" y2="10.1" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="10.1" x2="18.3" y2="10.1" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="10.1" x2="12.7" y2="10.1" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="10.5" x2="18.3" y2="10.1" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="10.5" x2="12.7" y2="10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="18.875" x2="8" y2="10.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C4">
-<contactref element="D1" pad="2"/>
 <contactref element="Q41" pad="D"/>
 <contactref element="Q53" pad="D"/>
 <contactref element="Q45" pad="D"/>
 <contactref element="Q57" pad="D"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="30.9" y1="12.6" x2="38.2" y2="18.7" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="3"/>
 <wire x1="24.9" y1="12.6" x2="30.9" y2="12.6" width="0" layer="19" extent="1-1"/>
 <wire x1="18.3" y1="12.6" x2="24.9" y2="12.6" width="0" layer="19" extent="1-1"/>
-<wire x1="10.7" y1="12.6" x2="18.3" y2="12.6" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="12.6" x2="10.7" y2="12.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10.7" y1="13" x2="18.3" y2="12.6" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="13" x2="10.7" y2="13" width="0" layer="19" extent="1-1"/>
+<wire x1="4.6" y1="18.875" x2="8" y2="13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C5">
-<contactref element="D1" pad="1"/>
 <contactref element="Q51" pad="D"/>
 <contactref element="Q55" pad="D"/>
 <contactref element="JP1" pad="2"/>
 <contactref element="Q64" pad="S"/>
 <contactref element="Q68" pad="S"/>
-<wire x1="33.05" y1="15.1" x2="38.85" y2="18.7" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="4"/>
 <wire x1="24.9" y1="15.1" x2="33.05" y2="15.1" width="0" layer="19" extent="1-1"/>
 <wire x1="20.45" y1="15.1" x2="24.9" y2="15.1" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="15.1" x2="20.45" y2="15.1" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="15.1" x2="12.7" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="15.5" x2="20.45" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="15.5" x2="12.7" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2" y1="18.875" x2="8" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C6">
-<contactref element="D1" pad="6"/>
-<contactref element="D1" pad="3"/>
-<contactref element="R5" pad="1"/>
-<contactref element="R1" pad="1"/>
-<contactref element="R2" pad="1"/>
-<contactref element="R3" pad="1"/>
-<contactref element="R4" pad="1"/>
-<contactref element="R6" pad="1"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="Q62" pad="S"/>
 <contactref element="Q66" pad="S"/>
-<wire x1="39.2" y1="14.9" x2="38.85" y2="16.9" width="0" layer="19" extent="1-1"/>
-<wire x1="38.2" y1="14.9" x2="39.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="40.2" y1="14.9" x2="39.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="41.2" y1="14.9" x2="40.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="42.2" y1="14.9" x2="41.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="37.2" y1="14.9" x2="38.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="37.55" y1="18.7" x2="38.85" y2="16.9" width="0" layer="19" extent="1-1"/>
-<wire x1="27.05" y1="17.6" x2="37.2" y2="14.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.05" y1="17.6" x2="27.05" y2="17.6" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="17.6" x2="13.05" y2="17.6" width="0" layer="19" extent="1-1"/>
+<contactref element="D4" pad="3"/>
+<wire x1="27.05" y1="17.6" x2="32.8" y2="18.725" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="18" x2="27.05" y2="17.6" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="18" x2="13.05" y2="18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S-">
-<contactref element="Q24" pad="D"/>
+<contactref element="Q23" pad="D"/>
 <contactref element="Q34" pad="D"/>
 <contactref element="Q44" pad="D"/>
 <contactref element="Q54" pad="D"/>
 <contactref element="Q64" pad="D"/>
-<contactref element="Q13" pad="D"/>
+<contactref element="Q01" pad="D"/>
+<contactref element="U$1" pad="C"/>
+<contactref element="U1" pad="11"/>
+<contactref element="U1" pad="5"/>
+<contactref element="R1" pad="1"/>
+<wire x1="45.6" y1="7" x2="37.4" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="44.25" y1="6" x2="45.6" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="21.45" y1="15.1" x2="37.4" y2="18.4" width="0" layer="19" extent="1-1"/>
 <wire x1="21.45" y1="12.6" x2="21.45" y2="15.1" width="0" layer="19" extent="1-1"/>
 <wire x1="21.45" y1="10.1" x2="21.45" y2="12.6" width="0" layer="19" extent="1-1"/>
 <wire x1="21.45" y1="7.6" x2="21.45" y2="10.1" width="0" layer="19" extent="1-1"/>
-<wire x1="21.45" y1="5.1" x2="21.45" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="21.45" y1="2.6" x2="21.45" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="18.45" y1="5.5" x2="21.45" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.45" y1="2.6" x2="18.45" y2="5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.5" y1="-11.4" x2="18.45" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S+">
 <contactref element="Q12" pad="D"/>
@@ -1287,11 +1344,17 @@ design rules under a new name.</description>
 <contactref element="Q42" pad="D"/>
 <contactref element="Q52" pad="D"/>
 <contactref element="Q62" pad="D"/>
-<wire x1="14.05" y1="17.6" x2="16.05" y2="15.1" width="0" layer="19" extent="1-1"/>
-<wire x1="14.05" y1="12.6" x2="16.05" y2="15.1" width="0" layer="19" extent="1-1"/>
-<wire x1="16.05" y1="10.1" x2="14.05" y2="12.6" width="0" layer="19" extent="1-1"/>
-<wire x1="14.05" y1="7.6" x2="16.05" y2="10.1" width="0" layer="19" extent="1-1"/>
-<wire x1="16" y1="5.1" x2="14.05" y2="7.6" width="0" layer="19" extent="1-1"/>
+<contactref element="D4" pad="1"/>
+<contactref element="D4" pad="2"/>
+<contactref element="R1" pad="2"/>
+<wire x1="32.4" y1="18.725" x2="32" y2="18.725" width="0" layer="19" extent="1-1"/>
+<wire x1="16.05" y1="15.5" x2="32" y2="18.725" width="0" layer="19" extent="1-1"/>
+<wire x1="14.05" y1="18" x2="16.05" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="14.05" y1="13" x2="16.05" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="16.05" y1="10.5" x2="14.05" y2="13" width="0" layer="19" extent="1-1"/>
+<wire x1="14.05" y1="8" x2="16.05" y2="10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="14.55" y1="5.5" x2="14.05" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="0.5" y1="-11.4" x2="14.55" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="4"/>
@@ -1311,26 +1374,25 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="U1" pad="6"/>
 </signal>
-<signal name="C0">
-<contactref element="U2" pad="3"/>
-<contactref element="U2" pad="14"/>
-<contactref element="U2" pad="8"/>
-<contactref element="U2" pad="4"/>
-<contactref element="U2" pad="9"/>
-<contactref element="Q13" pad="S"/>
-<contactref element="R11" pad="1"/>
-<contactref element="Q17" pad="S"/>
+<signal name="BATT-">
+<contactref element="Q01" pad="S"/>
+<contactref element="Q03" pad="S"/>
 <contactref element="R7" pad="1"/>
 <contactref element="JP1" pad="7"/>
-<wire x1="39.5" y1="16.2" x2="39.7" y2="17.6" width="0" layer="19" extent="1-1"/>
-<wire x1="38.625" y1="8.7" x2="39.5" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="41.875" y1="8.7" x2="38.625" y2="8.7" width="0" layer="19" extent="1-1"/>
-<wire x1="41.875" y1="2.9" x2="41.875" y2="8.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.275" y1="2.9" x2="41.875" y2="2.9" width="0" layer="19" extent="1-1"/>
-<wire x1="38.625" y1="2.9" x2="39.275" y2="2.9" width="0" layer="19" extent="1-1"/>
-<wire x1="33.05" y1="2.6" x2="38.625" y2="2.9" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="2.6" x2="33.05" y2="2.6" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="2.6" x2="20.45" y2="2.6" width="0" layer="19" extent="1-1"/>
+<contactref element="R12" pad="1"/>
+<contactref element="U2" pad="4"/>
+<polygon width="0.2" layer="1" isolate="0.25">
+<vertex x="0" y="0"/>
+<vertex x="0" y="21.4"/>
+<vertex x="56.6" y="21.4"/>
+<vertex x="56.6" y="0"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.25">
+<vertex x="0" y="0"/>
+<vertex x="0" y="22.2"/>
+<vertex x="57.4" y="22.2"/>
+<vertex x="57.4" y="0"/>
+</polygon>
 </signal>
 <signal name="N$9">
 <contactref element="U2" pad="15"/>
@@ -1340,9 +1402,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$11">
 <contactref element="U2" pad="1"/>
-</signal>
-<signal name="CMAX">
-<contactref element="U2" pad="13"/>
 </signal>
 <signal name="N$4">
 <contactref element="U3" pad="C"/>
@@ -1389,19 +1448,12 @@ design rules under a new name.</description>
 <contactref element="D2" pad="3"/>
 <wire x1="43.15" y1="12.3" x2="51" y2="11.2" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="S+11">
-<contactref element="Q11" pad="S"/>
-<contactref element="Q12" pad="S"/>
-<via x="14.35" y="5.1" extent="1-16" drill="0.25"/>
-<wire x1="14.35" y1="5.1" x2="13.7" y2="5.1" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="5.1" x2="14.35" y2="5.1" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="S+31">
 <contactref element="Q31" pad="S"/>
 <contactref element="Q32" pad="S"/>
-<via x="14.375" y="10.1" extent="1-16" drill="0.25"/>
-<wire x1="14.375" y1="10.1" x2="13.7" y2="10.1" width="0" layer="19" extent="1-1"/>
-<wire x1="15.05" y1="10.1" x2="14.375" y2="10.1" width="0" layer="19" extent="1-1"/>
+<via x="14.375" y="10.5" extent="1-16" drill="0.25"/>
+<wire x1="14.375" y1="10.5" x2="13.7" y2="10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="15.05" y1="10.5" x2="14.375" y2="10.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S-31">
 <contactref element="Q34" pad="S"/>
@@ -1411,9 +1463,9 @@ design rules under a new name.</description>
 <signal name="S+41">
 <contactref element="Q41" pad="S"/>
 <contactref element="Q42" pad="S"/>
-<via x="12.375" y="12.6" extent="1-16" drill="0.25"/>
-<wire x1="12.375" y1="12.6" x2="13.05" y2="12.6" width="0" layer="19" extent="1-1"/>
-<wire x1="11.7" y1="12.6" x2="12.375" y2="12.6" width="0" layer="19" extent="1-1"/>
+<via x="12.375" y="13" extent="1-16" drill="0.25"/>
+<wire x1="12.375" y1="13" x2="13.05" y2="13" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7" y1="13" x2="12.375" y2="13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S-41">
 <contactref element="Q44" pad="S"/>
@@ -1428,52 +1480,28 @@ design rules under a new name.</description>
 <signal name="S+51">
 <contactref element="Q51" pad="S"/>
 <contactref element="Q52" pad="S"/>
-<via x="14.375" y="15.1" extent="1-16" drill="0.25"/>
-<wire x1="14.375" y1="15.1" x2="13.7" y2="15.1" width="0" layer="19" extent="1-1"/>
-<wire x1="15.05" y1="15.1" x2="14.375" y2="15.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="G01">
-<contactref element="Q14" pad="6"/>
-<contactref element="Q13" pad="G"/>
-<contactref element="R11" pad="2"/>
-<wire x1="40.7" y1="17.6" x2="41.8" y2="18.6" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="3.45" x2="40.7" y2="17.6" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="G11">
-<contactref element="Q12" pad="G"/>
-<contactref element="Q11" pad="G"/>
-<contactref element="Q14" pad="1"/>
-<contactref element="U2" pad="5"/>
-<contactref element="R6" pad="2"/>
-<contactref element="D3" pad="4"/>
-<via x="14.35" y="4.25" extent="1-16" drill="0.25"/>
-<via x="14.35" y="5.95" extent="1-16" drill="0.25"/>
-<wire x1="37.2" y1="13.9" x2="41.8" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="39.925" y1="2.9" x2="37.2" y2="13.9" width="0" layer="19" extent="1-1"/>
-<wire x1="44.85" y1="4.5" x2="39.925" y2="2.9" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="5.95" x2="37.2" y2="13.9" width="0" layer="19" extent="1-1"/>
-<wire x1="14.35" y1="5.95" x2="15" y2="5.95" width="0" layer="19" extent="1-1"/>
-<wire x1="14.35" y1="4.25" x2="14.35" y2="5.95" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="4.25" x2="14.35" y2="4.25" width="0" layer="19" extent="1-1"/>
+<via x="14.375" y="15.5" extent="1-16" drill="0.25"/>
+<wire x1="14.375" y1="15.5" x2="13.7" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="15.05" y1="15.5" x2="14.375" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G21">
-<contactref element="Q24" pad="G"/>
+<contactref element="Q23" pad="G"/>
 <contactref element="Q21" pad="G"/>
 <contactref element="Q22" pad="G"/>
-<contactref element="Q23" pad="G"/>
 <contactref element="U2" pad="6"/>
-<contactref element="R5" pad="2"/>
+<contactref element="RG21" pad="2"/>
 <contactref element="D3" pad="5"/>
-<via x="12.375" y="6.75" extent="1-16" drill="0.25"/>
-<via x="12.375" y="8.45" extent="1-16" drill="0.25"/>
+<via x="12.375" y="7.15" extent="1-16" drill="0.25"/>
+<via x="12.375" y="8.85" extent="1-16" drill="0.25"/>
+<contactref element="DG1" pad="7"/>
+<wire x1="38.2" y1="13.9" x2="47.2" y2="18.075" width="0" layer="19" extent="1-1"/>
 <wire x1="44.2" y1="4.5" x2="38.2" y2="13.9" width="0" layer="19" extent="1-1"/>
 <wire x1="40.575" y1="2.9" x2="44.2" y2="4.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="5.95" x2="38.2" y2="13.9" width="0" layer="19" extent="1-1"/>
-<wire x1="19.3" y1="4.25" x2="20.45" y2="5.95" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="6.75" x2="19.3" y2="4.25" width="0" layer="19" extent="1-1"/>
-<wire x1="11.7" y1="6.75" x2="12.375" y2="6.75" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="8.45" x2="12.375" y2="6.75" width="0" layer="19" extent="1-1"/>
-<wire x1="13.05" y1="8.45" x2="12.375" y2="8.45" width="0" layer="19" extent="1-1"/>
+<wire x1="17.45" y1="6.3" x2="38.2" y2="13.9" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="8.8" x2="17.45" y2="6.3" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="8.85" x2="13.05" y2="8.8" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="7.15" x2="12.375" y2="8.85" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7" y1="7.2" x2="12.375" y2="7.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G31">
 <contactref element="Q31" pad="G"/>
@@ -1481,18 +1509,18 @@ design rules under a new name.</description>
 <contactref element="Q32" pad="G"/>
 <contactref element="Q33" pad="G"/>
 <contactref element="U2" pad="7"/>
-<contactref element="R4" pad="2"/>
+<contactref element="RG31" pad="2"/>
 <contactref element="D3" pad="6"/>
-<via x="14.375" y="9.25" extent="1-16" drill="0.25"/>
-<via x="14.375" y="10.95" extent="1-16" drill="0.25"/>
+<via x="14.375" y="9.65" extent="1-16" drill="0.25"/>
+<via x="14.375" y="11.35" extent="1-16" drill="0.25"/>
 <wire x1="43.55" y1="4.5" x2="39.2" y2="13.9" width="0" layer="19" extent="1-1"/>
 <wire x1="41.225" y1="2.9" x2="43.55" y2="4.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="8.45" x2="39.2" y2="13.9" width="0" layer="19" extent="1-1"/>
-<wire x1="19.3" y1="6.75" x2="20.45" y2="8.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.375" y1="9.25" x2="19.3" y2="6.75" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="9.25" x2="14.375" y2="9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="14.375" y1="10.95" x2="14.375" y2="9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="15.05" y1="10.95" x2="14.375" y2="10.95" width="0" layer="19" extent="1-1"/>
+<wire x1="20.45" y1="8.4" x2="39.2" y2="13.9" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3" y1="6.8" x2="20.45" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="14.375" y1="9.65" x2="19.3" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="13.7" y1="9.7" x2="14.375" y2="9.65" width="0" layer="19" extent="1-1"/>
+<wire x1="14.375" y1="11.35" x2="14.375" y2="9.65" width="0" layer="19" extent="1-1"/>
+<wire x1="15.05" y1="11.3" x2="14.375" y2="11.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G41">
 <contactref element="Q41" pad="G"/>
@@ -1500,18 +1528,18 @@ design rules under a new name.</description>
 <contactref element="Q43" pad="G"/>
 <contactref element="Q42" pad="G"/>
 <contactref element="U2" pad="12"/>
-<contactref element="R3" pad="2"/>
+<contactref element="RG41" pad="2"/>
 <contactref element="D2" pad="4"/>
-<via x="12.375" y="11.75" extent="1-16" drill="0.25"/>
-<via x="12.375" y="13.45" extent="1-16" drill="0.25"/>
+<via x="12.375" y="12.15" extent="1-16" drill="0.25"/>
+<via x="12.375" y="13.85" extent="1-16" drill="0.25"/>
 <wire x1="43.15" y1="10.5" x2="40.2" y2="13.9" width="0" layer="19" extent="1-1"/>
 <wire x1="39.925" y1="8.7" x2="43.15" y2="10.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="10.95" x2="39.925" y2="8.7" width="0" layer="19" extent="1-1"/>
-<wire x1="19.3" y1="9.25" x2="20.45" y2="10.95" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="11.75" x2="19.3" y2="9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="11.7" y1="11.75" x2="12.375" y2="11.75" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="13.45" x2="12.375" y2="11.75" width="0" layer="19" extent="1-1"/>
-<wire x1="13.05" y1="13.45" x2="12.375" y2="13.45" width="0" layer="19" extent="1-1"/>
+<wire x1="20.45" y1="10.9" x2="39.925" y2="8.7" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3" y1="9.3" x2="20.45" y2="10.9" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="12.15" x2="19.3" y2="9.3" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7" y1="12.2" x2="12.375" y2="12.15" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="13.85" x2="12.375" y2="12.15" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="13.8" x2="12.375" y2="13.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G51">
 <contactref element="Q54" pad="G"/>
@@ -1519,36 +1547,44 @@ design rules under a new name.</description>
 <contactref element="Q52" pad="G"/>
 <contactref element="Q53" pad="G"/>
 <contactref element="U2" pad="11"/>
-<contactref element="R2" pad="2"/>
+<contactref element="RG51" pad="2"/>
 <contactref element="D2" pad="5"/>
-<via x="14.375" y="14.25" extent="1-16" drill="0.25"/>
-<via x="14.375" y="15.95" extent="1-16" drill="0.25"/>
+<via x="14.375" y="14.65" extent="1-16" drill="0.25"/>
+<via x="14.375" y="16.35" extent="1-16" drill="0.25"/>
 <wire x1="43.8" y1="10.5" x2="41.2" y2="13.9" width="0" layer="19" extent="1-1"/>
 <wire x1="40.575" y1="8.7" x2="43.8" y2="10.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="13.45" x2="40.575" y2="8.7" width="0" layer="19" extent="1-1"/>
-<wire x1="19.3" y1="11.75" x2="20.45" y2="13.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.375" y1="14.25" x2="19.3" y2="11.75" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="14.25" x2="14.375" y2="14.25" width="0" layer="19" extent="1-1"/>
-<wire x1="14.375" y1="15.95" x2="14.375" y2="14.25" width="0" layer="19" extent="1-1"/>
-<wire x1="15.05" y1="15.95" x2="14.375" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="20.45" y1="13.4" x2="40.575" y2="8.7" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3" y1="11.8" x2="20.45" y2="13.4" width="0" layer="19" extent="1-1"/>
+<wire x1="14.375" y1="14.65" x2="19.3" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="13.7" y1="14.7" x2="14.375" y2="14.65" width="0" layer="19" extent="1-1"/>
+<wire x1="14.375" y1="16.35" x2="14.375" y2="14.65" width="0" layer="19" extent="1-1"/>
+<wire x1="15.05" y1="16.3" x2="14.375" y2="16.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G61">
 <contactref element="Q64" pad="G"/>
 <contactref element="Q62" pad="G"/>
 <contactref element="U2" pad="10"/>
-<contactref element="R1" pad="2"/>
+<contactref element="RG61" pad="2"/>
 <contactref element="D2" pad="6"/>
-<via x="12.375" y="16.75" extent="1-16" drill="0.25"/>
-<via x="12.375" y="18.45" extent="1-16" drill="0.25"/>
+<via x="12.375" y="17.15" extent="1-16" drill="0.25"/>
+<via x="12.375" y="18.85" extent="1-16" drill="0.25"/>
 <wire x1="44.45" y1="10.5" x2="42.2" y2="13.9" width="0" layer="19" extent="1-1"/>
 <wire x1="41.225" y1="8.7" x2="44.45" y2="10.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.45" y1="15.95" x2="42.2" y2="13.9" width="0" layer="19" extent="1-1"/>
-<wire x1="13.05" y1="18.45" x2="20.45" y2="15.95" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="18.45" x2="13.05" y2="18.45" width="0" layer="19" extent="1-1"/>
-<wire x1="12.375" y1="16.75" x2="12.375" y2="18.45" width="0" layer="19" extent="1-1"/>
+<wire x1="20.45" y1="15.9" x2="42.2" y2="13.9" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="18.8" x2="20.45" y2="15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="18.85" x2="13.05" y2="18.8" width="0" layer="19" extent="1-1"/>
+<wire x1="12.375" y1="17.15" x2="12.375" y2="18.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
+<contactref element="D4" pad="8"/>
+<contactref element="U$1" pad="A"/>
+<contactref element="D4" pad="7"/>
 <contactref element="U1" pad="10"/>
+<contactref element="U2" pad="2"/>
+<wire x1="37.975" y1="2.9" x2="46.95" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="18.4" x2="37.975" y2="2.9" width="0" layer="19" extent="1-1"/>
+<wire x1="32.4" y1="19.275" x2="35" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="19.275" x2="32.4" y2="19.275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S+22">
 <contactref element="Q25" pad="S"/>
@@ -1596,12 +1632,14 @@ design rules under a new name.</description>
 <contactref element="Q48" pad="D"/>
 <contactref element="Q58" pad="D"/>
 <contactref element="Q68" pad="D"/>
-<contactref element="Q17" pad="D"/>
+<contactref element="Q03" pad="D"/>
+<contactref element="R2" pad="1"/>
 <wire x1="34.05" y1="12.6" x2="34.05" y2="15.1" width="0" layer="19" extent="1-1"/>
 <wire x1="34.05" y1="10.1" x2="34.05" y2="12.6" width="0" layer="19" extent="1-1"/>
 <wire x1="34.05" y1="7.6" x2="34.05" y2="10.1" width="0" layer="19" extent="1-1"/>
 <wire x1="34.05" y1="5.1" x2="34.05" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="34.05" y1="2.6" x2="34.05" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.5" y1="-13.6" x2="34.05" y2="2.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T+">
 <contactref element="Q16" pad="D"/>
@@ -1610,11 +1648,13 @@ design rules under a new name.</description>
 <contactref element="Q46" pad="D"/>
 <contactref element="Q56" pad="D"/>
 <contactref element="Q66" pad="D"/>
+<contactref element="R2" pad="2"/>
 <wire x1="28.05" y1="15.1" x2="28.05" y2="17.6" width="0" layer="19" extent="1-1"/>
 <wire x1="28.05" y1="12.6" x2="28.05" y2="15.1" width="0" layer="19" extent="1-1"/>
 <wire x1="28.05" y1="10.1" x2="28.05" y2="12.6" width="0" layer="19" extent="1-1"/>
 <wire x1="28.05" y1="7.6" x2="28.05" y2="10.1" width="0" layer="19" extent="1-1"/>
 <wire x1="28.05" y1="5.1" x2="28.05" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="0.5" y1="-13.6" x2="28.05" y2="5.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S+12">
 <contactref element="Q15" pad="S"/>
@@ -1622,59 +1662,113 @@ design rules under a new name.</description>
 <wire x1="27.05" y1="5.1" x2="25.9" y2="5.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G02">
-<contactref element="Q17" pad="G"/>
+<contactref element="Q03" pad="G"/>
 <contactref element="R7" pad="2"/>
-<contactref element="Q14" pad="4"/>
+<contactref element="Q13" pad="4"/>
 <wire x1="40.5" y1="16.2" x2="43.8" y2="18.6" width="0" layer="19" extent="1-1"/>
-<wire x1="33.05" y1="3.45" x2="40.5" y2="16.2" width="0" layer="19" extent="1-1"/>
+<wire x1="33.05" y1="3.4" x2="40.5" y2="16.2" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="G12">
+<signal name="G13">
 <contactref element="Q16" pad="G"/>
 <contactref element="Q15" pad="G"/>
-<contactref element="Q14" pad="3"/>
-<wire x1="27.05" y1="5.95" x2="43.8" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="4.25" x2="27.05" y2="5.95" width="0" layer="19" extent="1-1"/>
+<contactref element="Q13" pad="3"/>
+<wire x1="27.05" y1="5.9" x2="43.8" y2="16.2" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9" y1="4.3" x2="27.05" y2="5.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G22">
 <contactref element="Q28" pad="G"/>
 <contactref element="Q25" pad="G"/>
 <contactref element="Q26" pad="G"/>
 <contactref element="Q27" pad="G"/>
-<wire x1="31.9" y1="4.25" x2="33.05" y2="5.95" width="0" layer="19" extent="1-1"/>
-<wire x1="27.05" y1="8.45" x2="31.9" y2="4.25" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="6.75" x2="27.05" y2="8.45" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9" y1="4.3" x2="33.05" y2="5.9" width="0" layer="19" extent="1-1"/>
+<wire x1="27.05" y1="8.4" x2="31.9" y2="4.3" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9" y1="6.8" x2="27.05" y2="8.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G32">
 <contactref element="Q35" pad="G"/>
 <contactref element="Q38" pad="G"/>
 <contactref element="Q36" pad="G"/>
 <contactref element="Q37" pad="G"/>
-<wire x1="31.9" y1="6.75" x2="33.05" y2="8.45" width="0" layer="19" extent="1-1"/>
-<wire x1="27.05" y1="10.95" x2="31.9" y2="6.75" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="9.25" x2="27.05" y2="10.95" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9" y1="6.8" x2="33.05" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.05" y1="10.9" x2="31.9" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9" y1="9.3" x2="27.05" y2="10.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G42">
 <contactref element="Q45" pad="G"/>
 <contactref element="Q48" pad="G"/>
 <contactref element="Q47" pad="G"/>
 <contactref element="Q46" pad="G"/>
-<wire x1="31.9" y1="9.25" x2="33.05" y2="10.95" width="0" layer="19" extent="1-1"/>
-<wire x1="27.05" y1="13.45" x2="31.9" y2="9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="11.75" x2="27.05" y2="13.45" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9" y1="9.3" x2="33.05" y2="10.9" width="0" layer="19" extent="1-1"/>
+<wire x1="27.05" y1="13.4" x2="31.9" y2="9.3" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9" y1="11.8" x2="27.05" y2="13.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G52">
 <contactref element="Q58" pad="G"/>
 <contactref element="Q55" pad="G"/>
 <contactref element="Q56" pad="G"/>
 <contactref element="Q57" pad="G"/>
-<wire x1="31.9" y1="11.75" x2="33.05" y2="13.45" width="0" layer="19" extent="1-1"/>
-<wire x1="27.05" y1="15.95" x2="31.9" y2="11.75" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="14.25" x2="27.05" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9" y1="11.8" x2="33.05" y2="13.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.05" y1="15.9" x2="31.9" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="25.9" y1="14.3" x2="27.05" y2="15.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="G62">
 <contactref element="Q68" pad="G"/>
 <contactref element="Q66" pad="G"/>
-<wire x1="27.05" y1="18.45" x2="33.05" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="27.05" y1="18.4" x2="33.05" y2="15.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="Q12" pad="G"/>
+<contactref element="Q13" pad="6"/>
+<contactref element="R12" pad="2"/>
+<via x="13.075" y="6.3" extent="1-16" drill="0.25"/>
+<wire x1="13.075" y1="6.3" x2="13.55" y2="6.3" width="0.4" layer="1"/>
+<wire x1="41.8" y1="18.6" x2="53.9" y2="18" width="0" layer="19" extent="1-1"/>
+<wire x1="13.55" y1="6.3" x2="41.8" y2="18.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="DG1" pad="2"/>
+<contactref element="Q11" pad="G"/>
+<contactref element="DG1" pad="1"/>
+<via x="12.175" y="4.7" extent="1-16" drill="0.25"/>
+<wire x1="12.175" y1="4.7" x2="11.7" y2="4.7" width="0.4" layer="1"/>
+<wire x1="46.8" y1="17.525" x2="47.2" y2="17.525" width="0" layer="19" extent="1-1"/>
+<wire x1="12.175" y1="4.7" x2="46.8" y2="17.525" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="G11">
+<contactref element="Q13" pad="1"/>
+<contactref element="DG1" pad="8"/>
+<contactref element="D3" pad="4"/>
+<contactref element="Q01" pad="G"/>
+<contactref element="R11" pad="2"/>
+<contactref element="U2" pad="5"/>
+<wire x1="46.8" y1="18.075" x2="53.9" y2="17" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8" y1="16.2" x2="46.8" y2="18.075" width="0" layer="19" extent="1-1"/>
+<wire x1="44.85" y1="4.5" x2="41.8" y2="16.2" width="0" layer="19" extent="1-1"/>
+<wire x1="39.925" y1="2.9" x2="44.85" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="20.45" y1="3.4" x2="39.925" y2="2.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BATT+">
+<contactref element="RG21" pad="1"/>
+<contactref element="RG61" pad="1"/>
+<contactref element="RG51" pad="1"/>
+<contactref element="RG41" pad="1"/>
+<contactref element="RG31" pad="1"/>
+<contactref element="D1" pad="5"/>
+<contactref element="D1" pad="6"/>
+<contactref element="D1" pad="7"/>
+<contactref element="D1" pad="8"/>
+<contactref element="D4" pad="6"/>
+<contactref element="U2" pad="13"/>
+<wire x1="41.2" y1="14.9" x2="42.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="40.2" y1="14.9" x2="41.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="39.2" y1="14.9" x2="40.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="38.2" y1="14.9" x2="39.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="39.275" y1="8.7" x2="39.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="32.8" y1="19.275" x2="38.2" y2="14.9" width="0" layer="19" extent="1-1"/>
+<wire x1="5.4" y1="18.325" x2="32.8" y2="19.275" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="18.325" x2="5.4" y2="18.325" width="0" layer="19" extent="1-1"/>
+<wire x1="4.6" y1="18.325" x2="5" y2="18.325" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2" y1="18.325" x2="4.6" y2="18.325" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
