@@ -869,6 +869,24 @@
 <wire x1="-1.7" y1="-0.95" x2="-1.7" y2="0.95" width="0.13" layer="21"/>
 <text x="1.53" y="-1.13" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
 </package>
+<package name="EPQ13">
+<smd name="1" x="-5" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
+<smd name="2" x="-2.5" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
+<smd name="3" x="0" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
+<smd name="4" x="2.5" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
+<smd name="5" x="5" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
+<smd name="6" x="5" y="8.2" dx="1.3" dy="1.55" layer="1" rot="R180"/>
+<smd name="7" x="2.5" y="8.2" dx="1.3" dy="1.55" layer="1" rot="R180"/>
+<smd name="8" x="0" y="8.2" dx="1.3" dy="1.55" layer="1" rot="R180"/>
+<smd name="9" x="-2.5" y="8.2" dx="1.3" dy="1.55" layer="1" rot="R180"/>
+<smd name="10" x="-5" y="8.2" dx="1.3" dy="1.55" layer="1" rot="R180"/>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.127" layer="21"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.127" layer="21"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.127" layer="21"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.127" layer="21"/>
+<text x="-6" y="6" size="1.27" layer="25" align="top-left">&gt;NAME</text>
+<text x="-6" y="4" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINY13">
@@ -1129,6 +1147,36 @@
 <wire x1="1.27" y1="2.54" x2="1.27" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="1.778" x2="2.032" y2="1.778" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="1.778" x2="-2.54" y2="-1.778" width="0.508" layer="94" curve="-83.267079"/>
+</symbol>
+<symbol name="TFORM_4_4">
+<pin name="1" x="-7.62" y="10.16" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-10.16" length="short" direction="pas"/>
+<pin name="8" x="7.62" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-10.16" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.762" y1="10.16" x2="-0.762" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0.762" y1="10.16" x2="0.762" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<circle x="-5.08" y="8.89" radius="0.254" width="0.508" layer="94"/>
+<circle x="-5.08" y="-3.81" radius="0.254" width="0.508" layer="94"/>
+<circle x="5.08" y="-3.81" radius="0.254" width="0.508" layer="94"/>
+<circle x="5.08" y="8.89" radius="0.254" width="0.508" layer="94"/>
+<text x="-5.08" y="-11.938" size="1.524" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-14.224" size="1.524" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3531,6 +3579,36 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="TFORM_4_4">
+<description>2P-2S transformer</description>
+<gates>
+<gate name="G$1" symbol="TFORM_4_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="311_4A4" package="EPQ13">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="7"/>
+<connect gate="G$1" pin="6" pad="10"/>
+<connect gate="G$1" pin="7" pad="6"/>
+<connect gate="G$1" pin="8" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="732-6198-1-ND" constant="no"/>
+<attribute name="EURO" value="7.82" constant="no"/>
+<attribute name="FREQ" value="200 ~ 400kHz" constant="no"/>
+<attribute name="IND" value="21µH @ 100kHz" constant="no"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFG_PART_#" value="7491195501" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3611,6 +3689,7 @@
 <part name="D4" library="dubec" deviceset="4DSCH" device="30V_0A1"/>
 <part name="R1" library="dubec" deviceset="RES" device="4.22K_16"/>
 <part name="R2" library="dubec" deviceset="RES" device="4.22K_16"/>
+<part name="U$2" library="dubec" deviceset="TFORM_4_4" device="311_4A4"/>
 </parts>
 <sheets>
 <sheet>
@@ -3694,6 +3773,7 @@
 <instance part="D4" gate="G$3" x="241.3" y="248.92"/>
 <instance part="R1" gate="G$1" x="71.12" y="58.42" rot="R90"/>
 <instance part="R2" gate="G$1" x="142.24" y="55.88" rot="R90"/>
+<instance part="U$2" gate="G$1" x="307.34" y="127"/>
 </instances>
 <busses>
 </busses>
