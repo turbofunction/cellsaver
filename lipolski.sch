@@ -5951,12 +5951,13 @@ latches; 3-state</description>
 </net>
 <net name="!OE" class="0">
 <segment>
-<label x="299.72" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="!OE"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="309.88" y1="175.26" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="172.72" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="172.72" x2="297.18" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="175.26" x2="297.18" y2="172.72" width="0.1524" layer="91"/>
+<label x="297.18" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CP" class="0">
