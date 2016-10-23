@@ -749,32 +749,6 @@
 <wire x1="-2.83" y1="-1.35" x2="-1.5" y2="-1.35" width="0.05" layer="49"/>
 <wire x1="-1.5" y1="-1.35" x2="-1.5" y2="1.35" width="0.05" layer="49"/>
 </package>
-<package name="4-OPTO-1">
-<smd name="1" x="-1.27" y="-4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="-4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="1.27" y="4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="4" x="-1.27" y="4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-2.075" y1="-5.2" x2="-0.475" y2="-3.8" layer="29"/>
-<rectangle x1="0.475" y1="-5.2" x2="2.075" y2="-3.8" layer="29"/>
-<rectangle x1="-2.075" y1="3.8" x2="-0.475" y2="5.2" layer="29"/>
-<rectangle x1="0.475" y1="3.8" x2="2.075" y2="5.2" layer="29"/>
-<rectangle x1="-1.95" y1="3.925" x2="-0.6" y2="5.075" layer="31"/>
-<rectangle x1="0.6" y1="3.925" x2="1.95" y2="5.075" layer="31"/>
-<rectangle x1="0.6" y1="-5.075" x2="1.95" y2="-3.925" layer="31"/>
-<rectangle x1="-1.95" y1="-5.075" x2="-0.6" y2="-3.925" layer="31"/>
-<wire x1="-2.3" y1="3.25" x2="2.3" y2="3.25" width="0.2" layer="21"/>
-<wire x1="2.3" y1="3.25" x2="2.3" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="2.3" y1="-3.25" x2="-2.3" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-2.3" y1="-3.25" x2="-2.3" y2="3.25" width="0.2" layer="21"/>
-<text x="-3" y="-3" size="1" layer="25" rot="R90">&gt;NAME</text>
-<text x="3" y="-3" size="1" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<polygon width="0.2" layer="21">
-<vertex x="-2.3" y="-2.5"/>
-<vertex x="-1.6" y="-2.5"/>
-<vertex x="-1.6" y="-3.2"/>
-<vertex x="-2.3" y="-3.2"/>
-</polygon>
-</package>
 </packages>
 </library>
 </libraries>
@@ -786,7 +760,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="OSHPark">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1789,22 +1763,6 @@ design rules under a new name.</description>
 <attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U7" library="dubec" package="4-OPTO-1" value="LTV-816S" x="-11.6" y="-16">
-<attribute name="TEMP" value="-50°C ~ 110°C" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="160-1361-5-ND" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="5.67/25" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="LTV-816S" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-<attribute name="I_FWD" value="50mA" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Lite-On Inc." x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R16" library="dubec" package="0402" value="RES1.6K_16" x="-14.6" y="-22.4">
-<attribute name="TEMP" value="±100ppm/°C" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-1.60KLCT-ND" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-<attribute name="USD" value="1.82/50" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="CRCW04021K60FKED" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R17" library="dubec" package="0402" value="RES402_16" x="-14.6" y="-24.6">
 <attribute name="TEMP" value="±100ppm/°C" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="541-402LCT-ND" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
@@ -1985,7 +1943,6 @@ design rules under a new name.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="C8" pad="1"/>
 <contactref element="D4" pad="A"/>
-<contactref element="R16" pad="1"/>
 <contactref element="Q5" pad="1"/>
 <wire x1="56.65" y1="27.85" x2="57.775" y2="30.4" width="0" layer="19" extent="1-1"/>
 <wire x1="56.4" y1="26.2" x2="56.65" y2="27.85" width="0" layer="19" extent="1-1"/>
@@ -2011,8 +1968,7 @@ design rules under a new name.</description>
 <wire x1="16.1" y1="2.6" x2="19.375" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="35.8" y1="1.85" x2="19.375" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.5" y1="-9" x2="16.1" y2="2.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.1" y1="-22.4" x2="-1.5" y2="-9" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.5" y1="-27.1" x2="-15.1" y2="-22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.5" y1="-27.1" x2="-1.5" y2="-9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S+">
 <contactref element="Q22" pad="D"/>
@@ -2569,12 +2525,10 @@ design rules under a new name.</description>
 <contactref element="U4" pad="7"/>
 <contactref element="C3" pad="1"/>
 <contactref element="R12" pad="1"/>
-<contactref element="U7" pad="4"/>
 <wire x1="34.1" y1="29.6" x2="35.85" y2="33.2" width="0" layer="19" extent="1-1"/>
 <wire x1="29.6" y1="26.6" x2="34.1" y2="29.6" width="0" layer="19" extent="1-1"/>
 <wire x1="23.3" y1="28.225" x2="29.6" y2="26.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.7" y1="-11.4" x2="23.3" y2="28.225" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.87" y1="-11.5" x2="-2.7" y2="-11.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="T1" pad="6"/>
@@ -2724,24 +2678,16 @@ design rules under a new name.</description>
 <wire x1="67.45" y1="25.1" x2="67.005" y2="23.2" width="0" layer="19" extent="1-1"/>
 <wire x1="41" y1="2.3" x2="67.005" y2="23.2" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22">
+<signal name="FB">
 <contactref element="R11" pad="2"/>
-<contactref element="U7" pad="3"/>
-<contactref element="R16" pad="2"/>
-<wire x1="-10.33" y1="-11.5" x2="-14.1" y2="-22.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.7" y1="-7" x2="-10.33" y2="-11.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$29">
-<contactref element="U7" pad="1"/>
+<signal name="OPTO_A">
 <contactref element="R17" pad="1"/>
-<wire x1="-12.87" y1="-20.5" x2="-15.1" y2="-24.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$27">
-<contactref element="U7" pad="2"/>
+<signal name="OPTO_C">
 <contactref element="R18" pad="2"/>
 <contactref element="Q5" pad="3"/>
 <wire x1="-14.1" y1="-26.8" x2="-16.5" y2="-27.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.33" y1="-20.5" x2="-14.1" y2="-26.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="Q5" pad="5"/>
