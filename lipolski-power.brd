@@ -9,46 +9,46 @@
 <grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="9" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="5" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -696,6 +696,84 @@
 <rectangle x1="0.4" y1="-0.35" x2="1" y2="0.35" layer="29"/>
 <rectangle x1="-0.95" y1="-0.3" x2="-0.45" y2="0.3" layer="31"/>
 <rectangle x1="0.45" y1="-0.3" x2="0.95" y2="0.3" layer="31"/>
+</package>
+<package name="22-VFDFN">
+<smd name="VD" x="0.805" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="-2.165" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-2.5" y="-1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-2" y="-1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="-1.5" y="-1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="-1" y="-1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="-0.5" y="-1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="6-11" x="1.25" y="-1.9" dx="2.75" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="18" x="-0.5" y="1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="19" x="-1" y="1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="20" x="-1.5" y="1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="21" x="-2" y="1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="22" x="-2.5" y="1.9" dx="0.25" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="12-17" x="1.25" y="1.9" dx="2.75" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-3.05" y1="2" x2="-3.05" y2="-2" width="0.13" layer="21"/>
+<wire x1="3.05" y1="2" x2="3.05" y2="-2" width="0.13" layer="21"/>
+<text x="-2.8" y="0.2" size="0.6" layer="25">&gt;NAME</text>
+<text x="-2.8" y="-0.2" size="0.6" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="-2.7" y1="-2.2" x2="2.7" y2="-1.6" layer="29"/>
+<rectangle x1="-2.7" y1="1.6" x2="2.7" y2="2.2" layer="29"/>
+<rectangle x1="-2.6" y1="-2.2" x2="-2.4" y2="-1.7" layer="31"/>
+<rectangle x1="-2.1" y1="-2.2" x2="-1.9" y2="-1.7" layer="31"/>
+<rectangle x1="-1.6" y1="-2.2" x2="-1.4" y2="-1.7" layer="31"/>
+<rectangle x1="-1.1" y1="-2.2" x2="-0.9" y2="-1.7" layer="31"/>
+<rectangle x1="-0.6" y1="-2.2" x2="-0.4" y2="-1.7" layer="31"/>
+<rectangle x1="-2.6" y1="1.7" x2="-2.4" y2="2.2" layer="31"/>
+<rectangle x1="-2.1" y1="1.7" x2="-1.9" y2="2.2" layer="31"/>
+<rectangle x1="-1.6" y1="1.7" x2="-1.4" y2="2.2" layer="31"/>
+<rectangle x1="-1.1" y1="1.7" x2="-0.9" y2="2.2" layer="31"/>
+<rectangle x1="-0.6" y1="1.7" x2="-0.4" y2="2.2" layer="31"/>
+<rectangle x1="-0.1" y1="-2.2" x2="0.1" y2="-1.7" layer="31"/>
+<rectangle x1="0.4" y1="-2.2" x2="0.6" y2="-1.7" layer="31"/>
+<rectangle x1="0.9" y1="-2.2" x2="1.1" y2="-1.7" layer="31"/>
+<rectangle x1="1.4" y1="-2.2" x2="1.6" y2="-1.7" layer="31"/>
+<rectangle x1="1.9" y1="-2.2" x2="2.1" y2="-1.7" layer="31"/>
+<rectangle x1="2.4" y1="-2.2" x2="2.6" y2="-1.7" layer="31"/>
+<rectangle x1="-0.1" y1="1.7" x2="0.1" y2="2.2" layer="31"/>
+<rectangle x1="0.9" y1="1.7" x2="1.1" y2="2.2" layer="31"/>
+<rectangle x1="0.4" y1="1.7" x2="0.6" y2="2.2" layer="31"/>
+<rectangle x1="1.4" y1="1.7" x2="1.6" y2="2.2" layer="31"/>
+<rectangle x1="1.9" y1="1.7" x2="2.1" y2="2.2" layer="31"/>
+<rectangle x1="2.4" y1="1.7" x2="2.6" y2="2.2" layer="31"/>
+<wire x1="2.83" y1="1.35" x2="-1.22" y2="1.35" width="0.05" layer="49"/>
+<wire x1="-1.22" y1="1.35" x2="-1.22" y2="-1.35" width="0.05" layer="49"/>
+<wire x1="-1.22" y1="-1.35" x2="2.83" y2="-1.35" width="0.05" layer="49"/>
+<wire x1="2.83" y1="-1.35" x2="2.83" y2="1.35" width="0.05" layer="49"/>
+<wire x1="-1.5" y1="1.35" x2="-2.83" y2="1.35" width="0.05" layer="49"/>
+<wire x1="-2.83" y1="1.35" x2="-2.83" y2="-1.35" width="0.05" layer="49"/>
+<wire x1="-2.83" y1="-1.35" x2="-1.5" y2="-1.35" width="0.05" layer="49"/>
+<wire x1="-1.5" y1="-1.35" x2="-1.5" y2="1.35" width="0.05" layer="49"/>
+</package>
+<package name="4-OPTO-1">
+<smd name="1" x="-1.27" y="-4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="-4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="1.27" y="4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="-1.27" y="4.5" dx="1.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-2.075" y1="-5.2" x2="-0.475" y2="-3.8" layer="29"/>
+<rectangle x1="0.475" y1="-5.2" x2="2.075" y2="-3.8" layer="29"/>
+<rectangle x1="-2.075" y1="3.8" x2="-0.475" y2="5.2" layer="29"/>
+<rectangle x1="0.475" y1="3.8" x2="2.075" y2="5.2" layer="29"/>
+<rectangle x1="-1.95" y1="3.925" x2="-0.6" y2="5.075" layer="31"/>
+<rectangle x1="0.6" y1="3.925" x2="1.95" y2="5.075" layer="31"/>
+<rectangle x1="0.6" y1="-5.075" x2="1.95" y2="-3.925" layer="31"/>
+<rectangle x1="-1.95" y1="-5.075" x2="-0.6" y2="-3.925" layer="31"/>
+<wire x1="-2.3" y1="3.25" x2="2.3" y2="3.25" width="0.2" layer="21"/>
+<wire x1="2.3" y1="3.25" x2="2.3" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-3.25" x2="-2.3" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-2.3" y1="-3.25" x2="-2.3" y2="3.25" width="0.2" layer="21"/>
+<text x="-3" y="-3" size="1" layer="25" rot="R90">&gt;NAME</text>
+<text x="3" y="-3" size="1" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="21">
+<vertex x="-2.3" y="-2.5"/>
+<vertex x="-1.6" y="-2.5"/>
+<vertex x="-1.6" y="-3.2"/>
+<vertex x="-2.3" y="-3.2"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -1346,6 +1424,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="42" y="23.4" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="6.17/100" x="42" y="23.4" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PART_#" value="FC6943010R" x="42" y="23.4" size="1.778" layer="27" display="off"/>
+<attribute name="VGS" value="1.5V @ 1µA" x="42" y="23.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q27" library="dubec" package="6-POWERWDFN" value="NMOS40V_10A" x="27.2" y="5.5">
 <attribute name="POWER" value="0.9W" x="27.2" y="5.5" size="1.778" layer="27" display="off"/>
@@ -1435,15 +1514,14 @@ design rules under a new name.</description>
 <attribute name="EURO" value="1.17/100" x="72.2" y="15.8" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="72.2" y="15.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U5" library="dubec" package="SOT-23-6" value="LM2665M6" x="29.6" y="25.4">
-<attribute name="EURO" value="7.44/10" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="LM2665M6/NOPB" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="-40°C ~ 85°C (TJ)" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="LM2665M6/NOPBCT-ND" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="FREQ" value="80kHz" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="V_OUT" value="2Vin" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="I_OUT" value="40mA" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<element name="U5" library="dubec" package="SOT-23-6" value="TC1240A" x="29.6" y="25.4">
+<attribute name="EURO" value="15.53/25" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="TC1240AECHTR" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="-40°C ~ 85°C (TA)" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="TC1240AECHCT-ND" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VIN" value="2.5-5.5V" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="FREQUENCY" value="80kHz" x="29.6" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="dubec" package="16-VFQFN" value="74HC595" x="56.4" y="26.2" rot="R90">
 <attribute name="MFG_PART_#" value="74HC595BQ,115" x="56.4" y="26.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1584,13 +1662,6 @@ design rules under a new name.</description>
 <attribute name="MFG_PART_#" value="CRCW040215K4FKED" x="32.6" y="7.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="USD" value="2.11/50" x="32.6" y="7.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D4" library="dubec" package="SOD523+" value="D_SCH20V_0.5A" x="20.2" y="30.2">
-<attribute name="MANUFACTURER" value="ON Semiconductor" x="20.2" y="30.2" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="NSR0520V2T1GOSCT-ND" x="20.2" y="30.2" size="1.778" layer="27" display="off"/>
-<attribute name="V_FWD" value="480mV @ 500mA" x="20.2" y="30.2" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="3.13/10" x="20.2" y="30.2" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="NSR0520V2T1G" x="20.2" y="30.2" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R9" library="dubec" package="0603" value="RES2_10" x="17" y="30.4">
 <attribute name="MANUFACTURER" value="Yageo" x="17" y="30.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="311-2.00HRCT-ND" x="17" y="30.4" size="1.778" layer="27" display="off"/>
@@ -1621,6 +1692,143 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="±20%" x="19.8" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" x="19.8" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP" value="X5R" x="19.8" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C3" library="dubec" package="0603" value="CAP4.7U_10V" x="36.6" y="33.2">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="36.6" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="587-1441-1-ND" x="36.6" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LMK107BJ475KA-T" x="36.6" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="X5R" x="36.6" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.13/50" x="36.6" y="33.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="dubec" package="0603" value="CAP4.7UF_35V" x="33.2" y="34">
+<attribute name="MANUFACTURER" value="TDK Corporation" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="0.41" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="445-11301-1-ND" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="C1608JB1V475K080AC" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="-25°C ~ 85°C" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="smt" x="33.2" y="34" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C8" library="dubec" package="0603" value="CAP4.7U_10V" x="30.2" y="33.2">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="30.2" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="587-1441-1-ND" x="30.2" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LMK107BJ475KA-T" x="30.2" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="X5R" x="30.2" y="33.2" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.13/50" x="30.2" y="33.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U6" library="dubec" package="22-VFDFN" value="AR30N60PPA-13" x="66.2" y="23.2">
+<attribute name="TEMP" value="-40°C ~ 125°C" x="66.2" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="AR30N60PPA-13DICT-ND" x="66.2" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="74.64/100" x="66.2" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="AR30N60PPA-13" x="66.2" y="23.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="66.2" y="23.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="dubec" package="0402" value="RES10K_16" x="-2.2" y="-7">
+<attribute name="TEMP" value="±100ppm/°C" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-10.0KLCT-ND" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="2.10/50" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW040210K0FKED" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-2.2" y="-7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="dubec" package="SOD523+" value="D_ZENER2.4V" x="-0.8" y="-9">
+<attribute name="TEMP" value="-65°C ~ 150°C" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="BZT585B2V4T-7DICT-ND" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±2%" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="38.54/1000" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="BZT585B2V4T-7" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="ZZT" value="100 Ohm" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="50nA @ 1V" x="-0.8" y="-9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="dubec" package="0402" value="RES590_16" x="-2.2" y="-11.4">
+<attribute name="TEMP" value="±100ppm/°C" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-590LCT-ND" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="2.27/50" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW0402590RFKED" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-2.2" y="-11.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C9" library="dubec" package="0402" value="CAP22P_50V" x="-2.2" y="-13.6">
+<attribute name="TEMP" value="C0G, NP0" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="478-1074-1-ND" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±5%" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.89/1000" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="04025A220JAT2A" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-2.2" y="-13.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="dubec" package="0402" value="RES2.2K_16" x="-2.2" y="-15.8">
+<attribute name="TEMP" value="±100ppm/°C" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-2.20KLCT-ND" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="2.11/50" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04022K20FKED" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-2.2" y="-15.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="dubec" package="0402" value="RES5.1K_16" x="-2.2" y="-18">
+<attribute name="TEMP" value="±100ppm/°C" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-5.10KLCT-ND" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="5.25/1000" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04025K10FKED" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-2.2" y="-18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R15" library="dubec" package="0402" value="RES100K_16" x="-2.2" y="-20.2">
+<attribute name="TEMP" value="±100ppm/°C" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="1.17/100" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW0402100KFKED" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-2.2" y="-20.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C10" library="dubec" package="0805" value="CAP47UF_10V" x="-5.4" y="-18.8">
+<attribute name="TEMP" value="X5R" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="445-8239-1-ND" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±20%" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="0.93" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" x="-5.4" y="-18.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U7" library="dubec" package="4-OPTO-1" value="LTV-816S" x="-11.6" y="-16">
+<attribute name="TEMP" value="-50°C ~ 110°C" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="160-1361-5-ND" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="5.67/25" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTV-816S" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+<attribute name="I_FWD" value="50mA" x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="-11.6" y="-16" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="dubec" package="0402" value="RES1.6K_16" x="-14.6" y="-22.4">
+<attribute name="TEMP" value="±100ppm/°C" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-1.60KLCT-ND" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+<attribute name="USD" value="1.82/50" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04021K60FKED" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-14.6" y="-22.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R17" library="dubec" package="0402" value="RES402_16" x="-14.6" y="-24.6">
+<attribute name="TEMP" value="±100ppm/°C" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-402LCT-ND" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="2.09/50" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW0402402RFKED" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-14.6" y="-24.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R18" library="dubec" package="0402" value="RES5.1K_16" x="-14.6" y="-26.8">
+<attribute name="TEMP" value="±100ppm/°C" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-5.10KLCT-ND" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="5.25/1000" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CRCW04025K10FKED" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="-14.6" y="-26.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q5" library="dubec" package="SOT-666" value="2NMOS30V_0.1A" x="-17" y="-26.4">
+<attribute name="VGS" value="1.5V @ 1µA" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="FC6943010RCT-ND" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="RDS" value="8 Ohm @ 10mA, 4V" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.125W" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="6.17/100" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="FC6943010R" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-17" y="-26.4" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1775,6 +1983,10 @@ design rules under a new name.</description>
 <contactref element="U4" pad="10"/>
 <contactref element="U4" pad="8"/>
 <contactref element="C6" pad="1"/>
+<contactref element="C8" pad="1"/>
+<contactref element="D4" pad="A"/>
+<contactref element="R16" pad="1"/>
+<contactref element="Q5" pad="1"/>
 <wire x1="56.65" y1="27.85" x2="57.775" y2="30.4" width="0" layer="19" extent="1-1"/>
 <wire x1="56.4" y1="26.2" x2="56.65" y2="27.85" width="0" layer="19" extent="1-1"/>
 <wire x1="49.7" y1="23.8" x2="56.4" y2="26.2" width="0" layer="19" extent="1-1"/>
@@ -1783,12 +1995,14 @@ design rules under a new name.</description>
 <wire x1="32.3" y1="29.6" x2="36.3" y2="29.2" width="0" layer="19" extent="1-1"/>
 <wire x1="30.55" y1="26.6" x2="32.3" y2="29.6" width="0" layer="19" extent="1-1"/>
 <wire x1="29.6" y1="24.2" x2="30.55" y2="26.6" width="0" layer="19" extent="1-1"/>
-<wire x1="36.3" y1="23" x2="36.3" y2="29.2" width="0" layer="19" extent="1-1"/>
-<wire x1="22.8" y1="26.8" x2="29.6" y2="24.2" width="0" layer="19" extent="1-1"/>
-<wire x1="22.8" y1="28.225" x2="22.8" y2="26.8" width="0" layer="19" extent="1-1"/>
+<wire x1="29.45" y1="33.2" x2="32.3" y2="29.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23.8" y1="31.8" x2="29.45" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="22.8" y1="28.225" x2="23.8" y2="31.8" width="0" layer="19" extent="1-1"/>
 <wire x1="21.8" y1="28.225" x2="22.8" y2="28.225" width="0" layer="19" extent="1-1"/>
-<wire x1="23.8" y1="31.8" x2="22.8" y2="28.225" width="0" layer="19" extent="1-1"/>
-<wire x1="19.375" y1="15.5" x2="22.8" y2="26.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.8" y1="26.8" x2="22.8" y2="28.225" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="25.9" x2="21.8" y2="28.225" width="0" layer="19" extent="1-1"/>
+<wire x1="36.3" y1="23" x2="36.3" y2="29.2" width="0" layer="19" extent="1-1"/>
+<wire x1="19.375" y1="15.5" x2="19.8" y2="25.9" width="0" layer="19" extent="1-1"/>
 <wire x1="19.375" y1="13" x2="19.375" y2="15.5" width="0" layer="19" extent="1-1"/>
 <wire x1="19.375" y1="10.5" x2="19.375" y2="13" width="0" layer="19" extent="1-1"/>
 <wire x1="19.375" y1="8" x2="19.375" y2="10.5" width="0" layer="19" extent="1-1"/>
@@ -1796,7 +2010,9 @@ design rules under a new name.</description>
 <wire x1="19.375" y1="3" x2="19.375" y2="5.5" width="0" layer="19" extent="1-1"/>
 <wire x1="16.1" y1="2.6" x2="19.375" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="35.8" y1="1.85" x2="19.375" y2="3" width="0" layer="19" extent="1-1"/>
-<wire x1="19.8" y1="25.9" x2="16.1" y2="2.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.5" y1="-9" x2="16.1" y2="2.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.1" y1="-22.4" x2="-1.5" y2="-9" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.5" y1="-27.1" x2="-15.1" y2="-22.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="S+">
 <contactref element="Q22" pad="D"/>
@@ -1863,6 +2079,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="7"/>
 <contactref element="U1" pad="8"/>
 <contactref element="U1" pad="9"/>
+<contactref element="C7" pad="1"/>
 <wire x1="81.7" y1="19" x2="81.7" y2="21.2" width="0" layer="19" extent="1-1"/>
 <wire x1="59.375" y1="30.4" x2="81.7" y2="21.2" width="0" layer="19" extent="1-1"/>
 <wire x1="59.425" y1="30.8" x2="59.375" y2="30.4" width="0" layer="19" extent="1-1"/>
@@ -1878,6 +2095,7 @@ design rules under a new name.</description>
 <wire x1="18.375" y1="3" x2="29.175" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="15.1" y1="3.6" x2="18.375" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="8" y1="3" x2="15.1" y2="3.6" width="0" layer="19" extent="1-1"/>
+<wire x1="32.45" y1="34" x2="8" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="16.3" y1="25.2" x2="15.1" y2="3.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -2022,14 +2240,16 @@ design rules under a new name.</description>
 <contactref element="U3" pad="16"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U5" pad="1"/>
-<contactref element="D4" pad="A"/>
 <contactref element="D3" pad="C"/>
 <contactref element="C6" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C8" pad="2"/>
 <wire x1="49.7" y1="26" x2="56.15" y2="24.55" width="0" layer="19" extent="1-1"/>
-<wire x1="28.65" y1="24.2" x2="49.7" y2="26" width="0" layer="19" extent="1-1"/>
-<wire x1="19.5" y1="30.2" x2="28.65" y2="24.2" width="0" layer="19" extent="1-1"/>
-<wire x1="17.7" y1="27.6" x2="19.5" y2="30.2" width="0" layer="19" extent="1-1"/>
-<wire x1="19.8" y1="27.7" x2="17.7" y2="27.6" width="0" layer="19" extent="1-1"/>
+<wire x1="37.35" y1="33.2" x2="49.7" y2="26" width="0" layer="19" extent="1-1"/>
+<wire x1="30.95" y1="33.2" x2="37.35" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="28.65" y1="24.2" x2="30.95" y2="33.2" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="27.7" x2="28.65" y2="24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="17.7" y1="27.6" x2="19.8" y2="27.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ST+2">
 <contactref element="Q25" pad="S"/>
@@ -2074,16 +2294,32 @@ design rules under a new name.</description>
 <contactref element="Q18" pad="D"/>
 <contactref element="R2" pad="1"/>
 <contactref element="Q28" pad="D"/>
-<contactref element="T1" pad="1"/>
 <contactref element="T1" pad="4"/>
-<wire x1="41" y1="2.3" x2="48.5" y2="2.3" width="0" layer="19" extent="1-1"/>
-<wire x1="30.175" y1="3" x2="41" y2="2.3" width="0" layer="19" extent="1-1"/>
+<contactref element="U6" pad="6-11"/>
+<contactref element="U6" pad="5"/>
+<contactref element="U6" pad="21"/>
+<contactref element="U6" pad="GND"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R15" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="R18" pad="1"/>
+<contactref element="Q5" pad="4"/>
+<wire x1="65.7" y1="21.3" x2="67.45" y2="21.3" width="0" layer="19" extent="1-1"/>
+<wire x1="64.035" y1="23.2" x2="65.7" y2="21.3" width="0" layer="19" extent="1-1"/>
+<wire x1="64.2" y1="25.1" x2="64.035" y2="23.2" width="0" layer="19" extent="1-1"/>
+<wire x1="48.5" y1="2.3" x2="65.7" y2="21.3" width="0" layer="19" extent="1-1"/>
+<wire x1="30.175" y1="3" x2="48.5" y2="2.3" width="0" layer="19" extent="1-1"/>
 <wire x1="30.175" y1="5.5" x2="30.175" y2="3" width="0" layer="19" extent="1-1"/>
 <wire x1="30.175" y1="8" x2="30.175" y2="5.5" width="0" layer="19" extent="1-1"/>
 <wire x1="30.175" y1="10.5" x2="30.175" y2="8" width="0" layer="19" extent="1-1"/>
 <wire x1="30.175" y1="13" x2="30.175" y2="10.5" width="0" layer="19" extent="1-1"/>
 <wire x1="30.175" y1="15.5" x2="30.175" y2="13" width="0" layer="19" extent="1-1"/>
 <wire x1="27.1" y1="2.2" x2="30.175" y2="3" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.7" y1="-18" x2="27.1" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.7" y1="-20.2" x2="-2.7" y2="-18" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.3" y1="-18.8" x2="-2.7" y2="-18" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.1" y1="-26.8" x2="-6.3" y2="-18.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.5" y1="-25.7" x2="-15.1" y2="-26.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T+">
 <contactref element="Q26" pad="D"/>
@@ -2093,12 +2329,20 @@ design rules under a new name.</description>
 <contactref element="Q66" pad="D"/>
 <contactref element="R2" pad="2"/>
 <contactref element="Q16" pad="D"/>
-<wire x1="24.775" y1="15.5" x2="24.775" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="24.775" y1="13" x2="24.775" y2="15.5" width="0" layer="19" extent="1-1"/>
-<wire x1="24.775" y1="10.5" x2="24.775" y2="13" width="0" layer="19" extent="1-1"/>
-<wire x1="24.775" y1="8" x2="24.775" y2="10.5" width="0" layer="19" extent="1-1"/>
-<wire x1="24.775" y1="5.5" x2="24.775" y2="8" width="0" layer="19" extent="1-1"/>
-<wire x1="26.1" y1="2.2" x2="24.775" y2="5.5" width="0" layer="19" extent="1-1"/>
+<contactref element="T1" pad="3"/>
+<contactref element="U6" pad="22"/>
+<contactref element="C10" pad="2"/>
+<contactref element="R17" pad="2"/>
+<wire x1="46" y1="2.3" x2="63.7" y2="25.1" width="0" layer="19" extent="1-1"/>
+<wire x1="26.1" y1="2.2" x2="46" y2="2.3" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="5.5" x2="26.1" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="8" x2="24.775" y2="5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="10.5" x2="24.775" y2="8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="13" x2="24.775" y2="10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="15.5" x2="24.775" y2="13" width="0" layer="19" extent="1-1"/>
+<wire x1="24.775" y1="18" x2="24.775" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.5" y1="-18.8" x2="26.1" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.1" y1="-24.6" x2="-4.5" y2="-18.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GT3">
 <contactref element="Q38" pad="G"/>
@@ -2160,6 +2404,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="11"/>
 <contactref element="U2" pad="11"/>
 <contactref element="U2" pad="16"/>
+<contactref element="C7" pad="2"/>
 <wire x1="78.7" y1="23.4" x2="81.7" y2="23.4" width="0" layer="19" extent="1-1"/>
 <wire x1="78.7" y1="21.2" x2="78.7" y2="23.4" width="0" layer="19" extent="1-1"/>
 <wire x1="78.7" y1="19" x2="78.7" y2="21.2" width="0" layer="19" extent="1-1"/>
@@ -2175,6 +2420,7 @@ design rules under a new name.</description>
 <wire x1="59.2" y1="29.775" x2="74.3" y2="22.8" width="0" layer="19" extent="1-1"/>
 <wire x1="57.775" y1="30.8" x2="59.2" y2="29.775" width="0" layer="19" extent="1-1"/>
 <wire x1="49.425" y1="30.8" x2="57.775" y2="30.8" width="0" layer="19" extent="1-1"/>
+<wire x1="33.95" y1="34" x2="49.425" y2="30.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS+1">
 <contactref element="Q12" pad="S"/>
@@ -2321,10 +2567,14 @@ design rules under a new name.</description>
 <contactref element="U5" pad="5"/>
 <contactref element="C2" pad="2"/>
 <contactref element="U4" pad="7"/>
-<contactref element="D4" pad="C"/>
+<contactref element="C3" pad="1"/>
+<contactref element="R12" pad="1"/>
+<contactref element="U7" pad="4"/>
+<wire x1="34.1" y1="29.6" x2="35.85" y2="33.2" width="0" layer="19" extent="1-1"/>
 <wire x1="29.6" y1="26.6" x2="34.1" y2="29.6" width="0" layer="19" extent="1-1"/>
 <wire x1="23.3" y1="28.225" x2="29.6" y2="26.6" width="0" layer="19" extent="1-1"/>
-<wire x1="20.9" y1="30.2" x2="23.3" y2="28.225" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.7" y1="-11.4" x2="23.3" y2="28.225" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.87" y1="-11.5" x2="-2.7" y2="-11.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="T1" pad="6"/>
@@ -2355,12 +2605,6 @@ design rules under a new name.</description>
 <contactref element="R8" pad="2"/>
 <wire x1="35.8" y1="4.95" x2="35.275" y2="6.55" width="0" layer="19" extent="1-1"/>
 <wire x1="32.6" y1="8.3" x2="35.275" y2="6.55" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="FB">
-<contactref element="U4" pad="3"/>
-</signal>
-<signal name="T~">
-<contactref element="T1" pad="3"/>
 </signal>
 <signal name="AS0">
 <contactref element="U1" pad="15"/>
@@ -2420,7 +2664,9 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="U4" pad="6"/>
 <contactref element="Q1" pad="G"/>
+<contactref element="Q5" pad="2"/>
 <wire x1="36.575" y1="6.55" x2="23.8" y2="28.225" width="0" layer="19" extent="1-1"/>
+<wire x1="-17" y1="-27.1" x2="36.575" y2="6.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R8" pad="1"/>
@@ -2436,6 +2682,71 @@ design rules under a new name.</description>
 <contactref element="U4" pad="4"/>
 <contactref element="U3" pad="7"/>
 <wire x1="23.3" y1="25.375" x2="57.55" y2="27.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R11" pad="1"/>
+<contactref element="U4" pad="3"/>
+<contactref element="D4" pad="C"/>
+<wire x1="-0.1" y1="-9" x2="22.8" y2="25.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.7" y1="-7" x2="-0.1" y2="-9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="R12" pad="2"/>
+<contactref element="C9" pad="1"/>
+<contactref element="Q5" pad="6"/>
+<wire x1="-2.7" y1="-13.6" x2="-17.5" y2="-25.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.7" y1="-11.4" x2="-2.7" y2="-13.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="C9" pad="2"/>
+<contactref element="R13" pad="1"/>
+<wire x1="-1.7" y1="-13.6" x2="-2.7" y2="-15.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="R13" pad="2"/>
+<contactref element="U6" pad="19"/>
+<wire x1="-1.7" y1="-15.8" x2="65.2" y2="25.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="R14" pad="2"/>
+<contactref element="U6" pad="1"/>
+<wire x1="-1.7" y1="-18" x2="63.7" y2="21.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="R15" pad="2"/>
+<contactref element="U6" pad="2"/>
+<wire x1="-1.7" y1="-20.2" x2="64.2" y2="21.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="T1" pad="1"/>
+<contactref element="U6" pad="VD"/>
+<contactref element="U6" pad="12-17"/>
+<wire x1="67.45" y1="25.1" x2="67.005" y2="23.2" width="0" layer="19" extent="1-1"/>
+<wire x1="41" y1="2.3" x2="67.005" y2="23.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="R11" pad="2"/>
+<contactref element="U7" pad="3"/>
+<contactref element="R16" pad="2"/>
+<wire x1="-10.33" y1="-11.5" x2="-14.1" y2="-22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.7" y1="-7" x2="-10.33" y2="-11.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="U7" pad="1"/>
+<contactref element="R17" pad="1"/>
+<wire x1="-12.87" y1="-20.5" x2="-15.1" y2="-24.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$27">
+<contactref element="U7" pad="2"/>
+<contactref element="R18" pad="2"/>
+<contactref element="Q5" pad="3"/>
+<wire x1="-14.1" y1="-26.8" x2="-16.5" y2="-27.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.33" y1="-20.5" x2="-14.1" y2="-26.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="Q5" pad="5"/>
+<contactref element="U6" pad="3"/>
+<wire x1="-17" y1="-25.7" x2="64.7" y2="21.3" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
