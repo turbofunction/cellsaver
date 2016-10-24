@@ -285,6 +285,40 @@
 <vertex x="-2.3" y="-3.2"/>
 </polygon>
 </package>
+<package name="0603+">
+<description>IPC-SM-782 RES/CAP</description>
+<smd name="A" x="-0.8" y="0" dx="0.8" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="0.8" y="0" dx="0.8" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-1.2" y="0.5" size="0.4" layer="25" align="top-left">&gt;NAME</text>
+<text x="-1.2" y="-0.5" size="0.4" layer="27">&gt;VALUE</text>
+<text x="1.2" y="-0.6" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
+<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.05" layer="51"/>
+<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.05" layer="51"/>
+<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.05" layer="51"/>
+<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.05" layer="51"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.13" layer="21"/>
+<rectangle x1="-1.2" y1="-0.5" x2="-0.4" y2="0.5" layer="29"/>
+<rectangle x1="0.4" y1="-0.5" x2="1.2" y2="0.5" layer="29"/>
+<rectangle x1="-1.15" y1="-0.45" x2="-0.45" y2="0.45" layer="31"/>
+<rectangle x1="0.45" y1="-0.45" x2="1.15" y2="0.45" layer="31"/>
+</package>
+<package name="SOD-123">
+<smd name="A" x="-1.65" y="0" dx="0.9" dy="1.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="1.65" y="0" dx="0.9" dy="1.2" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-2.4" y1="0.9" x2="2.4" y2="0.9" width="0.13" layer="21"/>
+<wire x1="2.4" y1="0.9" x2="2.4" y2="-0.9" width="0.13" layer="21"/>
+<wire x1="2.4" y1="-0.9" x2="-2.4" y2="-0.9" width="0.13" layer="21"/>
+<wire x1="-2.4" y1="-0.9" x2="-2.4" y2="0.9" width="0.13" layer="21"/>
+<text x="-2" y="-0.6" size="0.5" layer="27">&gt;VALUE</text>
+<text x="-2" y="0.6" size="0.5" layer="25" align="top-left">&gt;NAME</text>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.05" layer="20"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.05" layer="20"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.05" layer="20"/>
+<wire x1="-1.4" y1="-0.8" x2="-1.4" y2="0.8" width="0.05" layer="20"/>
+<text x="2.4" y="-1.1" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
+<rectangle x1="-2.15" y1="-0.65" x2="-1.15" y2="0.65" layer="29"/>
+<rectangle x1="1.15" y1="-0.65" x2="2.15" y2="0.65" layer="29"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -522,6 +556,55 @@ design rules under a new name.</description>
 <attribute name="EURO" value="5.67/25" x="15.24" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MFG_PART_#" value="LTV-816S" x="15.24" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
+<element name="D61" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-22.8">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-1.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-1.8" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-1.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-1.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-1.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D51" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-19.4">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-5.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-5.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D41" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-16">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-8.6" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-8.6" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-8.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-8.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-8.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D31" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-12.6">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-12" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D21" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-9.2">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-15.4" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-15.4" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-15.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-15.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-15.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D11" library="dubec" package="0603+" value="LEDGREEN_2V_30MA" x="1.7" y="-5.8">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" x="1.7" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="LUM" value="35mcd" x="1.7" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.26/25" x="1.7" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." x="1.7" y="-18.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" x="1.7" y="-18.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U10" library="dubec" package="SOD-123" value="CCR20MA_45V" x="2.5" y="-2.1">
+<attribute name="DIGIKEY_PART_#" value="NSI45020T1GOSCT-ND" x="2.5" y="-22.5" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±15%" x="2.5" y="-22.5" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="3.36/10" x="2.5" y="-22.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" x="2.5" y="-22.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="NSI45020T1G" x="2.5" y="-22.5" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="FB">
@@ -600,6 +683,36 @@ design rules under a new name.</description>
 <vertex x="0" y="21"/>
 </polygon>
 <via x="2.1" y="18.6" extent="1-16" drill="0.25"/>
+</signal>
+<signal name="C1">
+<contactref element="U10" pad="A"/>
+</signal>
+<signal name="N$2">
+<contactref element="U10" pad="C"/>
+<contactref element="D61" pad="A"/>
+<contactref element="D51" pad="A"/>
+<contactref element="D41" pad="A"/>
+<contactref element="D31" pad="A"/>
+<contactref element="D21" pad="A"/>
+<contactref element="D11" pad="A"/>
+<wire x1="0.9" y1="-19.4" x2="0.9" y2="-22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-16" x2="0.9" y2="-19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-12.6" x2="0.9" y2="-16" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-9.2" x2="0.9" y2="-12.6" width="0" layer="19" extent="1-1"/>
+<wire x1="0.9" y1="-5.8" x2="0.9" y2="-9.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.15" y1="-2.1" x2="0.9" y2="-5.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="D31" pad="C"/>
+</signal>
+<signal name="N$16">
+<contactref element="D21" pad="C"/>
+</signal>
+<signal name="N$17">
+<contactref element="D11" pad="C"/>
+</signal>
+<signal name="N$18">
+<contactref element="D41" pad="C"/>
 </signal>
 </signals>
 </board>

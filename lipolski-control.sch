@@ -639,6 +639,40 @@
 <text x="-1.4" y="0.3" size="0.5" layer="25">&gt;NAME</text>
 <text x="-1.4" y="-0.3" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
 </package>
+<package name="0603+">
+<description>IPC-SM-782 RES/CAP</description>
+<smd name="A" x="-0.8" y="0" dx="0.8" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="0.8" y="0" dx="0.8" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-1.2" y="0.5" size="0.4" layer="25" align="top-left">&gt;NAME</text>
+<text x="-1.2" y="-0.5" size="0.4" layer="27">&gt;VALUE</text>
+<text x="1.2" y="-0.6" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
+<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.05" layer="51"/>
+<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.05" layer="51"/>
+<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.05" layer="51"/>
+<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.05" layer="51"/>
+<wire x1="0.2" y1="0.3" x2="0.2" y2="-0.3" width="0.13" layer="21"/>
+<rectangle x1="-1.2" y1="-0.5" x2="-0.4" y2="0.5" layer="29"/>
+<rectangle x1="0.4" y1="-0.5" x2="1.2" y2="0.5" layer="29"/>
+<rectangle x1="-1.15" y1="-0.45" x2="-0.45" y2="0.45" layer="31"/>
+<rectangle x1="0.45" y1="-0.45" x2="1.15" y2="0.45" layer="31"/>
+</package>
+<package name="SOD-123">
+<smd name="A" x="-1.65" y="0" dx="0.9" dy="1.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="C" x="1.65" y="0" dx="0.9" dy="1.2" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-2.4" y1="0.9" x2="2.4" y2="0.9" width="0.13" layer="21"/>
+<wire x1="2.4" y1="0.9" x2="2.4" y2="-0.9" width="0.13" layer="21"/>
+<wire x1="2.4" y1="-0.9" x2="-2.4" y2="-0.9" width="0.13" layer="21"/>
+<wire x1="-2.4" y1="-0.9" x2="-2.4" y2="0.9" width="0.13" layer="21"/>
+<text x="-2" y="-0.6" size="0.5" layer="27">&gt;VALUE</text>
+<text x="-2" y="0.6" size="0.5" layer="25" align="top-left">&gt;NAME</text>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.05" layer="20"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.05" layer="20"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.05" layer="20"/>
+<wire x1="-1.4" y1="-0.8" x2="-1.4" y2="0.8" width="0.05" layer="20"/>
+<text x="2.4" y="-1.1" size="0.52" layer="49" font="vector" ratio="20" rot="SR270" align="top-left">C</text>
+<rectangle x1="-2.15" y1="-0.65" x2="-1.15" y2="0.65" layer="29"/>
+<rectangle x1="1.15" y1="-0.65" x2="2.15" y2="0.65" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPTOCOUPLER">
@@ -760,6 +794,47 @@
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-7.62" y="8.89" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-11.43" size="1.27" layer="95" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="LED">
+<wire x1="0" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.032" x2="2.159" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="3.302" y2="3.302" width="0.1524" layer="94"/>
+<text x="1.27" y="-1.905" size="1.016" layer="95" align="top-center">&gt;NAME</text>
+<text x="1.27" y="-3.175" size="1.016" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.159" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="1.778" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="3.302"/>
+<vertex x="2.413" y="2.921"/>
+<vertex x="2.921" y="2.413"/>
+</polygon>
+</symbol>
+<symbol name="CCR">
+<wire x1="-1.016" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="3.048" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.016" layer="96" align="top-center">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0.762"/>
+<vertex x="0" y="-0.762"/>
+<vertex x="1.016" y="0"/>
+</polygon>
+<circle x="0" y="0" radius="1.79605" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3291,6 +3366,66 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED">
+<description>LED</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="GREEN_2.8V_5MA" package="0603+">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="160-1832-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc" constant="no"/>
+<attribute name="MFG_PART_#" value="LTST-C193TGKT-5A" constant="no"/>
+<attribute name="USD" value="0.44" constant="no"/>
+<attribute name="V_FWD" value="3V (15mA)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="GREEN_2V_30MA" package="0603+">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="160-1435-1-ND" constant="no"/>
+<attribute name="EURO" value="3.26/25" constant="no"/>
+<attribute name="LUM" value="35mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="LTST-C190KGKT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CCR">
+<gates>
+<gate name="G$1" symbol="CCR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="20MA_45V" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="NSI45020T1GOSCT-ND" constant="no"/>
+<attribute name="EURO" value="3.36/10" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MFG_PART_#" value="NSI45020T1G" constant="no"/>
+<attribute name="TOLERANCE" value="±15%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3308,6 +3443,13 @@
 <part name="R3" library="dubec" deviceset="RES" device="590_16"/>
 <part name="D1" library="dubec" deviceset="D_ZENER" device="3V"/>
 <part name="U1" library="dubec" deviceset="ATTINYX4A" device="8MU"/>
+<part name="D61" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="D51" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="D41" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="D31" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="D21" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="D11" library="dubec" deviceset="LED" device="GREEN_2V_30MA"/>
+<part name="U10" library="dubec" deviceset="CCR" device="20MA_45V"/>
 </parts>
 <sheets>
 <sheet>
@@ -3319,6 +3461,13 @@
 <instance part="R3" gate="G$1" x="10.16" y="5.08" rot="R90"/>
 <instance part="D1" gate="G$1" x="5.08" y="0"/>
 <instance part="U1" gate="G$1" x="-60.96" y="2.54"/>
+<instance part="D61" gate="G$1" x="-30.48" y="-38.1"/>
+<instance part="D51" gate="G$1" x="-30.48" y="-43.18"/>
+<instance part="D41" gate="G$1" x="-30.48" y="-48.26"/>
+<instance part="D31" gate="G$1" x="-30.48" y="-53.34"/>
+<instance part="D21" gate="G$1" x="-30.48" y="-58.42"/>
+<instance part="D11" gate="G$1" x="-30.48" y="-63.5"/>
+<instance part="U10" gate="G$1" x="-40.64" y="-38.1"/>
 </instances>
 <busses>
 </busses>
@@ -3472,6 +3621,59 @@
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="-60.96" y1="12.7" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
 <label x="-60.96" y="15.24" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="C1" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="A"/>
+<wire x1="-45.72" y1="-38.1" x2="-48.26" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-48.26" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="C"/>
+<pinref part="D61" gate="G$1" pin="A"/>
+<wire x1="-35.56" y1="-38.1" x2="-33.02" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="D51" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-38.1" x2="-33.02" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-38.1"/>
+<pinref part="D41" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-43.18" x2="-33.02" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-43.18"/>
+<pinref part="D31" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-48.26" x2="-33.02" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-48.26"/>
+<pinref part="D21" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-53.34" x2="-33.02" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-53.34"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="-33.02" y1="-58.42" x2="-33.02" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-58.42"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="D31" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="-53.34" x2="-22.86" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="D21" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="-58.42" x2="-22.86" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="-63.5" x2="-22.86" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="D41" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="-48.26" x2="-22.86" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
