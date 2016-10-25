@@ -338,8 +338,8 @@
 <polygon width="0.15" layer="1">
 <vertex x="0.575" y="-0.275"/>
 <vertex x="0.575" y="0.975"/>
-<vertex x="0.975" y="0.975"/>
-<vertex x="0.975" y="0.275"/>
+<vertex x="0.825" y="0.975"/>
+<vertex x="0.825" y="0.275"/>
 <vertex x="1.375" y="0.275"/>
 <vertex x="1.375" y="-0.275"/>
 </polygon>
@@ -5811,8 +5811,8 @@ voltage at less than 10V</description>
 <instance part="D1" gate="G$1" x="22.86" y="38.1"/>
 <instance part="D1" gate="G$2" x="22.86" y="43.18"/>
 <instance part="D1" gate="G$3" x="22.86" y="48.26"/>
-<instance part="D1" gate="G$4" x="40.64" y="73.66" rot="R90"/>
-<instance part="D2" gate="G$3" x="22.86" y="63.5"/>
+<instance part="D1" gate="G$4" x="33.02" y="38.1" rot="R180"/>
+<instance part="D2" gate="G$3" x="22.86" y="58.42"/>
 <instance part="R1" gate="G$1" x="-76.2" y="-48.26" rot="R90"/>
 <instance part="R2" gate="G$1" x="-20.32" y="-48.26" rot="R90"/>
 <instance part="T1" gate="G$1" x="134.62" y="-27.94" rot="MR0"/>
@@ -5820,10 +5820,10 @@ voltage at less than 10V</description>
 <instance part="Q12" gate="G$1" x="-86.36" y="-43.18" rot="MR90"/>
 <instance part="Q23" gate="G$1" x="-101.6" y="-35.56" rot="MR270"/>
 <instance part="Q24" gate="G$1" x="-86.36" y="-35.56" rot="R270"/>
-<instance part="RGS1" gate="G$1" x="86.36" y="25.4"/>
-<instance part="D2" gate="G$4" x="22.86" y="58.42"/>
+<instance part="RGS1" gate="G$1" x="86.36" y="20.32"/>
+<instance part="D2" gate="G$4" x="22.86" y="63.5"/>
 <instance part="RGS-2" gate="G$1" x="86.36" y="33.02"/>
-<instance part="Q2" gate="G$2" x="99.06" y="25.4" rot="MR270"/>
+<instance part="Q2" gate="G$2" x="99.06" y="20.32" rot="MR270"/>
 <instance part="Q27" gate="G$1" x="-45.72" y="-35.56" rot="MR270"/>
 <instance part="Q28" gate="G$1" x="-30.48" y="-35.56" rot="R270"/>
 <instance part="Q15" gate="G$1" x="-45.72" y="-43.18" rot="R90"/>
@@ -5856,7 +5856,7 @@ voltage at less than 10V</description>
 <instance part="R8" gate="G$1" x="99.06" y="-58.42"/>
 <instance part="R9" gate="G$1" x="22.86" y="25.4"/>
 <instance part="D3" gate="G$1" x="30.48" y="25.4"/>
-<instance part="R10" gate="G$1" x="116.84" y="27.94" rot="R90"/>
+<instance part="R10" gate="G$1" x="116.84" y="22.86" rot="R90"/>
 <instance part="C3" gate="G$1" x="43.18" y="-27.94" rot="R90"/>
 <instance part="C7" gate="G$1" x="43.18" y="55.88" rot="R90"/>
 <instance part="C8" gate="G$1" x="261.62" y="76.2"/>
@@ -5869,13 +5869,13 @@ voltage at less than 10V</description>
 <instance part="R14" gate="G$1" x="167.64" y="-40.64"/>
 <instance part="R15" gate="G$1" x="167.64" y="-45.72"/>
 <instance part="C10" gate="G$1" x="160.02" y="-33.02" rot="R90"/>
-<instance part="Q2" gate="G$1" x="132.08" y="12.7" rot="MR270"/>
+<instance part="Q2" gate="G$1" x="134.62" y="12.7" rot="MR270"/>
 <instance part="R17" gate="G$1" x="144.78" y="-53.34" rot="R90"/>
 <instance part="R18" gate="G$1" x="152.4" y="-63.5" rot="R180"/>
 <instance part="Q5" gate="G$1" x="119.38" y="-55.88"/>
 <instance part="Q5" gate="G$2" x="152.4" y="-68.58" rot="R90"/>
-<instance part="Q3" gate="G$2" x="132.08" y="22.86" rot="R270"/>
-<instance part="D2" gate="G$1" x="48.26" y="73.66" rot="R90"/>
+<instance part="Q3" gate="G$2" x="149.86" y="12.7" rot="R270"/>
+<instance part="D2" gate="G$1" x="35.56" y="73.66" rot="R90"/>
 <instance part="D2" gate="G$2" x="27.94" y="53.34" rot="R90"/>
 </instances>
 <busses>
@@ -6028,9 +6028,9 @@ voltage at less than 10V</description>
 <wire x1="-109.22" y1="2.54" x2="-119.38" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <label x="17.78" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="D1" gate="G$3" pin="A"/>
+<wire x1="17.78" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-63.5" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
@@ -6058,7 +6058,7 @@ voltage at less than 10V</description>
 </segment>
 <segment>
 <label x="17.78" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D2" gate="G$4" pin="A"/>
+<pinref part="D2" gate="G$3" pin="A"/>
 <wire x1="17.78" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6089,9 +6089,9 @@ voltage at less than 10V</description>
 <wire x1="-58.42" y1="50.8" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$3" pin="A"/>
-<wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="17.78" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$4" pin="A"/>
+<wire x1="17.78" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S-" class="0">
@@ -6326,12 +6326,12 @@ voltage at less than 10V</description>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$2" pin="S"/>
-<wire x1="104.14" y1="25.4" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="25.4" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
-<label x="106.68" y="20.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="104.14" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="20.32" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<label x="106.68" y="15.24" size="1.778" layer="95" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-<junction x="106.68" y="25.4"/>
+<wire x1="106.68" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -6644,8 +6644,8 @@ voltage at less than 10V</description>
 </segment>
 <segment>
 <pinref part="RGS1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<label x="91.44" y="25.4" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="88.9" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<label x="91.44" y="20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="Q2" gate="G$2" pin="D"/>
 </segment>
 </net>
@@ -6726,20 +6726,20 @@ voltage at less than 10V</description>
 <wire x1="162.56" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$4" pin="C"/>
-<pinref part="D2" gate="G$3" pin="C"/>
-<wire x1="27.94" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<junction x="27.94" y="63.5"/>
 <wire x1="27.94" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="45.72" y="63.5" size="1.778" layer="95" xref="yes"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
+<pinref part="D2" gate="G$3" pin="C"/>
+<wire x1="27.94" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$4" pin="C"/>
+<wire x1="27.94" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<junction x="27.94" y="63.5"/>
 <pinref part="D2" gate="G$2" pin="C"/>
-<wire x1="27.94" y1="55.88" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="58.42" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <junction x="27.94" y="58.42"/>
 </segment>
 <segment>
@@ -6765,8 +6765,6 @@ voltage at less than 10V</description>
 </net>
 <net name="C4+" class="0">
 <segment>
-<pinref part="D1" gate="G$3" pin="C"/>
-<wire x1="25.4" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$2" pin="C"/>
 <wire x1="27.94" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
@@ -6777,13 +6775,18 @@ voltage at less than 10V</description>
 <junction x="27.94" y="48.26"/>
 <wire x1="27.94" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="30.48" y="48.26" size="1.778" layer="95" xref="yes"/>
+<pinref part="D1" gate="G$3" pin="C"/>
+<wire x1="27.94" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$4" pin="C"/>
+<wire x1="27.94" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="27.94" y="38.1"/>
 <pinref part="D2" gate="G$2" pin="A"/>
-<wire x1="27.94" y1="50.8" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="48.26" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RGS1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<label x="78.74" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
@@ -6818,12 +6821,11 @@ voltage at less than 10V</description>
 <net name="!EN_S1" class="0">
 <segment>
 <pinref part="Q2" gate="G$2" pin="G"/>
-<wire x1="101.6" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="124.46" y="35.56" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
+<label x="124.46" y="25.4" size="1.778" layer="95" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="35.56" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
-<junction x="116.84" y="30.48"/>
+<junction x="116.84" y="25.4"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
