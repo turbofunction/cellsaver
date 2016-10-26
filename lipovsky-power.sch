@@ -5705,7 +5705,7 @@ voltage at less than 10V</description>
 <part name="U3" library="dubec" deviceset="74HC595" device=""/>
 <part name="R3" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
 <part name="R4" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
-<part name="MVOE" library="dubec" deviceset="NMOS" device="30V_30A"/>
+<part name="Q1" library="dubec" deviceset="NMOS" device="30V_30A"/>
 <part name="R5" library="dubec" deviceset="RES" device="003_1W" value="RES003_1W"/>
 <part name="U1" library="dubec" deviceset="DG508B" device="EN-T1-GE4"/>
 <part name="U2" library="dubec" deviceset="DG508B" device="EN-T1-GE4"/>
@@ -5839,7 +5839,7 @@ voltage at less than 10V</description>
 <instance part="U3" gate="G$1" x="269.24" y="48.26"/>
 <instance part="R3" gate="G$1" x="254" y="38.1" rot="R180"/>
 <instance part="R4" gate="G$1" x="251.46" y="53.34"/>
-<instance part="MVOE" gate="G$1" x="104.14" y="-45.72"/>
+<instance part="Q1" gate="G$1" x="104.14" y="-45.72"/>
 <instance part="R5" gate="G$1" x="104.14" y="-68.58" rot="R90"/>
 <instance part="U1" gate="G$1" x="111.76" y="63.5" rot="R180"/>
 <instance part="U2" gate="G$1" x="203.2" y="53.34" rot="R180"/>
@@ -5849,7 +5849,7 @@ voltage at less than 10V</description>
 <instance part="R6" gate="G$1" x="55.88" y="-60.96"/>
 <instance part="R7" gate="G$1" x="55.88" y="-66.04"/>
 <instance part="C4" gate="G$1" x="50.8" y="-73.66" rot="R90"/>
-<instance part="C2" gate="G$1" x="50.8" y="-45.72" rot="R90"/>
+<instance part="C2" gate="G$1" x="48.26" y="-45.72" rot="R90"/>
 <instance part="C1" gate="G$1" x="15.24" y="-38.1" rot="R90"/>
 <instance part="C5" gate="G$1" x="73.66" y="-27.94" rot="R90"/>
 <instance part="U4" gate="G$1" x="76.2" y="-55.88"/>
@@ -5857,7 +5857,7 @@ voltage at less than 10V</description>
 <instance part="R9" gate="G$1" x="22.86" y="25.4"/>
 <instance part="D3" gate="G$1" x="30.48" y="25.4"/>
 <instance part="R10" gate="G$1" x="116.84" y="22.86" rot="R90"/>
-<instance part="C3" gate="G$1" x="43.18" y="-27.94" rot="R90"/>
+<instance part="C3" gate="G$1" x="45.72" y="-27.94" rot="R90"/>
 <instance part="C7" gate="G$1" x="43.18" y="55.88" rot="R90"/>
 <instance part="C8" gate="G$1" x="261.62" y="76.2"/>
 <instance part="U6" gate="G$1" x="187.96" y="-43.18"/>
@@ -6153,16 +6153,13 @@ voltage at less than 10V</description>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="-48.26" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-50.8" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-50.8" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="SHDN"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="-30.48" x2="73.66" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-33.02" x2="40.64" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-33.02" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="40.64" y="-33.02"/>
-<label x="30.48" y="-53.34" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="30.48" y1="-50.8" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="30.48" y="-50.8"/>
+<wire x1="73.66" y1="-33.02" x2="43.18" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-33.02" x2="40.64" y2="-33.02" width="0.1524" layer="91"/>
+<label x="76.2" y="-81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-60.96" x2="45.72" y2="-60.96" width="0.1524" layer="91"/>
@@ -6175,10 +6172,10 @@ voltage at less than 10V</description>
 <wire x1="45.72" y1="-50.8" x2="45.72" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="45.72" y="-60.96"/>
 <pinref part="U4" gate="G$1" pin="SYNC"/>
-<wire x1="60.96" y1="-50.8" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-50.8" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-48.26" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="50.8" y="-50.8"/>
+<wire x1="60.96" y1="-50.8" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-50.8" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-48.26" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="48.26" y="-50.8"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="-71.12" x2="104.14" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-78.74" x2="104.14" y2="-78.74" width="0.1524" layer="91"/>
@@ -6194,13 +6191,16 @@ voltage at less than 10V</description>
 <junction x="93.98" y="-78.74"/>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="76.2" y1="-78.74" x2="76.2" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-50.8" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="40.64" y="-50.8"/>
 <junction x="45.72" y="-50.8"/>
+<wire x1="43.18" y1="-50.8" x2="45.72" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-78.74" x2="119.38" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="104.14" y="-78.74"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="119.38" y1="-78.74" x2="119.38" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-33.02" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="43.18" y="-33.02"/>
+<junction x="43.18" y="-50.8"/>
+<wire x1="76.2" y1="-78.74" x2="76.2" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S+" class="0">
@@ -6675,8 +6675,8 @@ voltage at less than 10V</description>
 <pinref part="U5" gate="G$1" pin="VIN"/>
 <wire x1="30.48" y1="-22.86" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-20.32" x2="43.18" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-20.32" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-20.32" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="-20.32"/>
 <label x="25.4" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -6959,21 +6959,21 @@ voltage at less than 10V</description>
 <net name="VCC_REG" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="VOUT"/>
-<wire x1="40.64" y1="-38.1" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-38.1" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-38.1" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-38.1" x2="48.26" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-38.1" x2="76.2" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-38.1" x2="76.2" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="43.18" y="-38.1"/>
+<junction x="45.72" y="-38.1"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-30.48" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-30.48" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="-38.1"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="-38.1" x2="119.38" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-38.1" x2="119.38" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-38.1" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="50.8" y="-38.1"/>
+<wire x1="48.26" y1="-38.1" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="48.26" y="-38.1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6984,7 +6984,7 @@ voltage at less than 10V</description>
 <wire x1="129.54" y1="-33.02" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-33.02" x2="104.14" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-33.02" x2="104.14" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="MVOE" gate="G$1" pin="D"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="124.46" y1="-25.4" x2="124.46" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="124.46" y="-33.02"/>
 </segment>
@@ -7027,7 +7027,7 @@ voltage at less than 10V</description>
 </net>
 <net name="SENSE" class="0">
 <segment>
-<pinref part="MVOE" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="-50.8" x2="104.14" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -7149,7 +7149,7 @@ voltage at less than 10V</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="GATE"/>
-<pinref part="MVOE" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="91.44" y1="-48.26" x2="96.52" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-48.26" x2="99.06" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-48.26" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
