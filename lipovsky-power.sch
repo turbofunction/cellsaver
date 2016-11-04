@@ -445,15 +445,15 @@
 <rectangle x1="-0.575" y1="-0.875" x2="-0.2" y2="0.875" layer="31"/>
 </package>
 <package name="XH07-RA">
-<pad name="7" x="-7.5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
+<pad name="7" x="-7.5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
 <text x="-8" y="1.5" size="0.7" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-1.5" size="0.7" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="6" x="-5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
-<pad name="5" x="-2.5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
-<pad name="4" x="0" y="0" drill="0.9" diameter="1.8" rot="R90"/>
-<pad name="3" x="2.5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
-<pad name="2" x="5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
-<pad name="1" x="7.5" y="0" drill="0.9" diameter="1.8" rot="R90"/>
+<pad name="6" x="-5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="5" x="-2.5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="4" x="0" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="3" x="2.5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="2" x="5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="1" x="7.5" y="0" drill="1.016" diameter="1.8" rot="R90"/>
 <wire x1="9.95" y1="-2.3" x2="9.95" y2="9.2" width="0.2" layer="51"/>
 <wire x1="-9.95" y1="-2.3" x2="-9.95" y2="9.2" width="0.2" layer="51"/>
 <wire x1="9.95" y1="9.2" x2="-9.95" y2="9.2" width="0.2" layer="51"/>
@@ -1234,12 +1234,12 @@
 <rectangle x1="-0.4" y1="-1.45" x2="0.4" y2="-0.55" layer="29"/>
 </package>
 <package name="1X04">
-<pad name="1" x="-3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.8" rot="R90"/>
 <text x="-4" y="1.6" size="0.7" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4" y="-1.6" size="0.7" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="2" x="-1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" diameter="1.8" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.8" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.8" rot="R90"/>
 <wire x1="-2.09" y1="1.25" x2="-0.45" y2="1.25" width="0.13" layer="51"/>
 <wire x1="-2.54" y1="0.8" x2="-2.09" y2="1.25" width="0.13" layer="51"/>
 <wire x1="-0.45" y1="1.25" x2="0" y2="0.8" width="0.13" layer="51"/>
@@ -2337,11 +2337,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-15.4KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040215K4FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="USD" value="2.11/50" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2785,7 +2785,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-4.70KLCT-ND" constant="no"/>
-<attribute name="EURO" value="2.01/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04024K70FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3471,9 +3471,73 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-5.10KLCT-ND" constant="no"/>
-<attribute name="EURO" value="5.25/1000" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04025K10FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="15K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-15KJCT-ND" constant="no"/>
+<attribute name="EPK" value="3.67" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040215K0JNED" constant="no"/>
+<attribute name="TEMP" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="27.4K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-27.4KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040227K4FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="25.5K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-25.5KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040225K5FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="14.3K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-14.3KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040214K3FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -4591,6 +4655,38 @@
 </technology>
 </technologies>
 </device>
+<device name="4.7U_6.3V" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="1276-2087-1-ND" constant="no"/>
+<attribute name="EPK" value="15.28" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="CL10B475KQ8NQNC" constant="no"/>
+<attribute name="TEMP" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22U_10V" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="1276-6504-1-ND" constant="no"/>
+<attribute name="EPK" value="51.91" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="CL10A226MPCNUBE" constant="no"/>
+<attribute name="TEMP" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="74HC595">
@@ -5411,7 +5507,6 @@ voltage at less than 10V</description>
 <part name="R1" library="dubec" deviceset="RES" device="4.22K_16"/>
 <part name="R2" library="dubec" deviceset="RES" device="4.22K_16"/>
 <part name="T1" library="dubec" deviceset="TFORM_4_4" device="311_4A4"/>
-<part name="Q11" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q12" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q23" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q24" library="dubec" deviceset="NMOS" device="40V_10A"/>
@@ -5420,7 +5515,6 @@ voltage at less than 10V</description>
 <part name="Q2" library="dubec" deviceset="2NMOS" device="30V_0.1A"/>
 <part name="Q27" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q28" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="Q15" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q16" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="RGT6" library="dubec" deviceset="RES" device="100K_16"/>
 <part name="RGT5" library="dubec" deviceset="RES" device="100K_16"/>
@@ -5543,7 +5637,6 @@ voltage at less than 10V</description>
 <instance part="R1" gate="G$1" x="-76.2" y="-48.26" rot="R90"/>
 <instance part="R2" gate="G$1" x="-20.32" y="-48.26" rot="R90"/>
 <instance part="T1" gate="G$1" x="121.92" y="-27.94" rot="MR0"/>
-<instance part="Q11" gate="G$1" x="-101.6" y="-43.18" rot="R90"/>
 <instance part="Q12" gate="G$1" x="-86.36" y="-43.18" rot="MR90"/>
 <instance part="Q23" gate="G$1" x="-101.6" y="-35.56" rot="MR270"/>
 <instance part="Q24" gate="G$1" x="-86.36" y="-35.56" rot="R270"/>
@@ -5553,7 +5646,6 @@ voltage at less than 10V</description>
 <instance part="Q2" gate="G$2" x="99.06" y="20.32" rot="MR270"/>
 <instance part="Q27" gate="G$1" x="-45.72" y="-35.56" rot="MR270"/>
 <instance part="Q28" gate="G$1" x="-30.48" y="-35.56" rot="R270"/>
-<instance part="Q15" gate="G$1" x="-45.72" y="-43.18" rot="R90"/>
 <instance part="Q16" gate="G$1" x="-30.48" y="-43.18" rot="MR90"/>
 <instance part="RGT6" gate="G$1" x="167.64" y="71.12"/>
 <instance part="RGT5" gate="G$1" x="167.64" y="63.5"/>
@@ -5669,11 +5761,11 @@ voltage at less than 10V</description>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="-111.76" y1="-35.56" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="-5.08" x2="-119.38" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="Q11" gate="G$1" pin="D"/>
-<wire x1="-106.68" y1="-43.18" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="Q23" gate="G$1" pin="D"/>
 <wire x1="-111.76" y1="-35.56" x2="-106.68" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="-111.76" y="-35.56"/>
+<pinref part="Q12" gate="G$1" pin="S"/>
+<wire x1="-111.76" y1="-43.18" x2="-91.44" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-63.5" y1="-5.08" x2="-55.88" y2="-5.08" width="0.1524" layer="91"/>
@@ -5681,10 +5773,10 @@ voltage at less than 10V</description>
 <wire x1="-50.8" y1="-35.56" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-35.56" x2="-55.88" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="-55.88" y="-35.56"/>
-<wire x1="-55.88" y1="-43.18" x2="-50.8" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-63.5" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q27" gate="G$1" pin="D"/>
-<pinref part="Q15" gate="G$1" pin="D"/>
+<pinref part="Q16" gate="G$1" pin="S"/>
+<wire x1="-55.88" y1="-43.18" x2="-35.56" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C2" class="0">
@@ -6383,9 +6475,8 @@ voltage at less than 10V</description>
 <segment>
 <pinref part="Q14" gate="G$1" pin="G"/>
 <pinref part="Q12" gate="G$1" pin="G"/>
-<label x="-93.98" y="-48.26" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="Q11" gate="G$1" pin="G"/>
-<wire x1="-99.06" y1="-48.26" x2="-88.9" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-93.98" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-93.98" y1="-48.26" x2="-88.9" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-88.9" y="-48.26"/>
 </segment>
 <segment>
@@ -6490,13 +6581,6 @@ voltage at less than 10V</description>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="213.36" y1="40.64" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
 <junction x="213.36" y="35.56"/>
-</segment>
-</net>
-<net name="SS+1" class="0">
-<segment>
-<pinref part="Q12" gate="G$1" pin="S"/>
-<pinref part="Q11" gate="G$1" pin="S"/>
-<wire x1="-96.52" y1="-43.18" x2="-91.44" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C4+" class="0">
@@ -6656,23 +6740,15 @@ voltage at less than 10V</description>
 <segment>
 <pinref part="Q16" gate="G$1" pin="G"/>
 <pinref part="Q18" gate="G$1" pin="G"/>
-<pinref part="Q15" gate="G$1" pin="G"/>
-<wire x1="-33.02" y1="-48.26" x2="-43.18" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-48.26" x2="-38.1" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-33.02" y="-48.26"/>
-<label x="-38.1" y="-48.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="-38.1" y="-48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RGT1" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
 <label x="172.72" y="25.4" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-</segment>
-</net>
-<net name="ST+1" class="0">
-<segment>
-<pinref part="Q15" gate="G$1" pin="S"/>
-<pinref part="Q16" gate="G$1" pin="S"/>
-<wire x1="-40.64" y1="-43.18" x2="-35.56" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_REG" class="0">
