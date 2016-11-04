@@ -872,34 +872,34 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="10.95" y="21.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EURO" value="3.13/10" x="10.95" y="21.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="dubec" package="0402" value="RES15.4K_16" x="20.5" y="19.7" rot="R270">
-<attribute name="MFG_PART_#" value="CRCW040215K4FKED" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R2" library="dubec" package="0402" value="RES14.3K_16" x="20.5" y="19.7" rot="R270">
+<attribute name="MFG_PART_#" value="CRCW040214K3FKED" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-15.4KLCT-ND" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-14.3KLCT-ND" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EPK" value="5.24" x="20.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R4" library="dubec" package="0402" value="RES5.1K_16" x="22" y="22.1" rot="R270">
-<attribute name="MFG_PART_#" value="CRCW04025K10FKED" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R4" library="dubec" package="0402" value="RES4.7K_16" x="22" y="22.1" rot="R270">
+<attribute name="MFG_PART_#" value="CRCW04024K70FKED" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-5.10KLCT-ND" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-4.70KLCT-ND" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EPK" value="5.24" x="22" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R5" library="dubec" package="0402" value="RES5.1K_16" x="15" y="22.1" rot="R270">
-<attribute name="MFG_PART_#" value="CRCW04025K10FKED" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R5" library="dubec" package="0402" value="RES4.7K_16" x="15" y="22.1" rot="R270">
+<attribute name="MFG_PART_#" value="CRCW04024K70FKED" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-5.10KLCT-ND" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-4.70KLCT-ND" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EPK" value="5.24" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="15" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R6" library="dubec" package="0402" value="RES27.4K_16" x="13.5" y="19.7" rot="R270">
-<attribute name="MFG_PART_#" value="CRCW040227K4FKED" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R6" library="dubec" package="0402" value="RES25.5K_16" x="13.5" y="19.7" rot="R270">
+<attribute name="MFG_PART_#" value="CRCW040225K5FKED" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="541-27.4KLCT-ND" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="541-25.5KLCT-ND" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="EPK" value="5.24" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="13.5" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -944,10 +944,7 @@ design rules under a new name.</description>
 <wire x1="22" y1="22.6" x2="21.9" y2="22.7" width="0.4" layer="1"/>
 <wire x1="21.9" y1="22.7" x2="21.9" y2="22.8" width="0.4" layer="1"/>
 <wire x1="21.9" y1="23.3" x2="22.15" y2="23.55" width="0.4" layer="1"/>
-<wire x1="20" y1="21.8" x2="20.05" y2="21.85" width="0.4" layer="1"/>
-<wire x1="20.05" y1="21.85" x2="20.05" y2="22.425" width="0.4" layer="1"/>
-<wire x1="20.05" y1="22.425" x2="20.425" y2="22.8" width="0.4" layer="1"/>
-<wire x1="20.425" y1="22.8" x2="21.9" y2="22.8" width="0.4" layer="1"/>
+<wire x1="20.2" y1="22.8" x2="21.9" y2="22.8" width="0.4" layer="1"/>
 <wire x1="21.9" y1="22.8" x2="21.9" y2="23.3" width="0.4" layer="1"/>
 <contactref element="U3" pad="2"/>
 <contactref element="C31" pad="1"/>
@@ -958,14 +955,19 @@ design rules under a new name.</description>
 <wire x1="20" y1="21.1" x2="19.55" y2="20.65" width="0.5" layer="1"/>
 <wire x1="19.55" y1="20.65" x2="19.55" y2="20.05" width="0.5" layer="1"/>
 <wire x1="19.55" y1="20.05" x2="19.45" y2="19.95" width="0.5" layer="1"/>
+<via x="20" y="22.6" extent="1-16" drill="0.25"/>
+<wire x1="20" y1="21.8" x2="20" y2="22.6" width="0.5" layer="1"/>
+<wire x1="20.2" y1="22.8" x2="20" y2="22.6" width="0.4" layer="1"/>
+<via x="13" y="22.6" extent="1-16" drill="0.25"/>
 <wire x1="29.32" y1="19.79" x2="51.81" y2="30" width="0" layer="19" extent="1-1"/>
 <wire x1="27.42" y1="19.79" x2="29.32" y2="19.79" width="0" layer="19" extent="1-1"/>
 <wire x1="25.6" y1="14.45" x2="27.42" y2="19.79" width="0" layer="19" extent="1-1"/>
 <wire x1="23" y1="10.2" x2="25.6" y2="14.45" width="0" layer="19" extent="1-1"/>
 <wire x1="22" y1="22.6" x2="27.42" y2="19.79" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="22.6" x2="19.55" y2="20.65" width="0" layer="19" extent="1-1"/>
-<wire x1="15.15" y1="23.55" x2="15" y2="22.6" width="0" layer="19" extent="1-1"/>
-<wire x1="13" y1="21.8" x2="15" y2="22.6" width="0" layer="19" extent="1-1"/>
+<wire x1="15.15" y1="23.55" x2="20" y2="22.6" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="22.6" x2="15.15" y2="23.55" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="22.6" x2="15" y2="22.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="21.8" x2="13" y2="22.6" width="0" layer="19" extent="1-1"/>
 <wire x1="12.45" y1="19.95" x2="13" y2="21.8" width="0" layer="19" extent="1-1"/>
 <wire x1="23.81" y1="30" x2="22.15" y2="23.55" width="0" layer="19" extent="1-1"/>
 <wire x1="16.19" y1="2" x2="23" y2="10.2" width="0" layer="19" extent="1-1"/>
@@ -1016,22 +1018,17 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="9"/>
 <contactref element="J4" pad="3"/>
-<contactref element="U2" pad="1"/>
 <contactref element="D2" pad="C"/>
 <contactref element="R2" pad="2"/>
 <contactref element="C22" pad="2"/>
 <wire x1="17.95" y1="21.1" x2="17.95" y2="19.95" width="0.6" layer="1"/>
-<wire x1="19.05" y1="21.8" x2="19.05" y2="21.35" width="0.5" layer="1"/>
-<wire x1="19.05" y1="21.35" x2="18.85" y2="21.15" width="0.5" layer="1"/>
-<wire x1="18.85" y1="21.15" x2="18" y2="21.15" width="0.5" layer="1"/>
-<wire x1="18" y1="21.15" x2="17.95" y2="21.1" width="0.5" layer="1"/>
 <wire x1="20.5" y1="19.2" x2="20.2" y2="19.2" width="0.4" layer="1"/>
 <wire x1="20.2" y1="19.2" x2="20" y2="19" width="0.4" layer="1"/>
 <wire x1="20" y1="19" x2="18.9" y2="19" width="0.4" layer="1"/>
 <wire x1="18.9" y1="19" x2="17.95" y2="19.95" width="0.4" layer="1"/>
 <wire x1="29.32" y1="20.29" x2="30.74" y2="16.27" width="0" layer="19" extent="1-1"/>
 <wire x1="20.5" y1="19.2" x2="29.32" y2="20.29" width="0" layer="19" extent="1-1"/>
-<wire x1="18.73" y1="30" x2="19.05" y2="21.8" width="0" layer="19" extent="1-1"/>
+<wire x1="18.73" y1="30" x2="17.95" y2="21.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT-">
 <polygon width="0.2" layer="1" isolate="0.25">
@@ -1088,7 +1085,8 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="24.65" x2="18.75" y2="24.95" width="0.5" layer="1"/>
 <wire x1="18.75" y1="24.95" x2="17.95" y2="24.95" width="0.5" layer="1"/>
 <wire x1="17.95" y1="24.95" x2="17.85" y2="25.05" width="0.5" layer="1"/>
-<wire x1="19.05" y1="24.2" x2="20.95" y2="24.2" width="0.5" layer="1"/>
+<wire x1="19.05" y1="24.2" x2="20" y2="24.2" width="0.5" layer="1"/>
+<wire x1="20" y1="24.2" x2="20.95" y2="24.2" width="0.5" layer="1"/>
 <wire x1="20.95" y1="24.2" x2="20.95" y2="24.65" width="0.5" layer="1"/>
 <wire x1="20.95" y1="24.65" x2="21.25" y2="24.95" width="0.5" layer="1"/>
 <wire x1="21.25" y1="24.95" x2="22.05" y2="24.95" width="0.5" layer="1"/>
@@ -1097,20 +1095,21 @@ design rules under a new name.</description>
 <contactref element="U3" pad="4"/>
 <contactref element="U3" pad="5"/>
 <contactref element="C31" pad="2"/>
+<via x="20" y="24.2" extent="1-16" drill="0.25"/>
+<via x="13" y="24.2" extent="1-16" drill="0.25"/>
 <wire x1="22.15" y1="25.05" x2="21.27" y2="30" width="0" layer="19" extent="1-1"/>
 <wire x1="15.15" y1="25.05" x2="17.85" y2="25.05" width="0" layer="19" extent="1-1"/>
 <wire x1="13.95" y1="24.2" x2="15.15" y2="25.05" width="0" layer="19" extent="1-1"/>
-<wire x1="12.05" y1="24.2" x2="13.95" y2="24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="24.2" x2="13.95" y2="24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="12.05" y1="24.2" x2="13" y2="24.2" width="0" layer="19" extent="1-1"/>
 <wire x1="10.85" y1="25.05" x2="12.05" y2="24.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC_REG">
 <contactref element="J4" pad="4"/>
 <contactref element="D3" pad="C"/>
-<contactref element="U3" pad="1"/>
 <contactref element="R6" pad="2"/>
 <contactref element="C32" pad="2"/>
-<wire x1="12.05" y1="21.8" x2="16.19" y2="30" width="0" layer="19" extent="1-1"/>
-<wire x1="10.95" y1="21.1" x2="12.05" y2="21.8" width="0" layer="19" extent="1-1"/>
+<wire x1="10.95" y1="21.1" x2="16.19" y2="30" width="0" layer="19" extent="1-1"/>
 <wire x1="10.95" y1="19.95" x2="10.95" y2="21.1" width="0" layer="19" extent="1-1"/>
 <wire x1="13.5" y1="19.2" x2="10.95" y2="19.95" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1142,11 +1141,18 @@ design rules under a new name.</description>
 <wire x1="17.95" y1="22.5" x2="18" y2="22.55" width="0.6" layer="1"/>
 <wire x1="18" y1="22.55" x2="18" y2="23.4" width="0.6" layer="1"/>
 <wire x1="18" y1="23.4" x2="17.85" y2="23.55" width="0.6" layer="1"/>
+<contactref element="U2" pad="1"/>
+<wire x1="17.95" y1="22.5" x2="18" y2="22.45" width="0.5" layer="1"/>
+<wire x1="18" y1="22.45" x2="18.85" y2="22.45" width="0.5" layer="1"/>
+<wire x1="18.85" y1="22.45" x2="19.05" y2="22.25" width="0.5" layer="1"/>
+<wire x1="19.05" y1="22.25" x2="19.05" y2="21.8" width="0.5" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="I3" pad="2"/>
 <contactref element="D3" pad="A"/>
+<contactref element="U3" pad="1"/>
 <wire x1="10.95" y1="22.5" x2="10.85" y2="23.55" width="0" layer="19" extent="1-1"/>
+<wire x1="12.05" y1="21.8" x2="10.95" y2="22.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="U2" pad="3"/>
@@ -1154,9 +1160,9 @@ design rules under a new name.</description>
 <contactref element="R4" pad="2"/>
 <wire x1="22" y1="21.6" x2="21.15" y2="21.6" width="0.4" layer="1"/>
 <wire x1="21.15" y1="21.6" x2="20.95" y2="21.8" width="0.4" layer="1"/>
-<wire x1="20.5" y1="20.2" x2="21" y2="20.7" width="0.4" layer="1"/>
-<wire x1="21" y1="20.7" x2="21" y2="21.8" width="0.4" layer="1"/>
-<wire x1="21" y1="21.8" x2="20.95" y2="21.85" width="0.4" layer="1"/>
+<wire x1="20.5" y1="20.2" x2="20.9" y2="20.6" width="0.4" layer="1"/>
+<wire x1="20.9" y1="20.6" x2="20.9" y2="21.8" width="0.4" layer="1"/>
+<wire x1="20.9" y1="21.8" x2="20.95" y2="21.85" width="0.4" layer="1"/>
 <wire x1="20.95" y1="21.85" x2="20.95" y2="21.8" width="0.4" layer="1"/>
 </signal>
 <signal name="N$11">
