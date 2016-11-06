@@ -1693,11 +1693,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-2.20KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04022K20FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="USD" value="2.11/50" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2385,11 +2385,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-1.00KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04021K00FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="USD" value="1.82/50" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2545,7 +2545,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-5.90KLCT-ND" constant="no"/>
-<attribute name="EURO" value="2.10/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04025K90FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3199,7 +3199,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-162LCT-ND" constant="no"/>
-<attribute name="EURO" value="2.09/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW0402162RFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3538,6 +3538,38 @@
 <attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040214K3FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="150_10" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-150HCT-ND" constant="no"/>
+<attribute name="EPK" value="4.98" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW0603150RFKEA" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-330LCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW0402330RFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
 </technology>
@@ -4687,6 +4719,38 @@
 </technology>
 </technologies>
 </device>
+<device name="470N_10V" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="445-8009-1-ND" constant="no"/>
+<attribute name="EPK" value="22.25" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MFG_PART_#" value="C1005X7S1A474K050BC" constant="no"/>
+<attribute name="TEMP" value="X7S" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="47N_50V" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="445-6897-1-ND" constant="no"/>
+<attribute name="EPK" value="17.53" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MFG_PART_#" value="CGA2B3X7R1H473K050BB" constant="no"/>
+<attribute name="TEMP" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="74HC595">
@@ -5551,13 +5615,14 @@ voltage at less than 10V</description>
 <part name="R14" library="dubec" deviceset="RES" device="5.1K_16"/>
 <part name="R15" library="dubec" deviceset="RES" device="100K_16"/>
 <part name="C10" library="dubec" deviceset="CAP" device="47UF_10V"/>
-<part name="R17" library="dubec" deviceset="RES" device="402_16"/>
-<part name="R18" library="dubec" deviceset="RES" device="5.1K_16"/>
+<part name="R17" library="dubec" deviceset="RES" device="330_16" value="RES330_16"/>
+<part name="R18" library="dubec" deviceset="RES" device="1K_16" value="RES1K_16"/>
 <part name="Q5" library="dubec" deviceset="2NMOS" device="30V_0.1A"/>
 <part name="J2" library="dubec" deviceset="M04" device="-929J"/>
 <part name="J3" library="dubec" deviceset="M04" device="-929J"/>
 <part name="J1" library="dubec" deviceset="M04" device="-929J"/>
 <part name="J4" library="dubec" deviceset="M04" device="-929J"/>
+<part name="R9" library="dubec" deviceset="RES" device="5.9K_16"/>
 </parts>
 <sheets>
 <sheet>
@@ -5695,6 +5760,7 @@ voltage at less than 10V</description>
 <instance part="J3" gate="G$1" x="261.62" y="-27.94" rot="R90"/>
 <instance part="J1" gate="G$1" x="243.84" y="-45.72" rot="R270"/>
 <instance part="J4" gate="G$1" x="241.3" y="-27.94" rot="R90"/>
+<instance part="R9" gate="G$1" x="86.36" y="-55.88"/>
 </instances>
 <busses>
 </busses>
@@ -5995,13 +6061,8 @@ voltage at less than 10V</description>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="86.36" y1="-71.12" x2="86.36" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="86.36" y="-78.74"/>
-<wire x1="81.28" y1="-78.74" x2="86.36" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="OC"/>
-<wire x1="78.74" y1="-53.34" x2="81.28" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-53.34" x2="81.28" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-78.74" x2="81.28" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-78.74" x2="86.36" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="63.5" y="-78.74"/>
-<junction x="81.28" y="-78.74"/>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="-78.74" x2="63.5" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="33.02" y="-50.8"/>
@@ -6486,7 +6547,7 @@ voltage at less than 10V</description>
 <pinref part="Q2" gate="G$2" pin="D"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="+5V" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="269.24" y1="71.12" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
@@ -6751,7 +6812,7 @@ voltage at less than 10V</description>
 <pinref part="Q4" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="VCC_REG" class="0">
+<net name="+8V" class="0">
 <segment>
 <wire x1="27.94" y1="-38.1" x2="33.02" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-38.1" x2="63.5" y2="-38.1" width="0.1524" layer="91"/>
@@ -6846,11 +6907,15 @@ voltage at less than 10V</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="-50.8" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-50.8" x2="91.44" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="-55.88" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-58.42" x2="91.44" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-58.42" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="91.44" y="-58.42"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="-55.88" x2="91.44" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="91.44" y="-55.88"/>
 </segment>
 </net>
 <net name="AS0" class="0">
@@ -6984,7 +7049,7 @@ voltage at less than 10V</description>
 <wire x1="83.82" y1="-58.42" x2="78.74" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RUN_REG" class="0">
+<net name="EN_FLYBACK" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="RUN"/>
 <wire x1="48.26" y1="-45.72" x2="45.72" y2="-45.72" width="0.1524" layer="91"/>
@@ -7107,10 +7172,14 @@ voltage at less than 10V</description>
 <wire x1="193.04" y1="-73.66" x2="193.04" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-50.8" x2="190.5" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="N$4" class="0">
 <segment>
-<label x="243.84" y="-50.8" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="243.84" y1="-50.8" x2="243.84" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="OC"/>
+<wire x1="78.74" y1="-53.34" x2="81.28" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-53.34" x2="81.28" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="-55.88" x2="83.82" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
