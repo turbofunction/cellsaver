@@ -5496,12 +5496,17 @@
 <wire x1="60.96" y1="15.24" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<label x="55.88" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="Q7S" class="0">
 <segment>
-<label x="55.88" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<label x="58.42" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="12.7" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!OE" class="0">
