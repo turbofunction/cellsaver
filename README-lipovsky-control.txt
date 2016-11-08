@@ -4,7 +4,7 @@ Janne Savukoski
 <firstname>@savukoski.name
 
 
-                    Part name: LiPovsky Balalaika (power)
+                    Part name: LiPovsky Balalaika (control)
                      Revision: Proto-1
                    Board size: 59mm x 32mm
               Board thickness: 
@@ -21,8 +21,6 @@ No special instructions.
 Layer order:
 
 TOP:    lipovsky-power.toplayer.ger
-        lipovsky-power.internalplane1.ger
-        lipovsky-power.internalplane2.ger
 BOTTOM: lipovsky-power.bottomlayer.ger
 
 
