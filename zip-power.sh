@@ -20,10 +20,9 @@ zip $zip_file \
     $proj.drills.dri \
     $proj.dri \
     $proj.drl \
-    $proj.XLN \
     $proj.tcream.ger \
     README-$proj.txt
 
 echo "$zip_file created"
 
-rm $proj.*.ger $proj.*.gpi $proj.drills.* $proj.dri $proj.drl $proj.XLN
+rm $proj.*.ger $proj.*.gpi $proj.drills.* $proj.dri $proj.drl

@@ -437,32 +437,32 @@
 <pad name="2" x="-1.27" y="0" drill="1" rot="R90"/>
 <pad name="3" x="1.27" y="0" drill="1" rot="R90"/>
 <pad name="4" x="3.81" y="0" drill="1" rot="R90"/>
-<wire x1="-2.24" y1="1.45" x2="-0.3" y2="1.45" width="0.13" layer="51"/>
-<wire x1="-2.54" y1="1.15" x2="-2.24" y2="1.45" width="0.13" layer="51"/>
-<wire x1="-0.3" y1="1.45" x2="0" y2="1.15" width="0.13" layer="51"/>
-<wire x1="-5.08" y1="-1.15" x2="-5.08" y2="1.15" width="0.13" layer="51"/>
-<wire x1="0.3" y1="1.45" x2="2.24" y2="1.45" width="0.13" layer="51"/>
-<wire x1="0" y1="1.15" x2="0.3" y2="1.45" width="0.13" layer="51"/>
-<wire x1="2.24" y1="1.45" x2="2.54" y2="1.15" width="0.13" layer="51"/>
-<wire x1="2.84" y1="1.45" x2="4.78" y2="1.45" width="0.13" layer="51"/>
-<wire x1="2.54" y1="1.15" x2="2.84" y2="1.45" width="0.13" layer="51"/>
-<wire x1="4.78" y1="1.45" x2="5.08" y2="1.15" width="0.13" layer="51"/>
-<wire x1="-4.78" y1="1.45" x2="-2.84" y2="1.45" width="0.13" layer="51"/>
-<wire x1="-5.08" y1="1.15" x2="-4.78" y2="1.45" width="0.13" layer="51"/>
-<wire x1="-2.84" y1="1.45" x2="-2.54" y2="1.15" width="0.13" layer="51"/>
-<wire x1="2.24" y1="-1.45" x2="0.3" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="2.54" y1="-1.15" x2="2.24" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="0.3" y1="-1.45" x2="0" y2="-1.15" width="0.13" layer="51"/>
-<wire x1="5.08" y1="1.15" x2="5.08" y2="-1.15" width="0.13" layer="51"/>
-<wire x1="-0.3" y1="-1.45" x2="-2.24" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="0" y1="-1.15" x2="-0.3" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="-2.24" y1="-1.45" x2="-2.54" y2="-1.15" width="0.13" layer="51"/>
-<wire x1="-2.84" y1="-1.45" x2="-4.78" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="-2.54" y1="-1.15" x2="-2.84" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="-4.78" y1="-1.45" x2="-5.08" y2="-1.15" width="0.13" layer="51"/>
-<wire x1="4.78" y1="-1.45" x2="2.84" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="5.08" y1="-1.15" x2="4.78" y2="-1.45" width="0.13" layer="51"/>
-<wire x1="2.84" y1="-1.45" x2="2.54" y2="-1.15" width="0.13" layer="51"/>
+<wire x1="-2.24" y1="1.45" x2="-0.3" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="1.15" x2="-2.24" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-0.3" y1="1.45" x2="0" y2="1.15" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="-1.15" x2="-5.08" y2="1.15" width="0.13" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="2.24" y2="1.45" width="0.13" layer="21"/>
+<wire x1="0" y1="1.15" x2="0.3" y2="1.45" width="0.13" layer="21"/>
+<wire x1="2.24" y1="1.45" x2="2.54" y2="1.15" width="0.13" layer="21"/>
+<wire x1="2.84" y1="1.45" x2="4.78" y2="1.45" width="0.13" layer="21"/>
+<wire x1="2.54" y1="1.15" x2="2.84" y2="1.45" width="0.13" layer="21"/>
+<wire x1="4.78" y1="1.45" x2="5.08" y2="1.15" width="0.13" layer="21"/>
+<wire x1="-4.78" y1="1.45" x2="-2.84" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="1.15" x2="-4.78" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-2.84" y1="1.45" x2="-2.54" y2="1.15" width="0.13" layer="21"/>
+<wire x1="2.24" y1="-1.45" x2="0.3" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="2.54" y1="-1.15" x2="2.24" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="0" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="5.08" y1="1.15" x2="5.08" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-2.24" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="0" y1="-1.15" x2="-0.3" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-2.24" y1="-1.45" x2="-2.54" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="-2.84" y1="-1.45" x2="-4.78" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="-1.15" x2="-2.84" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-4.78" y1="-1.45" x2="-5.08" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="4.78" y1="-1.45" x2="2.84" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="5.08" y1="-1.15" x2="4.78" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="2.84" y1="-1.45" x2="2.54" y2="-1.15" width="0.13" layer="21"/>
 </package>
 <package name="0603">
 <smd name="1" x="-0.75" y="0" dx="0.7" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
@@ -1080,28 +1080,28 @@
 <pad name="2" x="-2.54" y="1.27" drill="1" rot="R90"/>
 <pad name="3" x="0" y="-1.27" drill="1" rot="R90"/>
 <pad name="4" x="0" y="1.27" drill="1" rot="R90"/>
-<wire x1="-0.889" y1="2.54" x2="0.889" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="2.159" x2="-0.889" y2="2.54" width="0.127" layer="51"/>
-<wire x1="0.889" y1="2.54" x2="1.27" y2="2.159" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-2.159" x2="-3.81" y2="2.159" width="0.127" layer="51"/>
-<wire x1="3.429" y1="2.54" x2="1.651" y2="2.54" width="0.127" layer="51"/>
-<wire x1="3.81" y1="2.159" x2="3.429" y2="2.54" width="0.127" layer="51"/>
-<wire x1="1.651" y1="2.54" x2="1.27" y2="2.159" width="0.127" layer="51"/>
-<wire x1="-1.651" y1="2.54" x2="-3.429" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="2.159" x2="-1.651" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-3.429" y1="2.54" x2="-3.81" y2="2.159" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-2.159" x2="3.81" y2="2.159" width="0.127" layer="51"/>
+<wire x1="-0.889" y1="2.54" x2="0.889" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.159" x2="-0.889" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.889" y1="2.54" x2="1.27" y2="2.159" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.159" x2="-3.81" y2="2.159" width="0.127" layer="21"/>
+<wire x1="3.429" y1="2.54" x2="1.651" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.159" x2="3.429" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.651" y1="2.54" x2="1.27" y2="2.159" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="2.54" x2="-3.429" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.159" x2="-1.651" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="2.54" x2="-3.81" y2="2.159" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.159" x2="3.81" y2="2.159" width="0.127" layer="21"/>
 <pad name="5" x="2.54" y="-1.27" drill="1" rot="R90"/>
 <pad name="6" x="2.54" y="1.27" drill="1" rot="R90"/>
-<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="1.27" y1="-2.159" x2="0.889" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="-0.889" y1="-2.54" x2="-1.27" y2="-2.159" width="0.127" layer="51"/>
-<wire x1="-3.429" y1="-2.54" x2="-1.651" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-2.159" x2="-3.429" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="-1.651" y1="-2.54" x2="-1.27" y2="-2.159" width="0.127" layer="51"/>
-<wire x1="1.651" y1="-2.54" x2="3.429" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="1.27" y1="-2.159" x2="1.651" y2="-2.54" width="0.127" layer="51"/>
-<wire x1="3.429" y1="-2.54" x2="3.81" y2="-2.159" width="0.127" layer="51"/>
+<wire x1="0.889" y1="-2.54" x2="-0.889" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.159" x2="0.889" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-2.54" x2="-1.27" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="-2.54" x2="-1.651" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.159" x2="-3.429" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-2.54" x2="-1.27" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-2.54" x2="3.429" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.159" x2="1.651" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.429" y1="-2.54" x2="3.81" y2="-2.159" width="0.127" layer="21"/>
 </package>
 <package name="1X04_929P_BOT">
 <pad name="1" x="-3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
@@ -1136,6 +1136,40 @@
 <wire x1="4.78" y1="-1.45" x2="2.84" y2="-1.45" width="0.13" layer="22"/>
 <wire x1="5.08" y1="-1.15" x2="4.78" y2="-1.45" width="0.13" layer="22"/>
 <wire x1="2.84" y1="-1.45" x2="2.54" y2="-1.15" width="0.13" layer="22"/>
+</package>
+<package name="1X04_929J">
+<pad name="1" x="-3.81" y="0" drill="1" rot="R90"/>
+<text x="-4" y="1.9" size="0.7" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4" y="-1.9" size="0.7" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="2" x="-1.27" y="0" drill="1" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" rot="R90"/>
+<wire x1="-4.826" y1="1.27" x2="-2.794" y2="1.27" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-4.826" y2="1.27" width="0.13" layer="21"/>
+<wire x1="-2.794" y1="1.27" x2="-2.54" y2="1.016" width="0.13" layer="21"/>
+<wire x1="-2.286" y1="1.27" x2="-0.254" y2="1.27" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.13" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="0" y2="1.016" width="0.13" layer="21"/>
+<wire x1="0.254" y1="1.27" x2="2.286" y2="1.27" width="0.13" layer="21"/>
+<wire x1="0" y1="1.016" x2="0.254" y2="1.27" width="0.13" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="2.54" y2="1.016" width="0.13" layer="21"/>
+<wire x1="2.794" y1="1.27" x2="4.826" y2="1.27" width="0.13" layer="21"/>
+<wire x1="2.54" y1="1.016" x2="2.794" y2="1.27" width="0.13" layer="21"/>
+<wire x1="4.826" y1="1.27" x2="5.08" y2="1.016" width="0.13" layer="21"/>
+<wire x1="4.826" y1="-1.27" x2="2.794" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="5.08" y1="-1.016" x2="4.826" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="2.794" y1="-1.27" x2="2.54" y2="-1.016" width="0.13" layer="21"/>
+<wire x1="2.286" y1="-1.27" x2="0.254" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="2.54" y1="-1.016" x2="2.286" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="0.254" y1="-1.27" x2="0" y2="-1.016" width="0.13" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="-2.286" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="0" y1="-1.016" x2="-0.254" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="-2.286" y1="-1.27" x2="-2.54" y2="-1.016" width="0.13" layer="21"/>
+<wire x1="-2.794" y1="-1.27" x2="-4.826" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.794" y2="-1.27" width="0.13" layer="21"/>
+<wire x1="-4.826" y1="-1.27" x2="-5.08" y2="-1.016" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.13" layer="21"/>
+<wire x1="5.08" y1="-1.016" x2="5.08" y2="1.016" width="0.13" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3565,22 +3599,6 @@
 <gate name="G$1" symbol="M04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-929J" package="2X03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="EPK" value="0.421" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MFG_PART_#" value="929870-01-04-RA" constant="no"/>
-<attribute name="MOUSER_PART_#" value="517-929870-01-04-RA" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="-929P" package="1X04_929P">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -3610,6 +3628,22 @@
 <attribute name="MANUFACTURER" value="3M" constant="no"/>
 <attribute name="MFG_PART_#" value="929800-01-04" constant="no"/>
 <attribute name="MOUSER_PART_#" value="517-929800-01-04" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-929J" package="1X04_929J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EPK" value="421.00" constant="no"/>
+<attribute name="MANUFACTURER" value="3M" constant="no"/>
+<attribute name="MFG_PART_#" value="929870-01-04-RA" constant="no"/>
+<attribute name="MOUSER_PART_#" value="517-929870-01-04-RA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5496,18 +5530,6 @@
 <wire x1="60.96" y1="15.24" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
-<segment>
-<label x="55.88" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="12.7" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="Q7S" class="0">
-<segment>
-<label x="58.42" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="12.7" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="!OE" class="0">
 <segment>
@@ -5900,6 +5922,20 @@
 <pinref part="U1" gate="G$1" pin="PA7"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="T-" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="58.42" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="T+" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<label x="55.88" y="12.7" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
