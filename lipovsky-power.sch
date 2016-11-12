@@ -7264,6 +7264,12 @@ voltage at less than 10V</description>
 <wire x1="73.66" y1="-55.88" x2="76.2" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="4"/>
+<wire x1="119.38" y1="-33.02" x2="121.92" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
