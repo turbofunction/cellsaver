@@ -1,4 +1,11 @@
-#!/bin/sh
+#!/bin/bash
+
+echo -n "Enter 'y' if you set the date text: "
+read date_check
+
+if  [ "$date_check" != "y" ]; then
+	exit 1
+fi
 
 proj="lipovsky-control"
 
