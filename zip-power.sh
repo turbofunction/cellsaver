@@ -9,7 +9,7 @@ fi
 
 proj="lipovsky-power"
 
-zip_file="$proj-P1.zip"
+zip_file="$proj-P2.zip"
 
 rm -f $zip_file
 
