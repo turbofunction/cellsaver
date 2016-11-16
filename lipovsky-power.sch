@@ -1267,40 +1267,6 @@
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.13" layer="21"/>
 <wire x1="5.08" y1="-1.016" x2="5.08" y2="1.016" width="0.13" layer="21"/>
 </package>
-<package name="1X04_929P">
-<pad name="1" x="-3.81" y="0" drill="1" rot="R90"/>
-<text x="-4" y="1.9" size="0.7" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4" y="-1.9" size="0.7" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="2" x="-1.27" y="0" drill="1" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1" rot="R90"/>
-<wire x1="-2.24" y1="1.45" x2="-0.3" y2="1.45" width="0.13" layer="21"/>
-<wire x1="-2.54" y1="1.15" x2="-2.24" y2="1.45" width="0.13" layer="21"/>
-<wire x1="-0.3" y1="1.45" x2="0" y2="1.15" width="0.13" layer="21"/>
-<wire x1="-5.08" y1="-1.15" x2="-5.08" y2="1.15" width="0.13" layer="21"/>
-<wire x1="0.3" y1="1.45" x2="2.24" y2="1.45" width="0.13" layer="21"/>
-<wire x1="0" y1="1.15" x2="0.3" y2="1.45" width="0.13" layer="21"/>
-<wire x1="2.24" y1="1.45" x2="2.54" y2="1.15" width="0.13" layer="21"/>
-<wire x1="2.84" y1="1.45" x2="4.78" y2="1.45" width="0.13" layer="21"/>
-<wire x1="2.54" y1="1.15" x2="2.84" y2="1.45" width="0.13" layer="21"/>
-<wire x1="4.78" y1="1.45" x2="5.08" y2="1.15" width="0.13" layer="21"/>
-<wire x1="-4.78" y1="1.45" x2="-2.84" y2="1.45" width="0.13" layer="21"/>
-<wire x1="-5.08" y1="1.15" x2="-4.78" y2="1.45" width="0.13" layer="21"/>
-<wire x1="-2.84" y1="1.45" x2="-2.54" y2="1.15" width="0.13" layer="21"/>
-<wire x1="2.24" y1="-1.45" x2="0.3" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="2.54" y1="-1.15" x2="2.24" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="0.3" y1="-1.45" x2="0" y2="-1.15" width="0.13" layer="21"/>
-<wire x1="5.08" y1="1.15" x2="5.08" y2="-1.15" width="0.13" layer="21"/>
-<wire x1="-0.3" y1="-1.45" x2="-2.24" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="0" y1="-1.15" x2="-0.3" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="-2.24" y1="-1.45" x2="-2.54" y2="-1.15" width="0.13" layer="21"/>
-<wire x1="-2.84" y1="-1.45" x2="-4.78" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="-2.54" y1="-1.15" x2="-2.84" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="-4.78" y1="-1.45" x2="-5.08" y2="-1.15" width="0.13" layer="21"/>
-<wire x1="4.78" y1="-1.45" x2="2.84" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="5.08" y1="-1.15" x2="4.78" y2="-1.45" width="0.13" layer="21"/>
-<wire x1="2.84" y1="-1.45" x2="2.54" y2="-1.15" width="0.13" layer="21"/>
-</package>
 <package name="1X04_929P_BOT">
 <pad name="1" x="-3.81" y="0" drill="1" diameter="1.8" rot="R90"/>
 <text x="-4" y="1.9" size="0.7" layer="25" ratio="10">&gt;NAME</text>
@@ -1350,6 +1316,40 @@
 </polygon>
 <circle x="0" y="0" radius="0.32" width="1" layer="29"/>
 <circle x="0" y="0" radius="1.1" width="0.254" layer="21"/>
+</package>
+<package name="1X04_929P">
+<pad name="1" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<text x="-4" y="1.9" size="0.7" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4" y="-1.9" size="0.7" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="2" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" rot="R90"/>
+<wire x1="-2.24" y1="1.45" x2="-0.3" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="1.15" x2="-2.24" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-0.3" y1="1.45" x2="0" y2="1.15" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="-1.15" x2="-5.08" y2="1.15" width="0.13" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="2.24" y2="1.45" width="0.13" layer="21"/>
+<wire x1="0" y1="1.15" x2="0.3" y2="1.45" width="0.13" layer="21"/>
+<wire x1="2.24" y1="1.45" x2="2.54" y2="1.15" width="0.13" layer="21"/>
+<wire x1="2.84" y1="1.45" x2="4.78" y2="1.45" width="0.13" layer="21"/>
+<wire x1="2.54" y1="1.15" x2="2.84" y2="1.45" width="0.13" layer="21"/>
+<wire x1="4.78" y1="1.45" x2="5.08" y2="1.15" width="0.13" layer="21"/>
+<wire x1="-4.78" y1="1.45" x2="-2.84" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-5.08" y1="1.15" x2="-4.78" y2="1.45" width="0.13" layer="21"/>
+<wire x1="-2.84" y1="1.45" x2="-2.54" y2="1.15" width="0.13" layer="21"/>
+<wire x1="2.24" y1="-1.45" x2="0.3" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="2.54" y1="-1.15" x2="2.24" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="0" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="5.08" y1="1.15" x2="5.08" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-2.24" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="0" y1="-1.15" x2="-0.3" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-2.24" y1="-1.45" x2="-2.54" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="-2.84" y1="-1.45" x2="-4.78" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-2.54" y1="-1.15" x2="-2.84" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="-4.78" y1="-1.45" x2="-5.08" y2="-1.15" width="0.13" layer="21"/>
+<wire x1="4.78" y1="-1.45" x2="2.84" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="5.08" y1="-1.15" x2="4.78" y2="-1.45" width="0.13" layer="21"/>
+<wire x1="2.84" y1="-1.45" x2="2.54" y2="-1.15" width="0.13" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3635,6 +3635,22 @@
 </technology>
 </technologies>
 </device>
+<device name="12K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-12.0KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040212K0FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M07">
@@ -3902,11 +3918,12 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="732-6198-1-ND" constant="no"/>
-<attribute name="EURO" value="7.82" constant="no"/>
+<attribute name="EPK" value="3600.00" constant="no"/>
 <attribute name="FREQ" value="200 ~ 400kHz" constant="no"/>
 <attribute name="IND" value="21µH @ 100kHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Wurth Electronics Inc" constant="no"/>
 <attribute name="MFG_PART_#" value="7491195501" constant="no"/>
+<attribute name="MOUSER_PART_#" value="710-7491195501" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4879,7 +4896,7 @@ latches; 3-state</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EURO" value="16.90/10" constant="no"/>
+<attribute name="EPK" value="977.00" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Siliconix" constant="no"/>
 <attribute name="MFG_PART_#" value="DG508BEN-T1-GE4" constant="no"/>
 <attribute name="MOUSER_PART_#" value="78-DG508BEN-T1-GE4" constant="no"/>
@@ -5635,11 +5652,11 @@ voltage at less than 10V</description>
 </classes>
 <parts>
 <part name="JP1" library="dubec" deviceset="M07" device="XHRA" value="M07XHRA"/>
-<part name="RGS6" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGS5" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGS4" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGS3" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGS+2" library="dubec" deviceset="RES" device="100K_16"/>
+<part name="RGS6" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS5" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS4" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS+2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
 <part name="Q21" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q22" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q31" library="dubec" deviceset="PMOS" device="30V_11A"/>
@@ -5682,21 +5699,21 @@ voltage at less than 10V</description>
 <part name="Q12" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q23" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q24" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGS1" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGS-2" library="dubec" deviceset="RES" device="100K_16"/>
+<part name="RGS1" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS-2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
 <part name="Q2" library="dubec" deviceset="2NMOS" device="30V_0.1A"/>
 <part name="Q27" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q28" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q16" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGT6" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT5" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT4" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT3" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT+2" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT1" library="dubec" deviceset="RES" device="100K_16"/>
-<part name="RGT-2" library="dubec" deviceset="RES" device="100K_16"/>
+<part name="RGT6" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT5" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT4" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT+2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT1" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT-2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
 <part name="U3" library="dubec" deviceset="74HC595" device=""/>
-<part name="R3" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="R3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
 <part name="R4" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
 <part name="Q1" library="dubec" deviceset="NMOS" device="30V_30A"/>
 <part name="R5" library="dubec" deviceset="RES" device="003_1W" value="RES003_1W"/>
@@ -6289,22 +6306,23 @@ voltage at less than 10V</description>
 <pinref part="U1" gate="G$1" pin="V-"/>
 <wire x1="121.92" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 <label x="124.46" y="81.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
+<wire x1="121.92" y1="81.28" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<junction x="121.92" y="81.28"/>
+<wire x1="121.92" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="78.74" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="D"/>
-<wire x1="121.92" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="124.46" y="71.12" size="1.778" layer="95" xref="yes"/>
-<wire x1="121.92" y1="71.12" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
-<junction x="121.92" y="71.12"/>
-<wire x1="121.92" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="S8"/>
 <pinref part="U1" gate="G$1" pin="S7"/>
 <wire x1="101.6" y1="81.28" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="S6"/>
 <junction x="101.6" y="76.2"/>
-<wire x1="101.6" y1="76.2" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<junction x="101.6" y="71.12"/>
+<wire x1="101.6" y1="76.2" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="73.66" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="73.66" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<junction x="116.84" y="73.66"/>
+<junction x="101.6" y="73.66"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V-"/>

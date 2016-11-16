@@ -194,16 +194,24 @@ TEMP</text>
 <text x="1" y="21" size="1" layer="21" font="vector" ratio="15" rot="SR90" align="top-center">C5</text>
 <text x="1" y="23.5" size="1" layer="21" font="vector" ratio="15" rot="SR90" align="top-center">C6</text>
 <polygon width="0.25" layer="29">
-<vertex x="19.1" y="23.1"/>
-<vertex x="20.9" y="23.1"/>
+<vertex x="19.7" y="23.9"/>
+<vertex x="20.3" y="23.9"/>
+<vertex x="20.3" y="23.2"/>
+<vertex x="20.9" y="23.2"/>
 <vertex x="20.9" y="22.1"/>
 <vertex x="19.1" y="22.1"/>
+<vertex x="19.1" y="23.2"/>
+<vertex x="19.7" y="23.2"/>
 </polygon>
 <polygon width="0.25" layer="31">
-<vertex x="19.4" y="22.9"/>
-<vertex x="20.6" y="22.9"/>
+<vertex x="19.8" y="23.7"/>
+<vertex x="20.2" y="23.7"/>
+<vertex x="20.2" y="23"/>
+<vertex x="20.6" y="23"/>
 <vertex x="20.6" y="22.3"/>
 <vertex x="19.4" y="22.3"/>
+<vertex x="19.4" y="23"/>
+<vertex x="19.8" y="23"/>
 </polygon>
 <circle x="1.5" y="8.5" radius="0.6" width="0.15" layer="21"/>
 <wire x1="1.5" y1="8.75" x2="1.5" y2="8.25" width="0.15" layer="21"/>
@@ -1181,16 +1189,16 @@ design rules under a new name.</description>
 <wire x1="16.19" y1="2" x2="17.99" y2="3.8" width="0.3" layer="1"/>
 <wire x1="17.99" y1="3.8" x2="35.4" y2="3.8" width="0.3" layer="1"/>
 <wire x1="35.4" y1="10.84" x2="35.4" y2="3.8" width="0.3" layer="1"/>
-<via x="19.3" y="23.7" extent="1-16" drill="0.4"/>
-<polygon width="0.2" layer="16" thermals="no">
+<via x="19.2" y="23.7" extent="1-16" drill="0.4"/>
+<polygon width="0.2" layer="16" isolate="0.25" thermals="no">
 <vertex x="18" y="21.7"/>
-<vertex x="20" y="21.7"/>
-<vertex x="22.55" y="24.25"/>
-<vertex x="22.55" y="25.2"/>
+<vertex x="19.9" y="21.7"/>
+<vertex x="22.45" y="24.25"/>
+<vertex x="22.45" y="25.2"/>
 <vertex x="18" y="25.2"/>
 </polygon>
 <wire x1="43.49" y1="2.7" x2="44.19" y2="2" width="0.3" layer="1"/>
-<via x="20.7" y="23.7" extent="1-16" drill="0.4"/>
+<via x="20.8" y="23.7" extent="1-16" drill="0.4"/>
 <wire x1="20" y1="24.9" x2="20" y2="23" width="0.25" layer="1"/>
 <wire x1="24.6" y1="22.7" x2="25.3" y2="22.7" width="0.4" layer="1"/>
 <wire x1="35.4" y1="10.84" x2="34.54" y2="11.7" width="0.3" layer="1"/>
