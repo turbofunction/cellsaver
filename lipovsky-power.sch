@@ -464,32 +464,31 @@
 <wire x1="-9.35" y1="1.2" x2="9.25" y2="1.2" width="0.2" layer="51"/>
 </package>
 <package name="8-HMD">
-<smd name="2" x="-0.2" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="1" x="-0.6" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="-0.8" y="0.825" size="0.3" layer="25">&gt;NAME</text>
-<text x="-0.8" y="-0.825" size="0.3" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="2" x="-0.2" y="-0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-0.6" y="-0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<text x="-0.8" y="0.625" size="0.3" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-0.625" size="0.3" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
-<smd name="3" x="0.2" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="4" x="0.6" y="-0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="5" x="0.6" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="6" x="0.2" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="7" x="-0.2" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="8" x="-0.6" y="0.275" dx="0.3" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-0.75" y1="0.125" x2="0.75" y2="0.425" layer="29"/>
-<rectangle x1="-0.75" y1="-0.425" x2="0.75" y2="-0.125" layer="29"/>
-<rectangle x1="-0.7" y1="0.225" x2="-0.5" y2="0.425" layer="31"/>
-<rectangle x1="-0.3" y1="0.225" x2="-0.1" y2="0.425" layer="31"/>
-<rectangle x1="0.1" y1="0.225" x2="0.3" y2="0.425" layer="31"/>
-<rectangle x1="0.5" y1="0.225" x2="0.7" y2="0.425" layer="31"/>
-<rectangle x1="-0.7" y1="-0.425" x2="-0.5" y2="-0.225" layer="31"/>
-<rectangle x1="-0.3" y1="-0.425" x2="-0.1" y2="-0.225" layer="31"/>
-<rectangle x1="0.1" y1="-0.425" x2="0.3" y2="-0.225" layer="31"/>
-<rectangle x1="0.5" y1="-0.425" x2="0.7" y2="-0.225" layer="31"/>
-<wire x1="0.75" y1="0.625" x2="-0.75" y2="0.625" width="0.13" layer="21"/>
-<wire x1="0.75" y1="-0.625" x2="-0.75" y2="-0.625" width="0.13" layer="21"/>
+<smd name="3" x="0.2" y="-0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="0.6" y="-0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="0.6" y="0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="0.2" y="0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-0.2" y="0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="-0.6" y="0.3" dx="0.2" dy="0.35" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<wire x1="-1" y1="0.35" x2="-1" y2="-0.35" width="0.13" layer="21"/>
+<rectangle x1="-0.75" y1="-0.475" x2="0.75" y2="-0.125" layer="29"/>
+<rectangle x1="-0.75" y1="0.125" x2="0.75" y2="0.475" layer="29"/>
+<rectangle x1="-0.7" y1="-0.475" x2="-0.5" y2="-0.225" layer="31"/>
+<rectangle x1="-0.3" y1="-0.475" x2="-0.1" y2="-0.225" layer="31"/>
+<rectangle x1="0.1" y1="-0.475" x2="0.3" y2="-0.225" layer="31"/>
+<rectangle x1="0.5" y1="-0.475" x2="0.7" y2="-0.225" layer="31"/>
+<rectangle x1="0.5" y1="0.225" x2="0.7" y2="0.475" layer="31"/>
+<rectangle x1="0.1" y1="0.225" x2="0.3" y2="0.475" layer="31"/>
+<rectangle x1="-0.3" y1="0.225" x2="-0.1" y2="0.475" layer="31"/>
+<rectangle x1="-0.7" y1="0.225" x2="-0.5" y2="0.475" layer="31"/>
 </package>
 <package name="EPQ13">
 <smd name="1" x="-5" y="-8.2" dx="1.3" dy="1.55" layer="1"/>
@@ -6827,6 +6826,10 @@ voltage at less than 10V</description>
 <junction x="27.94" y="38.1"/>
 <pinref part="D2" gate="G$2" pin="A"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$4" pin="A"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RGS1" gate="G$1" pin="1"/>

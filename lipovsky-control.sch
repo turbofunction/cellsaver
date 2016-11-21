@@ -5233,7 +5233,7 @@
 </classes>
 <parts>
 <part name="R1" library="dubec" deviceset="POT" device="5K" value="POT5K"/>
-<part name="U7" library="dubec" deviceset="LTV-8" device="16S"/>
+<part name="U4" library="dubec" deviceset="LTV-8" device="16S"/>
 <part name="R3" library="dubec" deviceset="RES" device="330_16" value="RES330_16"/>
 <part name="U1" library="dubec" deviceset="ATTINYX4A" device="8MU"/>
 <part name="P1" library="dubec" deviceset="M04" device="-929P" value="M04-929P"/>
@@ -5282,7 +5282,7 @@
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="55.88" y="-43.18" rot="R180"/>
-<instance part="U7" gate="G$1" x="66.04" y="-25.4" rot="MR0"/>
+<instance part="U4" gate="G$1" x="66.04" y="-25.4" rot="MR0"/>
 <instance part="R3" gate="G$1" x="55.88" y="-33.02" rot="R90"/>
 <instance part="U1" gate="G$1" x="12.7" y="22.86"/>
 <instance part="P1" gate="G$1" x="60.96" y="17.78" rot="R270"/>
@@ -5330,7 +5330,7 @@
 <nets>
 <net name="FB" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="E"/>
+<pinref part="U4" gate="G$1" pin="E"/>
 <wire x1="58.42" y1="-27.94" x2="55.88" y2="-27.94" width="0.1524" layer="91"/>
 <label x="53.34" y="-27.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -5438,7 +5438,7 @@
 </net>
 <net name="OPTO_A" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="A"/>
+<pinref part="U4" gate="G$1" pin="A"/>
 <wire x1="73.66" y1="-22.86" x2="76.2" y2="-22.86" width="0.1524" layer="91"/>
 <label x="76.2" y="-22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -5450,7 +5450,7 @@
 </net>
 <net name="OPTO_C" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="K"/>
+<pinref part="U4" gate="G$1" pin="K"/>
 <wire x1="73.66" y1="-27.94" x2="76.2" y2="-27.94" width="0.1524" layer="91"/>
 <label x="76.2" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -5510,7 +5510,7 @@
 <label x="15.24" y="-35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="C"/>
+<pinref part="U4" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="-22.86" x2="55.88" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-22.86" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
 <label x="55.88" y="-17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
