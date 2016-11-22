@@ -1507,7 +1507,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-10.0KLCT-ND" constant="no"/>
-<attribute name="EURO" value="2.10/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040210K0FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -2039,11 +2039,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-4.22KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04024K22FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="USD" value="0.78/10" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2567,7 +2567,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-590LCT-ND" constant="no"/>
-<attribute name="EURO" value="2.27/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW0402590RFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3237,7 +3237,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" constant="no"/>
-<attribute name="EURO" value="1.17/100" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3285,7 +3285,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-61.9KLCT-ND" constant="no"/>
-<attribute name="EURO" value="1.17/100" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040261K9FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3301,7 +3301,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="CSNL1206FT3L00CT-ND" constant="no"/>
-<attribute name="EURO" value="4.85/10" constant="no"/>
+<attribute name="EPK" value="190.34" constant="no"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CSNL1206FT3L00" constant="no"/>
 <attribute name="TEMP" value="±50ppm/°C" constant="no"/>
@@ -3437,6 +3437,22 @@
 </technology>
 </technologies>
 </device>
+<device name="12K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-12.0KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW040212K0FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="POT" prefix="R">
@@ -3526,6 +3542,7 @@
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="3296W-502-ND" constant="no"/>
 <attribute name="EBAY_PART_#" value="3296W-502" constant="no"/>
+<attribute name="EPK" value="78.80" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3546,7 +3563,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="160-1361-5-ND" constant="no"/>
-<attribute name="EURO" value="5.67/25" constant="no"/>
+<attribute name="EPK" value="101.94" constant="no"/>
 <attribute name="I_FWD" value="50mA" constant="no"/>
 <attribute name="MANUFACTURER" value="Lite-On Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="LTV-816S" constant="no"/>
@@ -3583,7 +3600,7 @@
 <technology name="">
 <attribute name="ADC" value="8x10b" constant="no"/>
 <attribute name="DIGIKEY_PART_#" value="ATTINY84A-MU-ND" constant="no"/>
-<attribute name="EURO" value="637.90/1000" constant="no"/>
+<attribute name="EPK" value="636.98" constant="no"/>
 <attribute name="FLASH" value="8KB (4K x 16)" constant="no"/>
 <attribute name="FREQ" value="20MHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Atmel" constant="no"/>
@@ -3652,6 +3669,7 @@
 </devices>
 </deviceset>
 <deviceset name="LED_DUAL" prefix="D">
+<description>WARNING: non-standard pin order</description>
 <gates>
 <gate name="G$1" symbol="LED_DUAL" x="0" y="0"/>
 </gates>
@@ -3683,10 +3701,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="754-1853-1-ND" constant="no"/>
-<attribute name="EURO" value="5.45/10" constant="no"/>
-<attribute name="I_FWD" value="30mA (max)" constant="no"/>
+<attribute name="EPK" value="222.48" constant="no"/>
+<attribute name="IF" value="30mA (max)" constant="no"/>
 <attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
 <attribute name="MFG_PART_#" value="APHB1608QBDSURKC" constant="no"/>
+<attribute name="VF" value="3.3V Blue, 1.95V Red" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3836,12 +3855,12 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-11301-1-ND" constant="no"/>
+<attribute name="EPK" value="119.91" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C1608JB1V475K080AC" constant="no"/>
 <attribute name="TEMP" value="-25°C ~ 85°C" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="TYPE" value="smt" constant="no"/>
-<attribute name="USD" value="0.41" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4281,11 +4300,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-8239-1-ND" constant="no"/>
+<attribute name="EPK" value="331.69" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="USD" value="0.93" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4489,7 +4508,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="1276-3375-1-ND" constant="no"/>
-<attribute name="EURO" value="20.40/25" constant="no"/>
+<attribute name="EPK" value="503.68" constant="no"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CL32A227MQVNNNE" constant="no"/>
 <attribute name="TEMP" value="X5R, -55°C ~ 85°C" constant="no"/>
@@ -4505,7 +4524,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="490-3254-1-ND" constant="no"/>
-<attribute name="EURO" value="1.48/100" constant="no"/>
+<attribute name="EPK" value="8.01" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MFG_PART_#" value="GRM155R71E473KA88D" constant="no"/>
 <attribute name="TEMP" value="X7R" constant="no"/>
@@ -4521,7 +4540,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="587-1441-1-ND" constant="no"/>
-<attribute name="EURO" value="3.13/50" constant="no"/>
+<attribute name="EPK" value="29.92" constant="no"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
 <attribute name="MFG_PART_#" value="LMK107BJ475KA-T" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
@@ -4536,7 +4555,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="478-1074-1-ND" constant="no"/>
-<attribute name="EURO" value="3.89/1000" constant="no"/>
+<attribute name="EPK" value="3.88" constant="no"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="04025A220JAT2A" constant="no"/>
 <attribute name="TEMP" value="C0G, NP0" constant="no"/>
@@ -5065,7 +5084,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="NSR0520V2T1GOSCT-ND" constant="no"/>
-<attribute name="EURO" value="3.13/10" constant="no"/>
+<attribute name="EPK" value="85.82" constant="no"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="NSR0520V2T1G" constant="no"/>
 <attribute name="V_FWD" value="480mV @ 500mA" constant="no"/>

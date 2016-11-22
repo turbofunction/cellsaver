@@ -748,6 +748,7 @@ design rules under a new name.</description>
 <element name="R1" library="dubec" package="3296W" value="POT5K" x="32" y="13">
 <attribute name="EBAY_PART_#" value="3296W-502" x="32" y="13" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="3296W-502-ND" x="32" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="EPK" value="78.80" x="32" y="13" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="dubec" package="0402" value="RES330_16" x="29.65" y="19.8" rot="R180">
 <attribute name="DIGIKEY_PART_#" value="541-330LCT-ND" x="29.65" y="19.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -764,18 +765,18 @@ design rules under a new name.</description>
 <attribute name="VCC" value="1.8 V ~ 5.5 V" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP" value="-40°C ~ 85°C (TA)" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Atmel" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="637.90/1000" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG_PART_#" value="ATTINY84A-MU" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ADC" value="8x10b" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FLASH" value="8KB (4K x 16)" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EPK" value="636.98" x="20" y="23" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="dubec" package="4-OPTO-1" value="LTV-816S" x="32" y="17" rot="R90">
 <attribute name="DIGIKEY_PART_#" value="160-1361-5-ND" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP" value="-50°C ~ 110°C" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Lite-On Inc." x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="I_FWD" value="50mA" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EURO" value="5.67/25" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFG_PART_#" value="LTV-816S" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EPK" value="101.94" x="32" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="P1" library="dubec" package="1X04_929P" value="M04-929P" x="20" y="2" rot="MR0">
 <attribute name="MFG_PART_#" value="929800-01-04" x="20" y="2" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -921,14 +922,14 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY_PART_#" value="NSR0520V2T1GOSCT-ND" x="27.95" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="V_FWD" value="480mV @ 500mA" x="27.95" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="27.95" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EURO" value="3.13/10" x="27.95" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="EPK" value="85.82" x="27.95" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D3" library="dubec" package="SOD523+" value="D_SCH20V_0.5A" x="33.55" y="26.8" rot="R270">
 <attribute name="MFG_PART_#" value="NSR0520V2T1G" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="NSR0520V2T1GOSCT-ND" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="V_FWD" value="480mV @ 500mA" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EURO" value="3.13/10" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="EPK" value="85.82" x="33.55" y="26.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="dubec" package="0402" value="RES14.3K_16" x="30.5" y="24.7" rot="R270">
 <attribute name="MFG_PART_#" value="CRCW040214K3FKED" x="30.5" y="24.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1079,11 +1080,11 @@ design rules under a new name.</description>
 <element name="J5" library="dubec" package="2X03" value="AVRISP0.1&quot;" x="22" y="17"/>
 <element name="R15" library="dubec" package="0402" value="RES10K_16" x="14.9" y="26.725" rot="R180">
 <attribute name="MANUFACTURER" value="Vishay Dale" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="EURO" value="2.10/50" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFG_PART_#" value="CRCW040210K0FKED" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="541-10.0KLCT-ND" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP" value="±100ppm/°C" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="EPK" value="5.24" x="14.9" y="26.725" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="dubec" package="TF-EMBLEM" value="" x="15" y="16" rot="R90"/>
 </elements>
@@ -1107,13 +1108,11 @@ design rules under a new name.</description>
 <wire x1="28.105" y1="18.875" x2="29.15" y2="18.875" width="0.3" layer="1"/>
 <wire x1="29.15" y1="19.8" x2="29.15" y2="18.875" width="0.4" layer="1"/>
 <wire x1="26.3" y1="20.5" x2="26.45" y2="20.35" width="0.3" layer="1"/>
-<wire x1="26.45" y1="20.35" x2="26.45" y2="19.125" width="0.3" layer="1"/>
-<wire x1="26.45" y1="19.125" x2="26.7" y2="18.875" width="0.3" layer="1"/>
-<wire x1="26.7" y1="18.875" x2="26.895" y2="18.875" width="0.3" layer="1"/>
-<wire x1="26.895" y1="18.875" x2="27.5" y2="18.27" width="0.3" layer="1"/>
+<wire x1="26.45" y1="20.35" x2="26.45" y2="19.32" width="0.3" layer="1"/>
 <wire x1="29.15" y1="16.25" x2="30.7" y2="14.7" width="0.3" layer="16"/>
 <wire x1="30.7" y1="14.7" x2="30.7" y2="12.4" width="0.3" layer="16"/>
 <wire x1="29.15" y1="16.25" x2="29.15" y2="18.875" width="0.3" layer="16"/>
+<wire x1="27.5" y1="18.27" x2="26.45" y2="19.32" width="0.3" layer="1"/>
 </signal>
 <signal name="S-">
 <contactref element="U1" pad="8"/>
@@ -1301,8 +1300,6 @@ design rules under a new name.</description>
 <wire x1="18.3" y1="14.4" x2="27.1" y2="14.4" width="0.3" layer="16"/>
 <wire x1="27.1" y1="14.4" x2="27.2" y2="14.5" width="0.3" layer="16"/>
 <via x="17.6" y="21.1" extent="1-16" drill="0.35"/>
-<wire x1="19.46" y1="18.27" x2="19.46" y2="19.24" width="0.3" layer="1"/>
-<wire x1="19.46" y1="19.24" x2="17.6" y2="21.1" width="0.3" layer="1"/>
 <wire x1="17.6" y1="21.1" x2="17.6" y2="28.87" width="0.3" layer="16"/>
 <wire x1="15.4" y1="26.725" x2="15.65" y2="26.975" width="0.3" layer="1"/>
 <wire x1="15.65" y1="26.975" x2="19" y2="26.975" width="0.3" layer="1"/>
@@ -1317,6 +1314,9 @@ design rules under a new name.</description>
 <wire x1="19" y1="27.7" x2="18.73" y2="27.97" width="0.7" layer="1"/>
 <wire x1="18.73" y1="27.97" x2="18.73" y2="30" width="0.7" layer="1"/>
 <wire x1="17.6" y1="28.87" x2="18.73" y2="30" width="0.3" layer="16"/>
+<wire x1="19.46" y1="18.27" x2="18.7" y2="19.03" width="0.3" layer="1"/>
+<wire x1="18.7" y1="19.03" x2="18.7" y2="20" width="0.3" layer="1"/>
+<wire x1="18.7" y1="20" x2="17.6" y2="21.1" width="0.3" layer="1"/>
 </signal>
 <signal name="BATT-">
 <polygon width="0.2" layer="1" isolate="0.25" rank="6">
@@ -1372,9 +1372,9 @@ design rules under a new name.</description>
 <contactref element="U1" pad="20"/>
 <contactref element="J5" pad="1"/>
 <contactref element="P3" pad="2"/>
-<wire x1="21" y1="21.1" x2="21" y2="19.1" width="0.25" layer="1"/>
-<wire x1="21" y1="19.1" x2="20.725" y2="18.825" width="0.25" layer="1"/>
-<wire x1="20.725" y1="18.825" x2="20.725" y2="16.995" width="0.25" layer="1"/>
+<wire x1="21" y1="21.1" x2="21" y2="19.2" width="0.25" layer="1"/>
+<wire x1="21" y1="19.2" x2="20.725" y2="18.925" width="0.25" layer="1"/>
+<wire x1="20.725" y1="18.925" x2="20.725" y2="16.995" width="0.25" layer="1"/>
 <wire x1="20.725" y1="16.995" x2="19.46" y2="15.73" width="0.25" layer="1"/>
 <wire x1="45.43" y1="28.7" x2="42.4" y2="28.7" width="0.3" layer="16"/>
 <wire x1="42.4" y1="28.7" x2="36.6" y2="22.9" width="0.3" layer="16"/>

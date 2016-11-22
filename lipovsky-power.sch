@@ -1704,7 +1704,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-10.0KLCT-ND" constant="no"/>
-<attribute name="EURO" value="2.10/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040210K0FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -2236,11 +2236,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-4.22KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW04024K22FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="USD" value="0.78/10" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2764,7 +2764,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-590LCT-ND" constant="no"/>
-<attribute name="EURO" value="2.27/50" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW0402590RFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3434,7 +3434,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-100KLCT-ND" constant="no"/>
-<attribute name="EURO" value="1.17/100" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW0402100KFKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3482,7 +3482,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="541-61.9KLCT-ND" constant="no"/>
-<attribute name="EURO" value="1.17/100" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MFG_PART_#" value="CRCW040261K9FKED" constant="no"/>
 <attribute name="TEMP" value="±100ppm/°C" constant="no"/>
@@ -3498,7 +3498,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="CSNL1206FT3L00CT-ND" constant="no"/>
-<attribute name="EURO" value="4.85/10" constant="no"/>
+<attribute name="EPK" value="190.34" constant="no"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CSNL1206FT3L00" constant="no"/>
 <attribute name="TEMP" value="±50ppm/°C" constant="no"/>
@@ -3650,6 +3650,22 @@
 </technology>
 </technologies>
 </device>
+<device name="6.04K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-6.04KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW04026K04FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="M07">
@@ -3684,7 +3700,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="455-2240-ND" constant="no"/>
-<attribute name="EURO" value="3.82/10" constant="no"/>
+<attribute name="EPK" value="190.44" constant="no"/>
 <attribute name="MANUFACTURER" value="JST Sales America Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="S7B-XH-A(LF)(SN)" constant="no"/>
 </technology>
@@ -3707,7 +3723,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" constant="no"/>
-<attribute name="EURO" value="49.94/100" constant="no"/>
+<attribute name="EPK" value="316.51" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="FDMA6676PZ" constant="no"/>
 <attribute name="POWER" value="0.9W" constant="no"/>
@@ -3838,7 +3854,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="FDMA7670CT-ND" constant="no"/>
-<attribute name="EURO" value="38.24/100" constant="no"/>
+<attribute name="EPK" value="231.24" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="FDMA7670" constant="no"/>
 <attribute name="POWER" value="0.9W" constant="no"/>
@@ -3855,7 +3871,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="FDMC8010ET30CT-ND" constant="no"/>
-<attribute name="EURO" value="1.58" constant="no"/>
+<attribute name="EPK" value="775.36" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="FDMC8010ET30" constant="no"/>
 <attribute name="POWER" value="2.8W" constant="no"/>
@@ -3889,7 +3905,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="RB521ZS8A30TE61CT-ND" constant="no"/>
-<attribute name="EURO" value="4.70/10" constant="no"/>
+<attribute name="EPK" value="212.37" constant="no"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="RB521ZS8A30TE61" constant="no"/>
 </technology>
@@ -3965,7 +3981,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="FC6943010RCT-ND" constant="no"/>
-<attribute name="EURO" value="6.17/100" constant="no"/>
+<attribute name="EPK" value="52.80" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MFG_PART_#" value="FC6943010R" constant="no"/>
 <attribute name="POWER" value="0.125W" constant="no"/>
@@ -4055,12 +4071,12 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-11301-1-ND" constant="no"/>
+<attribute name="EPK" value="119.91" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C1608JB1V475K080AC" constant="no"/>
 <attribute name="TEMP" value="-25°C ~ 85°C" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="TYPE" value="smt" constant="no"/>
-<attribute name="USD" value="0.41" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4500,11 +4516,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-8239-1-ND" constant="no"/>
+<attribute name="EPK" value="331.69" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
 <attribute name="TOLERANCE" value="±20%" constant="no"/>
-<attribute name="USD" value="0.93" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4708,7 +4724,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="1276-3375-1-ND" constant="no"/>
-<attribute name="EURO" value="20.40/25" constant="no"/>
+<attribute name="EPK" value="503.68" constant="no"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CL32A227MQVNNNE" constant="no"/>
 <attribute name="TEMP" value="X5R, -55°C ~ 85°C" constant="no"/>
@@ -4724,7 +4740,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="490-3254-1-ND" constant="no"/>
-<attribute name="EURO" value="1.48/100" constant="no"/>
+<attribute name="EPK" value="8.01" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
 <attribute name="MFG_PART_#" value="GRM155R71E473KA88D" constant="no"/>
 <attribute name="TEMP" value="X7R" constant="no"/>
@@ -4740,7 +4756,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="587-1441-1-ND" constant="no"/>
-<attribute name="EURO" value="3.13/50" constant="no"/>
+<attribute name="EPK" value="29.92" constant="no"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
 <attribute name="MFG_PART_#" value="LMK107BJ475KA-T" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
@@ -4755,7 +4771,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="478-1074-1-ND" constant="no"/>
-<attribute name="EURO" value="3.89/1000" constant="no"/>
+<attribute name="EPK" value="3.88" constant="no"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="04025A220JAT2A" constant="no"/>
 <attribute name="TEMP" value="C0G, NP0" constant="no"/>
@@ -4858,7 +4874,7 @@ latches; 3-state</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="568-2719-1-ND" constant="no"/>
-<attribute name="EURO" value="19.61/100" constant="no"/>
+<attribute name="EPK" value="109.76" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
 <attribute name="MFG_PART_#" value="74HC595BQ,115" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 125°C" constant="no"/>
@@ -5020,7 +5036,7 @@ latches; 3-state</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="568-10474-1-ND" constant="no"/>
-<attribute name="EURO" value="2.70/10" constant="no"/>
+<attribute name="EPK" value="103.10" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP Semiconductors" constant="no"/>
 <attribute name="MFG_PART_#" value="BSS84AKV,115" constant="no"/>
 <attribute name="POWER" value="0.5W" constant="no"/>
@@ -5054,7 +5070,7 @@ latches; 3-state</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="LTC3805IDD-5#PBF-ND" constant="no"/>
-<attribute name="EURO" value="47.26/25" constant="no"/>
+<attribute name="EPK" value="1609.00" constant="no"/>
 <attribute name="MANUFACTURER" value="Linear Technology" constant="no"/>
 <attribute name="MFG_PART_#" value="LTC3805IDD-5#PBF" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 125°C (TJ)" constant="no"/>
@@ -5084,7 +5100,7 @@ voltage at less than 10V</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="AR30N60PPA-13DICT-ND" constant="no"/>
-<attribute name="EURO" value="74.64/100" constant="no"/>
+<attribute name="EPK" value="486.06" constant="no"/>
 <attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
 <attribute name="MFG_PART_#" value="AR30N60PPA-13" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 125°C" constant="no"/>
@@ -5522,7 +5538,7 @@ voltage at less than 10V</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="BZT585B2V4T-7DICT-ND" constant="no"/>
-<attribute name="EURO" value="38.54/1000" constant="no"/>
+<attribute name="EPK" value="38.48" constant="no"/>
 <attribute name="IR" value="50nA @ 1V" constant="no"/>
 <attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
 <attribute name="MFG_PART_#" value="BZT585B2V4T-7" constant="no"/>
@@ -5651,11 +5667,11 @@ voltage at less than 10V</description>
 </classes>
 <parts>
 <part name="JP1" library="dubec" deviceset="M07" device="XHRA" value="M07XHRA"/>
-<part name="RGS6" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGS5" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGS4" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGS3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGS+2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS6" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGS5" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGS4" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGS3" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGS+2" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="Q21" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q22" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q31" library="dubec" deviceset="PMOS" device="30V_11A"/>
@@ -5692,28 +5708,28 @@ voltage at less than 10V</description>
 <part name="Q18" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="D1" library="dubec" deviceset="4DSCH" device="30V_0A1"/>
 <part name="D2" library="dubec" deviceset="4DSCH" device="30V_0A1"/>
-<part name="R1" library="dubec" deviceset="RES" device="4.22K_16"/>
-<part name="R2" library="dubec" deviceset="RES" device="4.22K_16"/>
+<part name="R1" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="R2" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="T1" library="dubec" deviceset="TFORM_4_4" device="311_4A4"/>
 <part name="Q12" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q23" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q24" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGS1" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGS-2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGS1" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGS-2" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="Q2" library="dubec" deviceset="2NMOS" device="30V_0.1A"/>
 <part name="Q27" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q28" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q16" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGT6" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT5" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT4" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT+2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT1" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="RGT-2" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
+<part name="RGT6" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT5" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT4" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT3" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT+2" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT1" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
+<part name="RGT-2" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="U3" library="dubec" deviceset="74HC595" device=""/>
-<part name="R3" library="dubec" deviceset="RES" device="12K_16" value="RES12K_16"/>
-<part name="R4" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
+<part name="R3" library="dubec" deviceset="RES" device="15.4K_16" value="RES15.4K_16"/>
+<part name="R4" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="Q1" library="dubec" deviceset="NMOS" device="30V_30A"/>
 <part name="R5" library="dubec" deviceset="RES" device="003_1W" value="RES003_1W"/>
 <part name="U1" library="dubec" deviceset="DG508B" device="EN-T1-GE4"/>
@@ -5731,7 +5747,7 @@ voltage at less than 10V</description>
 <part name="C7" library="dubec" deviceset="CAP" device="4.7UF_35V" value="CAP4.7UF_35V"/>
 <part name="C8" library="dubec" deviceset="CAP" device="4.7U_10V" value="CAP4.7U_10V"/>
 <part name="U6" library="dubec" deviceset="AR30N60" device="PPA-13"/>
-<part name="R11" library="dubec" deviceset="RES" device="10K_16"/>
+<part name="R11" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="D4" library="dubec" deviceset="D_ZENER" device="2.4V" value="D_ZENER2.4V"/>
 <part name="R12" library="dubec" deviceset="RES" device="590_16"/>
 <part name="C9" library="dubec" deviceset="CAP" device="22P_50V"/>
@@ -5746,7 +5762,7 @@ voltage at less than 10V</description>
 <part name="J3" library="dubec" deviceset="M04" device="-929J"/>
 <part name="J1" library="dubec" deviceset="M04" device="-929J"/>
 <part name="J4" library="dubec" deviceset="M04" device="-929J"/>
-<part name="R9" library="dubec" deviceset="RES" device="5.9K_16"/>
+<part name="R9" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="U$2" library="dubec" deviceset="JUMPER-PAD" device=""/>
 </parts>
 <sheets>
