@@ -6404,6 +6404,9 @@ voltage at less than 10V</description>
 <junction x="43.18" y="22.86"/>
 <pinref part="Q3" gate="G$2" pin="G"/>
 <wire x1="43.18" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
+<junction x="12.7" y="22.86"/>
+<label x="12.7" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="GS+2" class="0">
