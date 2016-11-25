@@ -1384,6 +1384,40 @@
 <rectangle x1="0.2" y1="-0.9" x2="0.6" y2="-0.5" layer="31"/>
 <rectangle x1="-0.6" y1="-0.9" x2="-0.2" y2="-0.5" layer="31"/>
 </package>
+<package name="1206-QUAD">
+<smd name="1" x="-1.2" y="-0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-1.4" y="0.6" size="0.4" layer="25" align="top-left">&gt;NAME</text>
+<text x="-1.4" y="-0.6" size="0.4" layer="27">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1.9" y1="-0.83" x2="-1.9" y2="0.77" width="0.13" layer="21"/>
+<smd name="2" x="-0.4" y="-0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="0.4" y="-0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="1.2" y="-0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="1.2" y="0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="0.4" y="0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-0.4" y="0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="-1.2" y="0.75" dx="0.5" dy="0.6" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.9" y1="-0.83" x2="1.9" y2="0.77" width="0.13" layer="21"/>
+<rectangle x1="-1.45" y1="-1.05" x2="-0.95" y2="-0.45" layer="29"/>
+<rectangle x1="-0.65" y1="-1.05" x2="-0.15" y2="-0.45" layer="29"/>
+<rectangle x1="0.15" y1="-1.05" x2="0.65" y2="-0.45" layer="29"/>
+<rectangle x1="0.95" y1="-1.05" x2="1.45" y2="-0.45" layer="29"/>
+<rectangle x1="0.95" y1="0.45" x2="1.45" y2="1.05" layer="29"/>
+<rectangle x1="0.15" y1="0.45" x2="0.65" y2="1.05" layer="29"/>
+<rectangle x1="-0.65" y1="0.45" x2="-0.15" y2="1.05" layer="29"/>
+<rectangle x1="-1.45" y1="0.45" x2="-0.95" y2="1.05" layer="29"/>
+<rectangle x1="-1.4" y1="0.5" x2="-1" y2="1" layer="31"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.2" y2="1" layer="31"/>
+<rectangle x1="0.2" y1="0.5" x2="0.6" y2="1" layer="31"/>
+<rectangle x1="1" y1="0.5" x2="1.4" y2="1" layer="31"/>
+<rectangle x1="1" y1="-1" x2="1.4" y2="-0.5" layer="31"/>
+<rectangle x1="0.2" y1="-1" x2="0.6" y2="-0.5" layer="31"/>
+<rectangle x1="-0.6" y1="-1" x2="-0.2" y2="-0.5" layer="31"/>
+<rectangle x1="-1.4" y1="-1" x2="-1" y2="-0.5" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOSFET">
@@ -5734,6 +5768,82 @@ voltage at less than 10V</description>
 </technology>
 </technologies>
 </device>
+<device name="10K_16" package="1206-QUAD-LS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="8"/>
+<connect gate="G$2" pin="1" pad="2"/>
+<connect gate="G$2" pin="2" pad="7"/>
+<connect gate="G$3" pin="1" pad="3"/>
+<connect gate="G$3" pin="2" pad="6"/>
+<connect gate="G$4" pin="1" pad="4"/>
+<connect gate="G$4" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="Y9103CT-ND" constant="no"/>
+<attribute name="EPK" value="11.22" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MFG_PART_#" value="EXB-38V103JV" constant="no"/>
+<attribute name="TEMP" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4CAP" prefix="C">
+<gates>
+<gate name="G$1" symbol="CAP" x="-2.54" y="15.24"/>
+<gate name="G$2" symbol="CAP" x="-2.54" y="5.08"/>
+<gate name="G$3" symbol="CAP" x="-2.54" y="-5.08"/>
+<gate name="G$4" symbol="CAP" x="-2.54" y="-15.24"/>
+</gates>
+<devices>
+<device name="47N_25V" package="1206-QUAD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="8"/>
+<connect gate="G$2" pin="1" pad="2"/>
+<connect gate="G$2" pin="2" pad="7"/>
+<connect gate="G$3" pin="1" pad="3"/>
+<connect gate="G$3" pin="2" pad="6"/>
+<connect gate="G$4" pin="1" pad="4"/>
+<connect gate="G$4" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="1276-2784-1-ND" constant="no"/>
+<attribute name="EPK" value="43.43" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="CL31B473MACNBNC" constant="no"/>
+<attribute name="TEMP" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100N_25V" package="1206-QUAD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="8"/>
+<connect gate="G$2" pin="1" pad="2"/>
+<connect gate="G$2" pin="2" pad="7"/>
+<connect gate="G$3" pin="1" pad="3"/>
+<connect gate="G$3" pin="2" pad="6"/>
+<connect gate="G$4" pin="1" pad="4"/>
+<connect gate="G$4" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="1276-2741-1-ND" constant="no"/>
+<attribute name="EPK" value="48.80" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MFG_PART_#" value="CL31B104KACNBNC" constant="no"/>
+<attribute name="TEMP" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -5749,7 +5859,7 @@ voltage at less than 10V</description>
 </classes>
 <parts>
 <part name="JP1" library="dubec" deviceset="M07" device="XHRA" value="M07XHRA"/>
-<part name="RGS6" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="RGS6" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="Q21" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q22" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q31" library="dubec" deviceset="PMOS" device="30V_11A"/>
@@ -5786,22 +5896,22 @@ voltage at less than 10V</description>
 <part name="Q18" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="D1" library="dubec" deviceset="4DSCH" device="30V_0A1"/>
 <part name="D2" library="dubec" deviceset="4DSCH" device="30V_0A1"/>
-<part name="R1" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
-<part name="R2" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="R1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="R2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="T1" library="dubec" deviceset="TFORM_4_4" device="311_4A4"/>
 <part name="Q12" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q23" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q24" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGS1" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
-<part name="RGS-2" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="RGS1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="RGS-2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="Q2" library="dubec" deviceset="2NMOS" device="30V_0.1A"/>
 <part name="Q27" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q28" library="dubec" deviceset="NMOS" device="40V_10A"/>
 <part name="Q16" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="RGT1" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
-<part name="RGT-2" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="RGT1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="RGT-2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="U3" library="dubec" deviceset="74HC595" device=""/>
-<part name="R3" library="dubec" deviceset="RES" device="15.4K_16" value="RES15.4K_16"/>
+<part name="R3" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="Q1" library="dubec" deviceset="NMOS" device="30V_30A"/>
 <part name="R5" library="dubec" deviceset="RES" device="003_1W" value="RES003_1W"/>
 <part name="U1" library="dubec" deviceset="DG508B" device="EN-T1-GE4"/>
@@ -5815,11 +5925,11 @@ voltage at less than 10V</description>
 <part name="C5" library="dubec" deviceset="CAP" device="220U_6V3"/>
 <part name="U4" library="dubec" deviceset="LTC3805-5" device="IDD"/>
 <part name="R8" library="dubec" deviceset="RES" device="15.4K_16"/>
-<part name="R10" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="R10" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="C7" library="dubec" deviceset="CAP" device="4.7UF_35V" value="CAP4.7UF_35V"/>
 <part name="C8" library="dubec" deviceset="CAP" device="4.7U_10V" value="CAP4.7U_10V"/>
 <part name="U6" library="dubec" deviceset="AR30N60" device="PPA-13"/>
-<part name="R11" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
+<part name="R11" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="D4" library="dubec" deviceset="D_ZENER" device="2.4V" value="D_ZENER2.4V"/>
 <part name="R12" library="dubec" deviceset="RES" device="590_16"/>
 <part name="C9" library="dubec" deviceset="CAP" device="22P_50V"/>
@@ -5836,12 +5946,12 @@ voltage at less than 10V</description>
 <part name="J4" library="dubec" deviceset="M04" device="-929J"/>
 <part name="R9" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="U$2" library="dubec" deviceset="JUMPER-PAD" device=""/>
-<part name="RGS" library="dubec" deviceset="4RES" device="5.6K_16"/>
-<part name="RGT+2" library="dubec" deviceset="RES" device="5.6K_16" value="RES5.6K_16"/>
-<part name="RGT" library="dubec" deviceset="4RES" device="5.6K_16"/>
-<part name="RAT" library="dubec" deviceset="4RES" device="5.6K_16"/>
-<part name="RAS" library="dubec" deviceset="4RES" device="5.6K_16"/>
-<part name="R4" library="dubec" deviceset="RES" device="5.6K_16"/>
+<part name="RGS" library="dubec" deviceset="4RES" device="10K_16" value="4RES10K_16"/>
+<part name="RGT+2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="RGT" library="dubec" deviceset="4RES" device="10K_16" value="4RES10K_16"/>
+<part name="R4" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
+<part name="CAS" library="dubec" deviceset="4CAP" device="100N_25V" value="4CAP100N_25V"/>
+<part name="CAT" library="dubec" deviceset="4CAP" device="100N_25V" value="4CAP100N_25V"/>
 </parts>
 <sheets>
 <sheet>
@@ -5850,10 +5960,10 @@ voltage at less than 10V</description>
 <wire x1="-5.08" y1="71.12" x2="-5.08" y2="-63.5" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-63.5" x2="-134.62" y2="-63.5" width="0.1524" layer="94"/>
 <wire x1="-134.62" y1="-63.5" x2="-134.62" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="96.52" x2="312.42" y2="96.52" width="0.1524" layer="94"/>
-<wire x1="312.42" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="314.96" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="96.52" width="0.1524" layer="94"/>
-<wire x1="312.42" y1="96.52" x2="312.42" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="314.96" y1="96.52" x2="314.96" y2="5.08" width="0.1524" layer="94"/>
 <text x="-127" y="60.96" size="3.81" layer="94">Repetitive Strain Injury</text>
 <wire x1="60.96" y1="81.28" x2="60.96" y2="10.16" width="0.1524" layer="94" style="shortdash"/>
 <text x="12.7" y="86.36" size="3.81" layer="94">Electric Potential Hell</text>
@@ -5980,15 +6090,15 @@ voltage at less than 10V</description>
 <instance part="RGT" gate="G$2" x="167.64" y="71.12"/>
 <instance part="RGT" gate="G$3" x="167.64" y="63.5"/>
 <instance part="RGT" gate="G$4" x="167.64" y="55.88"/>
-<instance part="RAT" gate="G$1" x="251.46" y="53.34" rot="R180"/>
-<instance part="RAT" gate="G$2" x="299.72" y="43.18"/>
-<instance part="RAT" gate="G$3" x="299.72" y="38.1"/>
-<instance part="RAT" gate="G$4" x="299.72" y="33.02"/>
-<instance part="RAS" gate="G$1" x="299.72" y="63.5"/>
-<instance part="RAS" gate="G$2" x="299.72" y="58.42"/>
-<instance part="RAS" gate="G$3" x="299.72" y="53.34"/>
-<instance part="RAS" gate="G$4" x="299.72" y="48.26"/>
-<instance part="R4" gate="G$1" x="284.48" y="25.4" rot="R90"/>
+<instance part="R4" gate="G$1" x="251.46" y="53.34"/>
+<instance part="CAS" gate="G$1" x="299.72" y="63.5"/>
+<instance part="CAS" gate="G$2" x="299.72" y="58.42"/>
+<instance part="CAS" gate="G$3" x="299.72" y="53.34"/>
+<instance part="CAS" gate="G$4" x="299.72" y="48.26"/>
+<instance part="CAT" gate="G$1" x="299.72" y="43.18"/>
+<instance part="CAT" gate="G$2" x="299.72" y="38.1"/>
+<instance part="CAT" gate="G$3" x="299.72" y="33.02"/>
+<instance part="CAT" gate="G$4" x="284.48" y="25.4" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6249,49 +6359,49 @@ voltage at less than 10V</description>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="269.24" y1="25.4" x2="269.24" y2="22.86" width="0.1524" layer="91"/>
-<label x="269.24" y="20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="269.24" y1="22.86" x2="269.24" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
-<junction x="269.24" y="22.86"/>
-<wire x1="241.3" y1="22.86" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="25.4" x2="269.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="269.24" y="17.78" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="269.24" y1="20.32" x2="269.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
+<junction x="269.24" y="20.32"/>
+<wire x1="241.3" y1="20.32" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="53.34" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="22.86" x2="284.48" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="22.86" x2="304.8" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="58.42" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="58.42" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="53.34" x2="304.8" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="53.34" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
-<junction x="304.8" y="53.34"/>
-<junction x="304.8" y="48.26"/>
-<wire x1="304.8" y1="22.86" x2="304.8" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="33.02" x2="304.8" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="38.1" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="43.18" x2="304.8" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="43.18" x2="304.8" y2="43.18" width="0.1524" layer="91"/>
-<junction x="304.8" y="43.18"/>
-<wire x1="302.26" y1="38.1" x2="304.8" y2="38.1" width="0.1524" layer="91"/>
-<junction x="304.8" y="38.1"/>
-<wire x1="302.26" y1="33.02" x2="304.8" y2="33.02" width="0.1524" layer="91"/>
-<junction x="304.8" y="33.02"/>
-<pinref part="RAT" gate="G$2" pin="2"/>
-<pinref part="RAT" gate="G$3" pin="2"/>
-<pinref part="RAT" gate="G$4" pin="2"/>
-<pinref part="RAT" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="53.34" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
 <junction x="241.3" y="53.34"/>
-<pinref part="RAS" gate="G$2" pin="2"/>
-<pinref part="RAS" gate="G$3" pin="2"/>
-<pinref part="RAS" gate="G$4" pin="2"/>
-<pinref part="RAS" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="63.5" x2="304.8" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="63.5" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
-<junction x="304.8" y="58.42"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<junction x="284.48" y="22.86"/>
+<pinref part="CAS" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="63.5" x2="307.34" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="63.5" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="CAS" gate="G$2" pin="2"/>
+<wire x1="307.34" y1="58.42" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="58.42" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
+<junction x="307.34" y="58.42"/>
+<pinref part="CAT" gate="G$4" pin="2"/>
+<wire x1="307.34" y1="53.34" x2="307.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="48.26" x2="307.34" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="43.18" x2="307.34" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="38.1" x2="307.34" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="33.02" x2="307.34" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="20.32" x2="284.48" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="CAS" gate="G$3" pin="2"/>
+<wire x1="304.8" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
+<junction x="307.34" y="53.34"/>
+<pinref part="CAS" gate="G$4" pin="2"/>
+<wire x1="304.8" y1="48.26" x2="307.34" y2="48.26" width="0.1524" layer="91"/>
+<junction x="307.34" y="48.26"/>
+<pinref part="CAT" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="43.18" x2="307.34" y2="43.18" width="0.1524" layer="91"/>
+<junction x="307.34" y="43.18"/>
+<pinref part="CAT" gate="G$2" pin="2"/>
+<wire x1="304.8" y1="38.1" x2="307.34" y2="38.1" width="0.1524" layer="91"/>
+<junction x="307.34" y="38.1"/>
+<pinref part="CAT" gate="G$3" pin="2"/>
+<wire x1="304.8" y1="33.02" x2="307.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="307.34" y="33.02"/>
+<wire x1="269.24" y1="20.32" x2="284.48" y2="20.32" width="0.1524" layer="91"/>
+<junction x="284.48" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -7022,8 +7132,8 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="66.04" x2="287.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="66.04" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
 <junction x="284.48" y="66.04"/>
-<pinref part="RAS" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="63.5" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="CAS" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GT+2" class="0">
@@ -7234,7 +7344,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="60.96" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
 <junction x="284.48" y="60.96"/>
 <wire x1="284.48" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="RAS" gate="G$2" pin="1"/>
+<pinref part="CAS" gate="G$2" pin="1"/>
 </segment>
 </net>
 <net name="AS1" class="0">
@@ -7251,7 +7361,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="55.88" x2="284.48" y2="53.34" width="0.1524" layer="91"/>
 <junction x="284.48" y="55.88"/>
 <wire x1="284.48" y1="53.34" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="RAS" gate="G$3" pin="1"/>
+<pinref part="CAS" gate="G$3" pin="1"/>
 </segment>
 </net>
 <net name="AS2" class="0">
@@ -7268,7 +7378,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="50.8" x2="284.48" y2="48.26" width="0.1524" layer="91"/>
 <junction x="284.48" y="50.8"/>
 <wire x1="284.48" y1="48.26" x2="297.18" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="RAS" gate="G$4" pin="1"/>
+<pinref part="CAS" gate="G$4" pin="1"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7294,7 +7404,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="45.72" x2="284.48" y2="43.18" width="0.1524" layer="91"/>
 <junction x="284.48" y="45.72"/>
 <wire x1="284.48" y1="43.18" x2="297.18" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="RAT" gate="G$2" pin="1"/>
+<pinref part="CAT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AT1" class="0">
@@ -7311,7 +7421,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="40.64" x2="284.48" y2="38.1" width="0.1524" layer="91"/>
 <junction x="284.48" y="40.64"/>
 <wire x1="284.48" y1="38.1" x2="297.18" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="RAT" gate="G$3" pin="1"/>
+<pinref part="CAT" gate="G$2" pin="1"/>
 </segment>
 </net>
 <net name="AT2" class="0">
@@ -7328,7 +7438,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="35.56" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
 <junction x="284.48" y="35.56"/>
 <wire x1="284.48" y1="33.02" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="RAT" gate="G$4" pin="1"/>
+<pinref part="CAT" gate="G$3" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -7386,7 +7496,7 @@ voltage at less than 10V</description>
 <wire x1="284.48" y1="30.48" x2="284.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="27.94" x2="287.02" y2="27.94" width="0.1524" layer="91"/>
 <label x="287.02" y="27.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="CAT" gate="G$4" pin="1"/>
 <junction x="284.48" y="27.94"/>
 </segment>
 </net>
@@ -7524,11 +7634,11 @@ voltage at less than 10V</description>
 <wire x1="127" y1="-27.94" x2="119.38" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="!MR" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!MR"/>
-<pinref part="RAT" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
