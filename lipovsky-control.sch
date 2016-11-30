@@ -363,7 +363,7 @@
 <rectangle x1="1" y1="-2" x2="3" y2="-0.4" layer="29"/>
 <rectangle x1="1.1" y1="-1.9" x2="2.9" y2="-0.5" layer="31"/>
 </package>
-<package name="ATTINYX4A">
+<package name="20M1">
 <smd name="1" x="-1.9" y="1" dx="0.6" dy="0.25" layer="1" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-2.2" y1="0.9" x2="-1.7" y2="1.1" layer="31"/>
 <smd name="2" x="-1.9" y="0.5" dx="0.6" dy="0.25" layer="1" stop="no" thermals="no" cream="no"/>
@@ -1170,6 +1170,79 @@
 <wire x1="-4.826" y1="-1.27" x2="-5.08" y2="-1.016" width="0.13" layer="21"/>
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.13" layer="21"/>
 <wire x1="5.08" y1="-1.016" x2="5.08" y2="1.016" width="0.13" layer="21"/>
+</package>
+<package name="20M2">
+<smd name="1" x="-1.45" y="0.9" dx="0.5" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-1.35" y="0.45" dx="0.7" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-1.7" y1="0.35" x2="-1.2" y2="0.55" layer="31"/>
+<smd name="3" x="-1.35" y="0" dx="0.7" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="-1.35" y="-0.45" dx="0.7" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="-1.45" y="-0.9" dx="0.5" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="6" x="-0.9" y="-1.45" dx="0.5" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="7" x="-0.45" y="-1.35" dx="0.7" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="8" x="0" y="-1.35" dx="0.7" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="9" x="0.45" y="-1.35" dx="0.7" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="10" x="0.9" y="-1.45" dx="0.5" dy="0.2" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="11" x="1.45" y="-0.9" dx="0.5" dy="0.2" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="12" x="1.35" y="-0.45" dx="0.7" dy="0.2" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="13" x="1.35" y="0" dx="0.7" dy="0.2" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="14" x="1.35" y="0.45" dx="0.7" dy="0.2" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="15" x="1.45" y="0.9" dx="0.5" dy="0.2" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="16" x="0.9" y="1.45" dx="0.5" dy="0.2" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="17" x="0.45" y="1.35" dx="0.7" dy="0.2" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="18" x="0" y="1.35" dx="0.7" dy="0.2" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="19" x="-0.45" y="1.35" dx="0.7" dy="0.2" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="20" x="-0.9" y="1.45" dx="0.5" dy="0.2" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="PAD" x="0" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="1.25" y1="1.5" x2="1.5" y2="1.5" width="0.13" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.25" width="0.13" layer="21"/>
+<wire x1="-1.25" y1="-1.5" x2="-1.5" y2="-1.5" width="0.13" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.25" width="0.13" layer="21"/>
+<wire x1="1.5" y1="-1.25" x2="1.5" y2="-1.5" width="0.13" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.25" y2="-1.5" width="0.13" layer="21"/>
+<polygon width="0.13" layer="21">
+<vertex x="-1.5" y="1.25"/>
+<vertex x="-1.25" y="1.25"/>
+<vertex x="-1.25" y="1.5"/>
+<vertex x="-1.5" y="1.5"/>
+</polygon>
+<text x="-0.8" y="0.3" size="0.3" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-0.3" size="0.3" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.05" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.05" layer="51"/>
+<rectangle x1="-1.7" y1="-0.1" x2="-1.2" y2="0.1" layer="31"/>
+<rectangle x1="-1.7" y1="-0.55" x2="-1.2" y2="-0.35" layer="31"/>
+<rectangle x1="-1.7" y1="-1" x2="-1.35" y2="-0.8" layer="31"/>
+<rectangle x1="-1.075" y1="-1.625" x2="-0.725" y2="-1.425" layer="31" rot="R90"/>
+<rectangle x1="-0.7" y1="-1.55" x2="-0.2" y2="-1.35" layer="31" rot="R90"/>
+<rectangle x1="0.2" y1="-1.55" x2="0.7" y2="-1.35" layer="31" rot="R90"/>
+<rectangle x1="-0.25" y1="-1.55" x2="0.25" y2="-1.35" layer="31" rot="R90"/>
+<rectangle x1="0.725" y1="-1.625" x2="1.075" y2="-1.425" layer="31" rot="R90"/>
+<rectangle x1="1.35" y1="-1" x2="1.7" y2="-0.8" layer="31" rot="R180"/>
+<rectangle x1="1.2" y1="-0.55" x2="1.7" y2="-0.35" layer="31" rot="R180"/>
+<rectangle x1="1.2" y1="-0.1" x2="1.7" y2="0.1" layer="31" rot="R180"/>
+<rectangle x1="1.2" y1="0.35" x2="1.7" y2="0.55" layer="31" rot="R180"/>
+<rectangle x1="1.35" y1="0.8" x2="1.7" y2="1" layer="31" rot="R180"/>
+<rectangle x1="0.725" y1="1.425" x2="1.075" y2="1.625" layer="31" rot="R270"/>
+<rectangle x1="0.2" y1="1.35" x2="0.7" y2="1.55" layer="31" rot="R270"/>
+<rectangle x1="-0.25" y1="1.35" x2="0.25" y2="1.55" layer="31" rot="R270"/>
+<rectangle x1="-0.7" y1="1.35" x2="-0.2" y2="1.55" layer="31" rot="R270"/>
+<rectangle x1="-1.075" y1="1.425" x2="-0.725" y2="1.625" layer="31" rot="R270"/>
+<rectangle x1="-1.7" y1="0.8" x2="-1.35" y2="1" layer="31"/>
+<rectangle x1="-0.675" y1="-1.7" x2="0.675" y2="-1" layer="29"/>
+<rectangle x1="0.675" y1="-1.7" x2="1.075" y2="-1.2" layer="29"/>
+<rectangle x1="-1.075" y1="-1.7" x2="-0.675" y2="-1.2" layer="29"/>
+<rectangle x1="1.25" y1="0.625" x2="1.65" y2="1.125" layer="29" rot="R90"/>
+<rectangle x1="0.675" y1="-0.35" x2="2.025" y2="0.35" layer="29" rot="R90"/>
+<rectangle x1="1.25" y1="-1.125" x2="1.65" y2="-0.625" layer="29" rot="R90"/>
+<rectangle x1="-1.075" y1="1.2" x2="-0.675" y2="1.7" layer="29" rot="R180"/>
+<rectangle x1="0.675" y1="1.2" x2="1.075" y2="1.7" layer="29" rot="R180"/>
+<rectangle x1="-0.675" y1="1" x2="0.675" y2="1.7" layer="29" rot="R180"/>
+<rectangle x1="-2.025" y1="-0.35" x2="-0.675" y2="0.35" layer="29" rot="R270"/>
+<rectangle x1="-1.65" y1="-1.125" x2="-1.25" y2="-0.625" layer="29" rot="R270"/>
+<rectangle x1="-1.65" y1="0.625" x2="-1.25" y2="1.125" layer="29" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -3453,6 +3526,38 @@
 </technology>
 </technologies>
 </device>
+<device name="6.04K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-6.04KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW04026K04FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="5.6K_16" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="541-5.60KLCT-ND" constant="no"/>
+<attribute name="EPK" value="5.24" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MFG_PART_#" value="CRCW04025K60FKED" constant="no"/>
+<attribute name="TEMP" value="±100ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="POT" prefix="R">
@@ -3579,7 +3684,7 @@
 <gate name="G$1" symbol="ATTINYX4A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="8MU" package="ATTINYX4A">
+<device name="8MU" package="20M1">
 <connects>
 <connect gate="G$1" pin="GND" pad="8 PAD"/>
 <connect gate="G$1" pin="PA0" pad="5"/>
@@ -3601,11 +3706,44 @@
 <attribute name="ADC" value="8x10b" constant="no"/>
 <attribute name="DIGIKEY_PART_#" value="ATTINY84A-MU-ND" constant="no"/>
 <attribute name="EPK" value="636.98" constant="no"/>
-<attribute name="FLASH" value="8KB (4K x 16)" constant="no"/>
+<attribute name="FLASH" value="4K x 16" constant="no"/>
 <attribute name="FREQ" value="20MHz" constant="no"/>
 <attribute name="MANUFACTURER" value="Atmel" constant="no"/>
 <attribute name="MFG_PART_#" value="ATTINY84A-MU" constant="no"/>
 <attribute name="RAM" value="512 x 8" constant="no"/>
+<attribute name="TEMP" value="-40°C ~ 85°C (TA)" constant="no"/>
+<attribute name="VCC" value="1.8 V ~ 5.5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4MMH" package="20M2">
+<connects>
+<connect gate="G$1" pin="GND" pad="8 PAD" route="any"/>
+<connect gate="G$1" pin="PA0" pad="5"/>
+<connect gate="G$1" pin="PA1" pad="4"/>
+<connect gate="G$1" pin="PA2" pad="3"/>
+<connect gate="G$1" pin="PA3" pad="2"/>
+<connect gate="G$1" pin="PA4" pad="1"/>
+<connect gate="G$1" pin="PA5" pad="20"/>
+<connect gate="G$1" pin="PA6" pad="16"/>
+<connect gate="G$1" pin="PA7" pad="15"/>
+<connect gate="G$1" pin="PB0" pad="11"/>
+<connect gate="G$1" pin="PB1" pad="12"/>
+<connect gate="G$1" pin="PB2" pad="14"/>
+<connect gate="G$1" pin="PB3" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ADC" value="8x10b" constant="no"/>
+<attribute name="DIGIKEY_PART_#" value="ATTINY44A-MMH-ND" constant="no"/>
+<attribute name="EEPROM" value="256 x 8" constant="no"/>
+<attribute name="EPK" value="601.79" constant="no"/>
+<attribute name="FLASH" value="2K x 16" constant="no"/>
+<attribute name="FREQ" value="20MHz" constant="no"/>
+<attribute name="MANUFACTURER" value="Atmel" constant="no"/>
+<attribute name="MFG_PART_#" value="ATTINY44A-MMH" constant="no"/>
+<attribute name="RAM" value="256 x 8" constant="no"/>
 <attribute name="TEMP" value="-40°C ~ 85°C (TA)" constant="no"/>
 <attribute name="VCC" value="1.8 V ~ 5.5 V" constant="no"/>
 </technology>
@@ -3872,12 +4010,11 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="445-11014-1-ND" constant="no"/>
+<attribute name="EPK" value="34.38" constant="no"/>
 <attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
 <attribute name="MFG_PART_#" value="C1005JB1V105K050BC" constant="no"/>
 <attribute name="TEMP" value="-25°C ~ 85°C" constant="no"/>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
-<attribute name="TYPE" value="smt" constant="no"/>
-<attribute name="USD" value="0.16" constant="no"/>
 </technology>
 </technologies>
 </device>
