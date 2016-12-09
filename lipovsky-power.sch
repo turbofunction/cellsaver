@@ -1242,12 +1242,12 @@
 </package>
 <package name="1206-QUAD-LS">
 <smd name="1" x="-1.3" y="-0.7" dx="0.7" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
-<text x="-1.3" y="0.4" size="0.254" layer="25" align="top-left">&gt;NAME</text>
-<text x="-1.3" y="-0.4" size="0.254" layer="27">&gt;VALUE</text>
+<text x="-1.4" y="0.6" size="0.4" layer="25" align="top-left">&gt;NAME</text>
+<text x="-1.4" y="-0.6" size="0.4" layer="27">&gt;VALUE</text>
 <wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
-<wire x1="-1.9" y1="-0.83" x2="-1.9" y2="0.77" width="0.13" layer="21"/>
+<wire x1="-1.9" y1="-0.75" x2="-1.9" y2="0.75" width="0.13" layer="21"/>
 <smd name="2" x="-0.4" y="-0.7" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="3" x="0.4" y="-0.7" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="4" x="1.3" y="-0.7" dx="0.7" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
@@ -1264,7 +1264,7 @@
 <rectangle x1="-1.65" y1="0.45" x2="-0.95" y2="0.95" layer="29"/>
 <rectangle x1="0.95" y1="0.45" x2="1.65" y2="0.95" layer="29"/>
 <rectangle x1="0.95" y1="-0.95" x2="1.65" y2="-0.45" layer="29"/>
-<wire x1="1.9" y1="-0.83" x2="1.9" y2="0.77" width="0.13" layer="21"/>
+<wire x1="1.9" y1="-0.75" x2="1.9" y2="0.75" width="0.13" layer="21"/>
 <rectangle x1="-1.6" y1="-0.9" x2="-1" y2="-0.5" layer="31"/>
 <rectangle x1="-1.6" y1="0.5" x2="-1" y2="0.9" layer="31"/>
 <rectangle x1="1" y1="0.5" x2="1.6" y2="0.9" layer="31"/>
