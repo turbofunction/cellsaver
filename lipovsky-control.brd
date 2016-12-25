@@ -232,8 +232,8 @@ TEMP</text>
 <text x="51.7" y="3.3" size="0.8" layer="21" font="vector" ratio="15" rot="SR180" align="top-center">FB</text>
 <text x="17.1" y="16" size="2.2" layer="22" font="vector" ratio="20" rot="MR90" align="top-center">LiPovsky
 Balalaika</text>
-<text x="9.5" y="16" size="1" layer="22" font="vector" ratio="20" rot="MR90" align="top-center">Proto-2
-2016-12-25</text>
+<text x="9.5" y="16" size="1" layer="22" font="vector" ratio="20" rot="MR90" align="top-center">Proto-3
+2017-xx-xx</text>
 <text x="2" y="16" size="1" layer="22" font="vector" ratio="20" rot="MR270" align="center">TURBOfunction.com/fpv</text>
 <polygon width="0.13" layer="21">
 <vertex x="18.175" y="15.3"/>

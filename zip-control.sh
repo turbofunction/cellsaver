@@ -9,7 +9,7 @@ fi
 
 proj="lipovsky-control"
 
-zip_file="$proj-P2.zip"
+zip_file="$proj-P3.zip"
 
 rm -f $zip_file
 

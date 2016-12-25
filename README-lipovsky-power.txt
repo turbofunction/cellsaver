@@ -5,7 +5,7 @@ Janne Savukoski
 
 
                     Part name: LiPovsky Balalaika (power)
-                     Revision: Proto-1
+                     Revision: Proto-3
                    Board size: 59mm x 32mm
               Board thickness: 
                    Board type: Four layer
