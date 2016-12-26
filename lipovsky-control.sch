@@ -5475,7 +5475,7 @@
 <part name="R15" library="dubec" deviceset="RES" device="10K_16"/>
 <part name="R16" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
 <part name="R17" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
-<part name="U$2" library="dubec" deviceset="JUMPER-PAD" device=""/>
+<part name="J1" library="dubec" deviceset="JUMPER-PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5527,7 +5527,7 @@
 <instance part="R15" gate="G$1" x="40.64" y="15.24"/>
 <instance part="R16" gate="G$1" x="40.64" y="27.94"/>
 <instance part="R17" gate="G$1" x="5.08" y="17.78"/>
-<instance part="U$2" gate="G$1" x="2.54" y="15.24"/>
+<instance part="J1" gate="G$1" x="2.54" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -5748,7 +5748,7 @@
 <segment>
 <label x="10.16" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="PA5"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6156,7 +6156,7 @@
 <label x="93.98" y="35.56" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="15.24" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="-5.08" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>

@@ -1121,7 +1121,7 @@ design rules under a new name.</description>
 <attribute name="MFG_PART_#" value="CRCW04024K70FKED" x="30.9" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY_PART_#" value="541-4.70KLCT-ND" x="30.9" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$2" library="dubec" package="JUMPER-PAD-ROUND" value="JUMPER-PAD" x="33.4" y="21.2" rot="MR0"/>
+<element name="J1" library="dubec" package="JUMPER-PAD-ROUND" value="JUMPER-PAD" x="33.4" y="21.2" rot="MR0"/>
 </elements>
 <signals>
 <signal name="FB">
@@ -1414,7 +1414,7 @@ design rules under a new name.</description>
 <wire x1="21" y1="19.2" x2="20.725" y2="18.925" width="0.25" layer="1"/>
 <wire x1="20.725" y1="18.925" x2="20.725" y2="16.995" width="0.25" layer="1"/>
 <wire x1="20.725" y1="16.995" x2="19.46" y2="15.73" width="0.25" layer="1"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="J1" pad="2"/>
 <wire x1="33.1" y1="21.2" x2="29.4" y2="21.2" width="0.3" layer="16"/>
 <wire x1="29.4" y1="21.2" x2="26.5" y2="18.3" width="0.3" layer="16"/>
 <wire x1="26.5" y1="18.3" x2="26.5" y2="15.8" width="0.3" layer="16"/>
@@ -1872,7 +1872,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="!S_RESET">
 <contactref element="P3" pad="1"/>
-<contactref element="U$2" pad="1"/>
+<contactref element="J1" pad="1"/>
 <wire x1="42.2" y1="27.3" x2="36.1" y2="21.2" width="0.3" layer="16"/>
 <wire x1="36.1" y1="21.2" x2="33.7" y2="21.2" width="0.3" layer="16"/>
 <via x="42.5" y="27.3" extent="1-16" drill="0.35"/>
