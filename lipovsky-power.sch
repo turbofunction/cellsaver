@@ -6116,6 +6116,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$4" library="dubec" deviceset="3DSCH" device="40V_0.35A"/>
 <part name="D1" library="dubec" deviceset="D_ZENER" device="18V_0.3W"/>
 <part name="R4" library="dubec" deviceset="RES" device="15.4K_16"/>
+<part name="R10" library="dubec" deviceset="RES" device="10K_16"/>
+<part name="R19" library="dubec" deviceset="RES" device="10K_16"/>
 </parts>
 <sheets>
 <sheet>
@@ -6255,6 +6257,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$4" gate="G$3" x="27.94" y="68.58" rot="R270"/>
 <instance part="D1" gate="G$1" x="43.18" y="38.1" rot="R270"/>
 <instance part="R4" gate="G$1" x="27.94" y="38.1" rot="R90"/>
+<instance part="R10" gate="G$1" x="114.3" y="22.86"/>
+<instance part="R19" gate="G$1" x="200.66" y="22.86"/>
 </instances>
 <busses>
 </busses>
@@ -7155,6 +7159,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="EN"/>
 <wire x1="124.46" y1="38.1" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <junction x="124.46" y="33.02"/>
+<wire x1="124.46" y1="33.02" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
@@ -7163,6 +7170,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="210.82" y1="33.02" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
 <junction x="210.82" y="27.94"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="22.86" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C4+" class="0">
@@ -7400,6 +7410,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Q4" gate="G$1" pin="G"/>
 <pinref part="U2" gate="G$1" pin="S2"/>
 <wire x1="190.5" y1="33.02" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="22.86" x2="198.12" y2="22.86" width="0.1524" layer="91"/>
+<junction x="187.96" y="22.86"/>
 </segment>
 </net>
 <net name="AT0" class="0">
@@ -7633,6 +7646,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="104.14" y1="33.02" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="104.14" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
+<junction x="104.14" y="22.86"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!S_RESET" class="0">
