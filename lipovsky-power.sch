@@ -6118,6 +6118,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="dubec" deviceset="RES" device="15.4K_16"/>
 <part name="R10" library="dubec" deviceset="RES" device="10K_16"/>
 <part name="R19" library="dubec" deviceset="RES" device="10K_16"/>
+<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
 </parts>
 <sheets>
 <sheet>
@@ -6259,6 +6260,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R4" gate="G$1" x="27.94" y="38.1" rot="R90"/>
 <instance part="R10" gate="G$1" x="114.3" y="22.86"/>
 <instance part="R19" gate="G$1" x="200.66" y="22.86"/>
+<instance part="TP4" gate="G$1" x="-93.98" y="20.32" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6307,16 +6309,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="SS+5" class="0">
 <segment>
-<wire x1="-96.52" y1="33.02" x2="-91.44" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="Q51" gate="G$1" pin="S"/>
 <pinref part="Q52" gate="G$1" pin="S"/>
+<wire x1="-96.52" y1="33.02" x2="-91.44" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS-5" class="0">
 <segment>
-<wire x1="-91.44" y1="22.86" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="22.86" x2="-93.98" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="Q54" gate="G$1" pin="S"/>
 <pinref part="Q53" gate="G$1" pin="S"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="22.86" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="20.32" x2="-93.98" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-93.98" y="22.86"/>
 </segment>
 </net>
 <net name="C1" class="0">
