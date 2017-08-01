@@ -7584,6 +7584,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="241.3" y1="-48.26" x2="241.3" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="MVOE" gate="G$1" pin="PA7"/>
+<wire x1="274.32" y1="48.26" x2="276.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="276.86" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OPTO_A" class="0">
 <segment>

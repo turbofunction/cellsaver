@@ -4245,11 +4245,24 @@ design rules under a new name.</description>
 <contactref element="R11" pad="2"/>
 <via x="40.8" y="25.9" extent="1-16" drill="0.25"/>
 <wire x1="51.8" y1="2" x2="43.3" y2="10.5" width="0.3" layer="16"/>
-<wire x1="43.3" y1="10.5" x2="43.3" y2="23.4" width="0.3" layer="16"/>
+<wire x1="43.3" y1="10.5" x2="43.3" y2="23.1" width="0.3" layer="16"/>
+<wire x1="43.3" y1="23.1" x2="43.3" y2="23.4" width="0.3" layer="16"/>
 <wire x1="43.3" y1="23.4" x2="40.8" y2="25.9" width="0.3" layer="16"/>
 <wire x1="40.8" y1="25.9" x2="40.4" y2="25.9" width="0.4" layer="1"/>
 <wire x1="40.4" y1="25.9" x2="40.3" y2="26" width="0.4" layer="1"/>
 <contactref element="J2" pad="4"/>
+<contactref element="MVOE" pad="15"/>
+<via x="48.1" y="27.8" extent="1-16" drill="0.25"/>
+<wire x1="47.95" y1="27.3" x2="48.1" y2="27.3" width="0.2" layer="1"/>
+<wire x1="48.1" y1="27.3" x2="48.1" y2="27.8" width="0.2" layer="1"/>
+<wire x1="43.3" y1="23.1" x2="49.1" y2="23.1" width="0.3" layer="16"/>
+<wire x1="49.1" y1="23.1" x2="50.3" y2="24.3" width="0.3" layer="16"/>
+<wire x1="50.3" y1="24.3" x2="50.3" y2="25.1" width="0.3" layer="16"/>
+<wire x1="50.3" y1="25.1" x2="49.5" y2="25.9" width="0.3" layer="16"/>
+<wire x1="49.5" y1="25.9" x2="49.5" y2="27.5" width="0.3" layer="16"/>
+<wire x1="49.5" y1="27.5" x2="49.1" y2="27.9" width="0.3" layer="16"/>
+<wire x1="49.1" y1="27.9" x2="48.2" y2="27.9" width="0.3" layer="16"/>
+<wire x1="48.2" y1="27.9" x2="48.1" y2="27.8" width="0.3" layer="16"/>
 <wire x1="51.81" y1="2" x2="51.8" y2="2" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="OPTO_A">
@@ -4354,9 +4367,9 @@ design rules under a new name.</description>
 <wire x1="47.85" y1="26.4" x2="48.8" y2="26.4" width="0.2" layer="1"/>
 <wire x1="44.19" y1="30" x2="45.09" y2="29.1" width="0.2" layer="15"/>
 <wire x1="45.09" y1="29.1" x2="45.9" y2="29.1" width="0.2" layer="15"/>
-<wire x1="45.9" y1="29.1" x2="47.2" y2="27.8" width="0.2" layer="15"/>
-<wire x1="47.2" y1="27.8" x2="49.1" y2="27.8" width="0.2" layer="15"/>
-<wire x1="49.1" y1="27.8" x2="49.4" y2="27.5" width="0.2" layer="15"/>
+<wire x1="45.9" y1="29.1" x2="46.6" y2="28.4" width="0.2" layer="15"/>
+<wire x1="46.6" y1="28.4" x2="48.5" y2="28.4" width="0.2" layer="15"/>
+<wire x1="48.5" y1="28.4" x2="49.4" y2="27.5" width="0.2" layer="15"/>
 <wire x1="49.4" y1="27.5" x2="49.4" y2="26.9" width="0.2" layer="15"/>
 <wire x1="49.4" y1="26.9" x2="48.9" y2="26.4" width="0.2" layer="15"/>
 <wire x1="48.9" y1="26.4" x2="48.8" y2="26.4" width="0.2" layer="15"/>
