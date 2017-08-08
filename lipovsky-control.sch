@@ -5445,8 +5445,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U3" library="dubec" deviceset="MIC2288" device="YD5"/>
 <part name="C21" library="dubec" deviceset="CAP" device="4.7U_6.3V"/>
 <part name="C31" library="dubec" deviceset="CAP" device="4.7U_6.3V"/>
-<part name="I2" library="dubec" deviceset="I" device="4.7U_0.12A"/>
-<part name="I3" library="dubec" deviceset="I" device="10U_0.09A"/>
+<part name="L1" library="dubec" deviceset="I" device="4.7U_0.12A"/>
+<part name="L2" library="dubec" deviceset="I" device="10U_0.09A"/>
 <part name="D2" library="dubec" deviceset="D_SCH" device="20V_0.5A"/>
 <part name="D3" library="dubec" deviceset="D_SCH" device="20V_0.5A"/>
 <part name="R2" library="dubec" deviceset="RES" device="14.3K_16" value="RES14.3K_16"/>
@@ -5478,6 +5478,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="68.58" y="12.7" size="1.778" layer="94" align="top-center">T-</text>
+<text x="66.04" y="12.7" size="1.778" layer="94" align="top-center">T+</text>
+<text x="73.66" y="12.7" size="1.778" layer="94" align="top-center">S-</text>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="66.04" y="-25.4" rot="MR0"/>
@@ -5494,10 +5497,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D106" gate="G$1" x="-81.28" y="-45.72" rot="MR270"/>
 <instance part="U2" gate="G$1" x="-68.58" y="35.56"/>
 <instance part="U3" gate="G$1" x="-68.58" y="5.08"/>
-<instance part="C21" gate="G$1" x="-86.36" y="38.1" rot="R90"/>
-<instance part="C31" gate="G$1" x="-86.36" y="5.08" rot="R90"/>
-<instance part="I2" gate="G$1" x="-68.58" y="48.26"/>
-<instance part="I3" gate="G$1" x="-68.58" y="17.78"/>
+<instance part="C21" gate="G$1" x="-86.36" y="40.64" rot="R90"/>
+<instance part="C31" gate="G$1" x="-86.36" y="10.16" rot="R90"/>
+<instance part="L1" gate="G$1" x="-68.58" y="48.26"/>
+<instance part="L2" gate="G$1" x="-68.58" y="17.78"/>
 <instance part="D2" gate="G$1" x="-50.8" y="48.26"/>
 <instance part="D3" gate="G$1" x="-50.8" y="17.78"/>
 <instance part="R2" gate="G$1" x="-45.72" y="40.64" rot="R90"/>
@@ -5557,7 +5560,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-91.44" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="-86.36" y1="25.4" x2="-91.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="25.4" x2="-86.36" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="25.4" x2="-86.36" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-86.36" y="25.4"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="25.4" x2="-45.72" y2="25.4" width="0.1524" layer="91"/>
@@ -5574,7 +5577,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-68.58" y1="-5.08" x2="-86.36" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="-86.36" y1="-5.08" x2="-91.44" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="2.54" x2="-86.36" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="7.62" x2="-86.36" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-5.08"/>
 <label x="-91.44" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -5695,7 +5698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.66" y1="35.56" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="I2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="48.26" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="48.26" x2="-86.36" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="48.26" x2="-91.44" y2="48.26" width="0.1524" layer="91"/>
@@ -5709,11 +5712,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="-81.28" y1="35.56" x2="-78.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="48.26" x2="-86.36" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="48.26" x2="-86.36" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-86.36" y="48.26"/>
 </segment>
 <segment>
-<pinref part="I3" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="17.78" x2="-81.28" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="17.78" x2="-86.36" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="17.78" x2="-91.44" y2="17.78" width="0.1524" layer="91"/>
@@ -5726,7 +5729,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-81.28" y1="10.16" x2="-78.74" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-81.28" y="10.16"/>
 <pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="17.78" x2="-86.36" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="17.78" x2="-86.36" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-86.36" y="17.78"/>
 <label x="-91.44" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -5758,7 +5761,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="I2" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="-60.96" y1="48.26" x2="-55.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="48.26" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
@@ -5770,7 +5773,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="I3" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="-60.96" y1="17.78" x2="-55.88" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="17.78" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
