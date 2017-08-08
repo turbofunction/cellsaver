@@ -5623,24 +5623,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <nets>
 <net name="S-" class="0">
 <segment>
-<label x="93.98" y="-7.62" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="P2" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="-7.62" x2="93.98" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="93.98" y="15.24" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="P3" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="15.24" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="73.66" y="15.24" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="P4" gate="G$1" pin="3"/>
 <wire x1="73.66" y1="15.24" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="E"/>
-<wire x1="63.5" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
-<label x="58.42" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="2"/>
@@ -6177,6 +6162,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="-43.18" x2="5.08" y2="-45.72" width="0.1524" layer="91"/>
 <label x="5.08" y="-45.72" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P3" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="12.7" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
+<label x="93.98" y="15.24" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="E"/>
+<wire x1="63.5" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
+<label x="58.42" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="93.98" y="-7.62" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="P2" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-7.62" x2="93.98" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S+F" class="0">
