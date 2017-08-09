@@ -1,6 +1,12 @@
-// created 10/08/2017 1.37.03
+/*
+ * Power.c
+ *
+ * Created: 10/08/2017 1.53.38
+ * Author : Jorma
+ */ 
 
 #include <avr/io.h>
+
 
 int main(void)
 {
@@ -9,3 +15,4 @@ int main(void)
     {
     }
 }
+

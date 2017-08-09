@@ -1,6 +1,12 @@
-// created 10/08/2017 1.37.54
+/*
+ * Control.c
+ *
+ * Created: 10/08/2017 1.49.15
+ * Author : Jorma
+ */ 
 
 #include <avr/io.h>
+
 
 int main(void)
 {
@@ -9,3 +15,4 @@ int main(void)
     {
     }
 }
+
