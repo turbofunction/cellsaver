@@ -1,9 +1,10 @@
-// created 09/08/2017 20.43.02
+// created 10/08/2017 1.37.54
 
 #include <avr/io.h>
 
 int main(void)
 {
+    /* Replace with your application code */
     while (1) 
     {
     }

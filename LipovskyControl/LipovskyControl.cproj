@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>control</AssemblyName>
-    <Name>control</Name>
-    <RootNamespace>control</RootNamespace>
+    <AssemblyName>LipovskyControl</AssemblyName>
+    <Name>LipovskyControl</Name>
+    <RootNamespace>LipovskyControl</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>

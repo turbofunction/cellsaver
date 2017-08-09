@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>power</AssemblyName>
-    <Name>power</Name>
-    <RootNamespace>power</RootNamespace>
+    <AssemblyName>LipovskyPower</AssemblyName>
+    <Name>LipovskyPower</Name>
+    <RootNamespace>LipovskyPower</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
