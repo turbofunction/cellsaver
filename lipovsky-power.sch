@@ -4267,7 +4267,7 @@
 </technology>
 </technologies>
 </device>
-<device name="40V_10A" package="6-POWERWDFN">
+<device name="30V_10A" package="6-POWERWDFN">
 <connects>
 <connect gate="G$1" pin="D" pad="D"/>
 <connect gate="G$1" pin="G" pad="G"/>
@@ -6539,7 +6539,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q52" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q53" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q62" library="dubec" deviceset="PMOS" device="30V_11A"/>
-<part name="Q14" library="dubec" deviceset="NMOS" device="40V_10A"/>
+<part name="Q14" library="dubec" deviceset="NMOS" device="30V_10A"/>
 <part name="Q25" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q26" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q35" library="dubec" deviceset="PMOS" device="30V_11A"/>
@@ -6556,17 +6556,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q56" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q57" library="dubec" deviceset="PMOS" device="30V_11A"/>
 <part name="Q66" library="dubec" deviceset="PMOS" device="30V_11A"/>
-<part name="Q18" library="dubec" deviceset="NMOS" device="40V_10A"/>
+<part name="Q18" library="dubec" deviceset="NMOS" device="30V_10A"/>
 <part name="R1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="R2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
-<part name="Q12" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="Q23" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="Q24" library="dubec" deviceset="NMOS" device="40V_10A"/>
+<part name="Q12" library="dubec" deviceset="NMOS" device="30V_10A"/>
+<part name="Q23" library="dubec" deviceset="NMOS" device="30V_10A"/>
+<part name="Q24" library="dubec" deviceset="NMOS" device="30V_10A"/>
 <part name="RGS1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="RGS-2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
-<part name="Q27" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="Q28" library="dubec" deviceset="NMOS" device="40V_10A"/>
-<part name="Q16" library="dubec" deviceset="NMOS" device="40V_10A"/>
+<part name="Q27" library="dubec" deviceset="NMOS" device="30V_10A"/>
+<part name="Q28" library="dubec" deviceset="NMOS" device="30V_10A"/>
+<part name="Q16" library="dubec" deviceset="NMOS" device="30V_10A"/>
 <part name="RGT1" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="RGT-2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
 <part name="Q1" library="dubec" deviceset="NMOS" device="30V_30A"/>
