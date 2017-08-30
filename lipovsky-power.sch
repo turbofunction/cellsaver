@@ -1692,6 +1692,77 @@
 <rectangle x1="-1.1" y1="-0.85" x2="-0.9" y2="-0.3" layer="41"/>
 <rectangle x1="-1.1" y1="0.3" x2="-0.9" y2="0.85" layer="41"/>
 </package>
+<package name="POWERDI3333-8">
+<text x="0" y="-0.2" size="0.4" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="0.2" size="0.4" layer="25" align="bottom-center">&gt;NAME</text>
+<smd name="G" x="1.5" y="1" dx="0.7" dy="0.35" layer="1" roundness="20" stop="no" thermals="no" cream="no"/>
+<smd name="D" x="-0.8" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="1.5" y="-0.35" dx="0.7" dy="1.65" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.05" layer="51"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.05" layer="51"/>
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0.05" layer="51"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.8" y="1.125"/>
+<vertex x="-1.8" y="0.825"/>
+<vertex x="-1.3" y="0.825"/>
+<vertex x="-1.3" y="0.475"/>
+<vertex x="-1.8" y="0.475"/>
+<vertex x="-1.8" y="0.175"/>
+<vertex x="-1.3" y="0.175"/>
+<vertex x="-1.3" y="-0.175"/>
+<vertex x="-1.8" y="-0.175"/>
+<vertex x="-1.8" y="-0.475"/>
+<vertex x="-1.3" y="-0.475"/>
+<vertex x="-1.3" y="-0.825"/>
+<vertex x="-1.8" y="-0.825"/>
+<vertex x="-1.8" y="-1.125"/>
+<vertex x="0.35" y="-1.125"/>
+<vertex x="0.35" y="1.125"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.825" y="1.15"/>
+<vertex x="0.375" y="1.15"/>
+<vertex x="0.375" y="-1.15"/>
+<vertex x="-1.825" y="-1.15"/>
+<vertex x="-1.825" y="-0.8"/>
+<vertex x="-1.325" y="-0.8"/>
+<vertex x="-1.325" y="-0.5"/>
+<vertex x="-1.825" y="-0.5"/>
+<vertex x="-1.825" y="-0.15"/>
+<vertex x="-1.325" y="-0.15"/>
+<vertex x="-1.325" y="0.15"/>
+<vertex x="-1.825" y="0.15"/>
+<vertex x="-1.825" y="0.5"/>
+<vertex x="-1.325" y="0.5"/>
+<vertex x="-1.325" y="0.8"/>
+<vertex x="-1.825" y="0.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.725" y="1.05"/>
+<vertex x="0.1" y="1.05"/>
+<vertex x="0.1" y="-1.05"/>
+<vertex x="-1.725" y="-1.05"/>
+<vertex x="-1.725" y="-0.9"/>
+<vertex x="-1.225" y="-0.9"/>
+<vertex x="-1.225" y="-0.4"/>
+<vertex x="-1.75" y="-0.4"/>
+<vertex x="-1.75" y="-0.25"/>
+<vertex x="-1.225" y="-0.25"/>
+<vertex x="-1.225" y="0.25"/>
+<vertex x="-1.725" y="0.25"/>
+<vertex x="-1.725" y="0.4"/>
+<vertex x="-1.225" y="0.4"/>
+<vertex x="-1.225" y="0.9"/>
+<vertex x="-1.725" y="0.9"/>
+</polygon>
+<rectangle x1="1.125" y1="0.8" x2="1.875" y2="1.2" layer="29"/>
+<rectangle x1="1.125" y1="-1.2" x2="1.875" y2="0.5" layer="29"/>
+<rectangle x1="1.25" y1="0.9" x2="1.8" y2="1.125" layer="31"/>
+<rectangle x1="1.275" y1="-1.1" x2="1.8" y2="-0.85" layer="31"/>
+<rectangle x1="1.25" y1="0.15" x2="1.8" y2="0.375" layer="31"/>
+<rectangle x1="1.275" y1="-0.45" x2="1.8" y2="-0.2" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOSFET">
@@ -4318,6 +4389,24 @@
 <attribute name="QG" value="14nC @ 4.5V" constant="no"/>
 <attribute name="RDS" value="11.7 mOhm @ 8.5A, 4.5V" constant="no"/>
 <attribute name="VGS" value="±12V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="40V_10A" package="POWERDI3333-8">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EURO" value="39.1/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MFG_PART_#" value="DMP4013LFG-7" constant="no"/>
+<attribute name="MOUSER_PART_#" value="621-DMP4013LFG-7" constant="no"/>
+<attribute name="P" value="1 W" constant="no"/>
+<attribute name="QG" value="68.6 nC" constant="no"/>
+<attribute name="RDS_ON" value="9.4 mOhms" constant="no"/>
 </technology>
 </technologies>
 </device>
