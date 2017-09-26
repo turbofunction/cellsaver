@@ -5672,7 +5672,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R16" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
 <part name="R17" library="dubec" deviceset="RES" device="4.7K_16" value="RES4.7K_16"/>
 <part name="J1" library="dubec" deviceset="JUMPER-PAD" device=""/>
-<part name="TP_PB3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3"/>
+<part name="TP_PB3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 <part name="R1" library="dubec" deviceset="RES" device="348_16" value="RES348_16"/>
 <part name="R3" library="dubec" deviceset="RES" device="470_16" value="RES470_16"/>
 <part name="R14" library="dubec" deviceset="POT" device="200" value="POT200"/>
