@@ -291,7 +291,7 @@
 <text x="-0.775" y="0" size="0.25" layer="27">&gt;VALUE</text>
 <text x="-0.775" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
 <smd name="G" x="0.675" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="D" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="D" x="-0.325" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="S" x="0.675" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="31">
 <vertex x="-0.6" y="-0.6"/>
