@@ -288,87 +288,87 @@
 <wire x1="-8.75" y1="-0.625" x2="-8.75" y2="0.625" width="0.2032" layer="21"/>
 </package>
 <package name="6-POWERWDFN">
-<text x="-0.75" y="0" size="0.25" layer="27">&gt;VALUE</text>
-<text x="-0.75" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
-<smd name="G" x="0.7" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="-0.775" y="0" size="0.25" layer="27">&gt;VALUE</text>
+<text x="-0.775" y="0.6" size="0.25" layer="25" align="top-left">&gt;NAME</text>
+<smd name="G" x="0.675" y="-0.8" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="D" x="-0.3" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="S" x="0.7" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="0.675" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <polygon width="0.2" layer="31">
-<vertex x="-0.575" y="-0.6"/>
-<vertex x="-0.575" y="0.6"/>
-<vertex x="-0.225" y="0.6"/>
-<vertex x="-0.225" y="-0.6"/>
+<vertex x="-0.6" y="-0.6"/>
+<vertex x="-0.6" y="0.6"/>
+<vertex x="-0.25" y="0.6"/>
+<vertex x="-0.25" y="-0.6"/>
 </polygon>
-<rectangle x1="0.575" y1="0.75" x2="0.775" y2="1.05" layer="31"/>
-<rectangle x1="0.575" y1="-0.3" x2="0.775" y2="0.3" layer="31"/>
-<wire x1="0" y1="0.9" x2="0" y2="0.725" width="0.25" layer="31"/>
-<wire x1="0" y1="0.725" x2="-0.125" y2="0.6" width="0.25" layer="31"/>
-<wire x1="-0.65" y1="0.9" x2="-0.65" y2="0.7" width="0.25" layer="31"/>
-<wire x1="-0.125" y1="-0.6" x2="0" y2="-0.725" width="0.25" layer="31"/>
-<wire x1="0" y1="-0.725" x2="0" y2="-0.9" width="0.25" layer="31"/>
-<wire x1="-0.65" y1="-0.7" x2="-0.65" y2="-0.9" width="0.25" layer="31"/>
-<rectangle x1="0.575" y1="-1.05" x2="0.775" y2="-0.75" layer="31"/>
+<rectangle x1="0.55" y1="0.75" x2="0.75" y2="1.05" layer="31"/>
+<rectangle x1="0.55" y1="-0.3" x2="0.75" y2="0.3" layer="31"/>
+<wire x1="-0.025" y1="0.9" x2="-0.025" y2="0.725" width="0.25" layer="31"/>
+<wire x1="-0.025" y1="0.725" x2="-0.15" y2="0.6" width="0.25" layer="31"/>
+<wire x1="-0.675" y1="0.9" x2="-0.675" y2="0.7" width="0.25" layer="31"/>
+<wire x1="-0.15" y1="-0.6" x2="-0.025" y2="-0.725" width="0.25" layer="31"/>
+<wire x1="-0.025" y1="-0.725" x2="-0.025" y2="-0.9" width="0.25" layer="31"/>
+<wire x1="-0.675" y1="-0.7" x2="-0.675" y2="-0.9" width="0.25" layer="31"/>
+<rectangle x1="0.55" y1="-1.05" x2="0.75" y2="-0.75" layer="31"/>
 <polygon width="0.15" layer="1">
-<vertex x="-0.7" y="-0.75"/>
-<vertex x="-0.7" y="0.75"/>
-<vertex x="-0.75" y="0.8"/>
-<vertex x="-0.75" y="0.975"/>
-<vertex x="-0.55" y="0.975"/>
-<vertex x="-0.55" y="0.725"/>
-<vertex x="-0.1" y="0.725"/>
-<vertex x="-0.1" y="0.975"/>
-<vertex x="0.1" y="0.975"/>
-<vertex x="0.1" y="-0.975"/>
-<vertex x="-0.1" y="-0.975"/>
-<vertex x="-0.1" y="-0.725"/>
-<vertex x="-0.55" y="-0.725"/>
-<vertex x="-0.55" y="-0.975"/>
-<vertex x="-0.75" y="-0.975"/>
-<vertex x="-0.75" y="-0.8"/>
-</polygon>
-<polygon width="0.15" layer="1">
-<vertex x="0.575" y="-0.275"/>
-<vertex x="0.575" y="0.975"/>
-<vertex x="0.825" y="0.975"/>
-<vertex x="0.825" y="0.275"/>
-<vertex x="1.375" y="0.275"/>
-<vertex x="1.375" y="-0.275"/>
+<vertex x="-0.725" y="-0.75"/>
+<vertex x="-0.725" y="0.75"/>
+<vertex x="-0.775" y="0.8"/>
+<vertex x="-0.775" y="0.975"/>
+<vertex x="-0.575" y="0.975"/>
+<vertex x="-0.575" y="0.725"/>
+<vertex x="-0.125" y="0.725"/>
+<vertex x="-0.125" y="0.975"/>
+<vertex x="0.075" y="0.975"/>
+<vertex x="0.075" y="-0.975"/>
+<vertex x="-0.125" y="-0.975"/>
+<vertex x="-0.125" y="-0.725"/>
+<vertex x="-0.575" y="-0.725"/>
+<vertex x="-0.575" y="-0.975"/>
+<vertex x="-0.775" y="-0.975"/>
+<vertex x="-0.775" y="-0.8"/>
 </polygon>
 <polygon width="0.15" layer="1">
-<vertex x="0.575" y="-0.975"/>
-<vertex x="0.575" y="-0.675"/>
-<vertex x="0.825" y="-0.675"/>
-<vertex x="0.825" y="-0.975"/>
+<vertex x="0.55" y="-0.275"/>
+<vertex x="0.55" y="0.975"/>
+<vertex x="0.8" y="0.975"/>
+<vertex x="0.8" y="0.275"/>
+<vertex x="1.35" y="0.275"/>
+<vertex x="1.35" y="-0.275"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="0.55" y="-0.975"/>
+<vertex x="0.55" y="-0.675"/>
+<vertex x="0.8" y="-0.675"/>
+<vertex x="0.8" y="-0.975"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="-0.525" y="0.75"/>
-<vertex x="-0.125" y="0.75"/>
-<vertex x="-0.125" y="1"/>
-<vertex x="0.125" y="1"/>
-<vertex x="0.125" y="-1"/>
-<vertex x="-0.125" y="-1"/>
-<vertex x="-0.125" y="-0.75"/>
-<vertex x="-0.525" y="-0.75"/>
-<vertex x="-0.525" y="-1"/>
-<vertex x="-0.775" y="-1"/>
-<vertex x="-0.775" y="-0.775"/>
-<vertex x="-0.725" y="-0.725"/>
-<vertex x="-0.725" y="0.725"/>
-<vertex x="-0.775" y="0.775"/>
-<vertex x="-0.775" y="1"/>
-<vertex x="-0.525" y="1"/>
+<vertex x="-0.55" y="0.75"/>
+<vertex x="-0.15" y="0.75"/>
+<vertex x="-0.15" y="1"/>
+<vertex x="0.1" y="1"/>
+<vertex x="0.1" y="-1"/>
+<vertex x="-0.15" y="-1"/>
+<vertex x="-0.15" y="-0.75"/>
+<vertex x="-0.55" y="-0.75"/>
+<vertex x="-0.55" y="-1"/>
+<vertex x="-0.8" y="-1"/>
+<vertex x="-0.8" y="-0.775"/>
+<vertex x="-0.75" y="-0.725"/>
+<vertex x="-0.75" y="0.725"/>
+<vertex x="-0.8" y="0.775"/>
+<vertex x="-0.8" y="1"/>
+<vertex x="-0.55" y="1"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="0.55" y="-0.3"/>
-<vertex x="0.55" y="1"/>
-<vertex x="0.85" y="1"/>
-<vertex x="0.85" y="-0.3"/>
+<vertex x="0.525" y="-0.3"/>
+<vertex x="0.525" y="1"/>
+<vertex x="0.825" y="1"/>
+<vertex x="0.825" y="-0.3"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="0.55" y="-0.65"/>
-<vertex x="0.85" y="-0.65"/>
-<vertex x="0.85" y="-1"/>
-<vertex x="0.55" y="-1"/>
+<vertex x="0.525" y="-0.65"/>
+<vertex x="0.825" y="-0.65"/>
+<vertex x="0.825" y="-1"/>
+<vertex x="0.525" y="-1"/>
 </polygon>
 <wire x1="-1.05" y1="1.05" x2="1.05" y2="1.05" width="0.05" layer="51"/>
 <wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.05" layer="51"/>
@@ -1705,6 +1705,77 @@
 <rectangle x1="0.35" y1="-1" x2="1" y2="1" layer="29"/>
 <rectangle x1="0.5" y1="-0.8" x2="0.9" y2="0.8" layer="31"/>
 <rectangle x1="-0.9" y1="-0.8" x2="-0.5" y2="0.8" layer="31"/>
+</package>
+<package name="POWERDI3333-8">
+<text x="0" y="-0.2" size="0.4" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="0.2" size="0.4" layer="25" align="bottom-center">&gt;NAME</text>
+<smd name="G" x="1.5" y="1" dx="0.7" dy="0.35" layer="1" roundness="20" stop="no" thermals="no" cream="no"/>
+<smd name="D" x="-0.8" y="0" dx="0.4" dy="0.4" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="S" x="1.5" y="-0.35" dx="0.7" dy="1.65" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.05" layer="51"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.05" layer="51"/>
+<wire x1="1.65" y1="-1.65" x2="-1.65" y2="-1.65" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="-1.65" x2="-1.65" y2="1.65" width="0.05" layer="51"/>
+<polygon width="0.1" layer="1">
+<vertex x="-1.8" y="1.125"/>
+<vertex x="-1.8" y="0.825"/>
+<vertex x="-1.3" y="0.825"/>
+<vertex x="-1.3" y="0.475"/>
+<vertex x="-1.8" y="0.475"/>
+<vertex x="-1.8" y="0.175"/>
+<vertex x="-1.3" y="0.175"/>
+<vertex x="-1.3" y="-0.175"/>
+<vertex x="-1.8" y="-0.175"/>
+<vertex x="-1.8" y="-0.475"/>
+<vertex x="-1.3" y="-0.475"/>
+<vertex x="-1.3" y="-0.825"/>
+<vertex x="-1.8" y="-0.825"/>
+<vertex x="-1.8" y="-1.125"/>
+<vertex x="0.35" y="-1.125"/>
+<vertex x="0.35" y="1.125"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-1.825" y="1.15"/>
+<vertex x="0.375" y="1.15"/>
+<vertex x="0.375" y="-1.15"/>
+<vertex x="-1.825" y="-1.15"/>
+<vertex x="-1.825" y="-0.8"/>
+<vertex x="-1.325" y="-0.8"/>
+<vertex x="-1.325" y="-0.5"/>
+<vertex x="-1.825" y="-0.5"/>
+<vertex x="-1.825" y="-0.15"/>
+<vertex x="-1.325" y="-0.15"/>
+<vertex x="-1.325" y="0.15"/>
+<vertex x="-1.825" y="0.15"/>
+<vertex x="-1.825" y="0.5"/>
+<vertex x="-1.325" y="0.5"/>
+<vertex x="-1.325" y="0.8"/>
+<vertex x="-1.825" y="0.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.725" y="1.05"/>
+<vertex x="0.1" y="1.05"/>
+<vertex x="0.1" y="-1.05"/>
+<vertex x="-1.725" y="-1.05"/>
+<vertex x="-1.725" y="-0.9"/>
+<vertex x="-1.225" y="-0.9"/>
+<vertex x="-1.225" y="-0.4"/>
+<vertex x="-1.75" y="-0.4"/>
+<vertex x="-1.75" y="-0.25"/>
+<vertex x="-1.225" y="-0.25"/>
+<vertex x="-1.225" y="0.25"/>
+<vertex x="-1.725" y="0.25"/>
+<vertex x="-1.725" y="0.4"/>
+<vertex x="-1.225" y="0.4"/>
+<vertex x="-1.225" y="0.9"/>
+<vertex x="-1.725" y="0.9"/>
+</polygon>
+<rectangle x1="1.125" y1="0.8" x2="1.875" y2="1.2" layer="29"/>
+<rectangle x1="1.125" y1="-1.2" x2="1.875" y2="0.5" layer="29"/>
+<rectangle x1="1.25" y1="0.9" x2="1.8" y2="1.125" layer="31"/>
+<rectangle x1="1.275" y1="-1.1" x2="1.8" y2="-0.85" layer="31"/>
+<rectangle x1="1.25" y1="0.15" x2="1.8" y2="0.375" layer="31"/>
+<rectangle x1="1.275" y1="-0.45" x2="1.8" y2="-0.2" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -4158,12 +4229,30 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="ALTERNATIVE" value="SIA483DJ-T1-GE3" constant="no"/>
 <attribute name="DIGIKEY_PART_#" value="FDMA6676PZCT-ND" constant="no"/>
 <attribute name="EPK" value="316.51" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MFG_PART_#" value="FDMA6676PZ" constant="no"/>
 <attribute name="POWER" value="0.9W" constant="no"/>
 <attribute name="RDS" value="13.5 mOhm @ 11A, 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="40V_10A" package="POWERDI3333-8">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="EURO" value="39.10/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MFG_PART_#" value="DMP4013LFG-7" constant="no"/>
+<attribute name="MOUSER_PART_#" value="621-DMP4013LFG-7" constant="no"/>
+<attribute name="P" value="1 W" constant="no"/>
+<attribute name="RDS" value="9.4 mOhms" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6058,6 +6147,28 @@
 <attribute name="EPK" value="11.22" constant="no"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
 <attribute name="MFG_PART_#" value="EXB-38V103JV" constant="no"/>
+<attribute name="TEMP" value="±200ppm/°C" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="150_16" package="1206-QUAD-LS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="8"/>
+<connect gate="G$2" pin="1" pad="2"/>
+<connect gate="G$2" pin="2" pad="7"/>
+<connect gate="G$3" pin="1" pad="3"/>
+<connect gate="G$3" pin="2" pad="6"/>
+<connect gate="G$4" pin="1" pad="4"/>
+<connect gate="G$4" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_#" value="Y4151CT-ND" constant="no"/>
+<attribute name="EURO" value="2.37/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MFG_PART_#" value="EXB-V8V151JV" constant="no"/>
 <attribute name="TEMP" value="±200ppm/°C" constant="no"/>
 <attribute name="TOLERANCE" value="±5%" constant="no"/>
 </technology>
