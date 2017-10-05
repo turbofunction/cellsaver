@@ -5236,7 +5236,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_#" value="1276-6504-1-ND" constant="no"/>
-<attribute name="EPK" value="51.91" constant="no"/>
+<attribute name="EURO" value="8.73/100" constant="no"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
 <attribute name="MFG_PART_#" value="CL10A226MPCNUBE" constant="no"/>
 <attribute name="TEMP" value="X5R" constant="no"/>
@@ -6066,7 +6066,7 @@
 <gate name="G$1" symbol="M04" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-929P" package="1X04_929P">
+<device name="P-PD" package="1X04_929P">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6075,10 +6075,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EPK" value="165.00" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MFG_PART_#" value="929800-01-04" constant="no"/>
-<attribute name="MOUSE_PART_#" value="517-929800-01-04" constant="no"/>
+<attribute name="DIGIKEY_PART_#" value="890-70-004-10-001101-ND" constant="no"/>
+<attribute name="EURO" value="12.00/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Preci-dip" constant="no"/>
+<attribute name="MFG_PART_#" value="890-70-004-10-001101" constant="no"/>
+<attribute name="MOUSE_PART_#" value="437-8907000410001101" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6098,7 +6099,7 @@
 </technology>
 </technologies>
 </device>
-<device name="-929J" package="1X04_929J">
+<device name="J-PD" package="1X04_929J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6107,10 +6108,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EPK" value="421.00" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MFG_PART_#" value="929870-01-04-RA" constant="no"/>
-<attribute name="MOUSER_PART_#" value="517-929870-01-04-RA" constant="no"/>
+<attribute name="DIGIKEY_PART_#" value="801-87-004-10-012101-ND" constant="no"/>
+<attribute name="EURO" value="23.70/100" constant="no"/>
+<attribute name="MANUFACTURER" value="Preci-Dip" constant="no"/>
+<attribute name="MFG_PART_#" value="801-87-004-10-012101" constant="no"/>
+<attribute name="MOUSER_PART_#" value="437-8018700410012101" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6753,10 +6755,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="dubec" deviceset="RES" device="15.4K_16"/>
 <part name="C7" library="dubec" deviceset="CAP" device="2.2UF_35V" value="CAP2.2UF_35V"/>
 <part name="C8" library="dubec" deviceset="CAP" device="4.7U_10V" value="CAP4.7U_10V"/>
-<part name="J2" library="dubec" deviceset="M04" device="-929J"/>
-<part name="J3" library="dubec" deviceset="M04" device="-929J"/>
-<part name="J1" library="dubec" deviceset="M04" device="-929J"/>
-<part name="J4" library="dubec" deviceset="M04" device="-929J"/>
+<part name="J2" library="dubec" deviceset="M04" device="J-PD"/>
+<part name="J3" library="dubec" deviceset="M04" device="J-PD"/>
+<part name="J1" library="dubec" deviceset="M04" device="J-PD"/>
+<part name="J4" library="dubec" deviceset="M04" device="J-PD"/>
 <part name="R9" library="dubec" deviceset="RES" device="6.04K_16" value="RES6.04K_16"/>
 <part name="RGS" library="dubec" deviceset="4RES" device="10K_16" value="4RES10K_16"/>
 <part name="RGT+2" library="dubec" deviceset="RES" device="10K_16" value="RES10K_16"/>
