@@ -734,31 +734,6 @@ Balalaika</text>
 <wire x1="-0.2" y1="0.375" x2="-0.2" y2="0.65" width="0.15" layer="21"/>
 <wire x1="-0.2" y1="0.65" x2="0.075" y2="0.65" width="0.15" layer="21"/>
 </package>
-<package name="1210">
-<description>IPC-SM-782 RES/CAP</description>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="15" stop="no" thermals="no" cream="no"/>
-<text x="0" y="0.3" size="0.5" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.3" size="0.5" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.05" layer="51"/>
-<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.05" layer="51"/>
-<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.05" layer="51"/>
-<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.05" layer="51"/>
-<polygon width="0.2" layer="29">
-<vertex x="-2.1" y="1.25"/>
-<vertex x="-0.7" y="1.25"/>
-<vertex x="-0.7" y="-1.25"/>
-<vertex x="-2.1" y="-1.25"/>
-</polygon>
-<polygon width="0.2" layer="29">
-<vertex x="0.7" y="1.25"/>
-<vertex x="2.1" y="1.25"/>
-<vertex x="2.1" y="-1.25"/>
-<vertex x="0.7" y="-1.25"/>
-</polygon>
-<rectangle x1="-2.125" y1="-1.275" x2="-0.675" y2="1.275" layer="31"/>
-<rectangle x1="0.675" y1="-1.275" x2="2.125" y2="1.275" layer="31"/>
-</package>
 <package name="10-WFDFN">
 <smd name="1" x="-1" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="2" x="-0.5" y="-1.425" dx="0.25" dy="0.7" layer="1" stop="no" thermals="no" cream="no"/>
@@ -1822,21 +1797,21 @@ design rules under a new name.</description>
 <attribute name="RDS" value="7.5 Ohm @ 100mA, 10V" x="15.4" y="7.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="EPK" value="103.10" x="15.4" y="7.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="dubec" package="0805" value="CAP47UF_10V" x="30.4" y="27" rot="R90">
-<attribute name="MANUFACTURER" value="TDK Corporation" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFG_PART_#" value="C2012X5R1A476M125AC" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C2" library="dubec" package="0805" value="CAP22U_16V" x="30.4" y="27" rot="R90">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG_PART_#" value="CL21A226MOCLRNC" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="±20%" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="445-8239-1-ND" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="1276-6780-1-ND" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP" value="X5R" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="EPK" value="331.69" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="EURO" value="8.45/100" x="30.4" y="27" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="CSOURCE" library="dubec" package="1210" value="CAP100UF_10V" x="35.9" y="24.1">
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFG_PART_#" value="LMK325BJ107MM-T" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="587-1965-1-ND" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="X5R" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
-<attribute name="EURO" value="8.45/10" x="35.9" y="24.1" size="1.778" layer="27" display="off"/>
+<element name="CSOURCE" library="dubec" package="0805" value="CAP22U_16V" x="35.4" y="23.9">
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
+<attribute name="MFG_PART_#" value="CL21A226MOCLRNC" x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±20%" x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="1276-6780-1-ND" x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="X5R" x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
+<attribute name="EURO" value="8.45/100" x="35.4" y="23.9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="dubec" package="10-WFDFN" value="LTC3805-5IDD" x="34" y="27.3" rot="R90">
 <attribute name="MANUFACTURER" value="Linear Technology" x="34" y="27.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2027,13 +2002,13 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY_PART_#" value="RB531SM-30T2RCT-ND" x="37.1" y="26.8" size="1.778" layer="27" display="off"/>
 <attribute name="EURO" value="8.89/100" x="37.1" y="26.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CTARGET" library="dubec" package="1210" value="CAP100UF_10V" x="33" y="12.8" rot="R270">
-<attribute name="MFG_PART_#" value="LMK325BJ107MM-T" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY_PART_#" value="587-1965-1-ND" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TEMP" value="X5R" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="EURO" value="8.45/10" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="33" y="12.8" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="CTARGET" library="dubec" package="0805" value="CAP22U_16V" x="33.2" y="12.9" rot="R270">
+<attribute name="MFG_PART_#" value="CL21A226MOCLRNC" x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_#" value="1276-6780-1-ND" x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMP" value="X5R" x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="±20%" x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="EURO" value="8.45/100" x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="33.2" y="12.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="dubec" package="0402" value="RES100_16" x="15.5" y="26.2">
 <attribute name="EURO" value="2.01/50" x="15.5" y="26.2" size="1.778" layer="27" display="off"/>
@@ -2555,19 +2530,14 @@ design rules under a new name.</description>
 <via x="1.7" y="16.2" extent="1-16" drill="0.25"/>
 <via x="48.1" y="20.2" extent="1-16" drill="0.25"/>
 <polygon width="0.2" layer="1" thermals="no">
-<vertex x="35.3" y="25.5"/>
-<vertex x="33.7" y="25.5"/>
-<vertex x="33.4" y="25.2"/>
-<vertex x="31.4" y="25.2"/>
+<vertex x="34.9" y="24.6"/>
+<vertex x="30.8" y="24.6"/>
 <vertex x="30.1" y="23.9"/>
 <vertex x="30.1" y="23"/>
 <vertex x="30.6" y="22.5"/>
-<vertex x="31.4" y="22.5"/>
-<vertex x="31.9" y="23"/>
-<vertex x="33.4" y="23"/>
-<vertex x="33.7" y="22.7"/>
-<vertex x="35.2" y="22.7"/>
-<vertex x="35.3" y="22.8"/>
+<vertex x="31.2" y="22.5"/>
+<vertex x="31.9" y="23.2"/>
+<vertex x="34.9" y="23.2"/>
 </polygon>
 <via x="34.6" y="8.7" extent="1-16" drill="0.25"/>
 <via x="41.5" y="19.1" extent="1-16" drill="0.25"/>
@@ -2615,14 +2585,14 @@ design rules under a new name.</description>
 <wire x1="14.875" y1="24.725" x2="15.225" y2="24.725" width="0.7" layer="15"/>
 <wire x1="15.225" y1="24.725" x2="16.2" y2="24.725" width="0.7" layer="15"/>
 <polygon width="0.2" layer="1" thermals="no">
-<vertex x="36.5" y="25.5"/>
-<vertex x="36.5" y="22.6"/>
-<vertex x="34.9" y="21"/>
+<vertex x="35.9" y="24.6"/>
+<vertex x="35.9" y="20"/>
+<vertex x="34.9" y="19"/>
 <vertex x="34.9" y="16.8"/>
 <vertex x="39.5" y="16.8"/>
-<vertex x="39.5" y="21.3"/>
-<vertex x="38.2" y="22.6"/>
-<vertex x="38.2" y="25.5"/>
+<vertex x="39.5" y="20.2"/>
+<vertex x="36.7" y="23"/>
+<vertex x="36.7" y="24.6"/>
 </polygon>
 <via x="14.875" y="24.725" extent="1-16" drill="0.4"/>
 <via x="15.225" y="25.3" extent="1-16" drill="0.4"/>
@@ -3149,11 +3119,9 @@ design rules under a new name.</description>
 <vertex x="33.9" y="7.1"/>
 <vertex x="31" y="7.1"/>
 <vertex x="31" y="8.8"/>
-<vertex x="31.6" y="9.4"/>
-<vertex x="31.6" y="12.2"/>
-<vertex x="34.4" y="12.2"/>
-<vertex x="34.4" y="10.6"/>
-<vertex x="33.9" y="10.1"/>
+<vertex x="32.5" y="10.3"/>
+<vertex x="32.5" y="12.4"/>
+<vertex x="33.9" y="12.4"/>
 </polygon>
 <via x="32.8" y="2.1" extent="1-16" drill="0.25"/>
 <wire x1="32.1" y1="6" x2="32.1" y2="7.2" width="0.4" layer="1"/>
